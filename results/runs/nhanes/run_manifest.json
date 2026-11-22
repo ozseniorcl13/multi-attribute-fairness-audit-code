@@ -1,0 +1,40 @@
+{
+  "dataset": "NHANES 2017-March 2020 pre-pandemic",
+  "n_predictions": 2386890,
+  "tasks": [
+    "hba1c_high",
+    "measured_bp_high",
+    "obesity_bmi30"
+  ],
+  "models": [
+    "logistic_regression",
+    "random_forest",
+    "xgboost"
+  ],
+  "seeds": [
+    20261027,
+    20261028,
+    20261029
+  ],
+  "outer_folds_per_seed": 5,
+  "conditions": [
+    "baseline",
+    "reweighing",
+    "equalized_odds_postprocessing"
+  ],
+  "sensitive_predictors_excluded": [
+    "sex",
+    "race_ethnicity",
+    "age_group"
+  ],
+  "sampling_weights": "WTMECPRP used during classifier fitting; thresholds and Fairlearn fitting are unweighted",
+  "versions": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.9.1",
+    "scipy": "1.18.1",
+    "xgboost": "3.4.1"
+  },
+  "row_level_predictions": "internal only; do not distribute"
+}

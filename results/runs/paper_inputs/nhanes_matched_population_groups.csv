@@ -1,0 +1,20 @@
+axis,group,n,positive_n,negative_n,tpr,fpr
+sex,Female,2406,441,1965,0.7097505668934241,0.48396946564885496
+sex,Male,2527,538,1989,0.6226765799256505,0.4494720965309201
+sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,118,42,76,0.8571428571428571,0.8026315789473685
+sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,218,30,188,0.4,0.13829787234042554
+sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,138,36,102,0.4166666666666667,0.49019607843137253
+sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,372,70,302,0.6285714285714286,0.5264900662251656
+sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,374,95,279,0.7473684210526316,0.6630824372759857
+sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,408,39,369,0.7435897435897436,0.26558265582655827
+sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,622,86,536,0.813953488372093,0.5522388059701493
+sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,156,43,113,0.8372093023255814,0.672566371681416
+sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,152,31,121,0.7419354838709677,0.5619834710743802
+sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,133,46,87,0.8260869565217391,0.7816091954022989
+sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,186,34,152,0.11764705882352941,0.13157894736842105
+sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,119,37,82,0.4594594594594595,0.3780487804878049
+sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,325,57,268,0.5614035087719298,0.4291044776119403
+sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,398,100,298,0.7,0.540268456375839
+sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,403,46,357,0.5434782608695652,0.30532212885154064
+sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,666,144,522,0.6736111111111112,0.5095785440613027
+sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,145,43,102,0.6744186046511628,0.5490196078431373

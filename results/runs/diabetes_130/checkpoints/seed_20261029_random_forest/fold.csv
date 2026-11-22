@@ -1,0 +1,6 @@
+seed,model,target_axis,status,eo_groups,eo_training_supported_groups,eo_groups_with_validation_support,eo_validation_low_support_n,pooled_low_support_estimable,test_global_baseline_fallback_n
+20261029,random_forest,gender,estimated,2,2,2,0,False,2
+20261029,random_forest,race,estimated,5,4,4,389,True,0
+20261029,random_forest,age,estimated,9,8,8,168,False,162
+20261029,random_forest,race_x_gender,estimated,5,4,4,1234,True,0
+20261029,random_forest,race_x_gender_x_age,estimated,19,18,18,3321,True,0

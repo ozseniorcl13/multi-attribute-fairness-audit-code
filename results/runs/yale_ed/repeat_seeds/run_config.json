@@ -1,0 +1,43 @@
+{
+  "dataset": "Yale ED public de-identified processed release",
+  "seeds": [
+    20261028,
+    20261029
+  ],
+  "methods": [
+    "baseline",
+    "reweighing",
+    "threshold_optimizer"
+  ],
+  "models": [
+    "logistic_regression",
+    "random_forest",
+    "xgboost"
+  ],
+  "target_axes": [
+    "age_band",
+    "race_x_gender_x_age_band",
+    "gender",
+    "race",
+    "ethnicity",
+    "race_x_gender"
+  ],
+  "audit_axes": [
+    "gender",
+    "race",
+    "ethnicity",
+    "age_band",
+    "race_x_gender",
+    "race_x_ethnicity",
+    "gender_x_ethnicity",
+    "race_x_age_band",
+    "gender_x_age_band",
+    "ethnicity_x_age_band",
+    "race_x_gender_x_age_band"
+  ],
+  "min_group_per_label_for_supported_gap": 100,
+  "eo_difference_bound": 0.02,
+  "split_unit": "visit; release does not include patient IDs",
+  "feature_policy": "triage-only; direct sensitive attributes and historical/post-triage variables excluded",
+  "note": "Visit-level split can leak repeat patients across partitions; results are descriptive."
+}

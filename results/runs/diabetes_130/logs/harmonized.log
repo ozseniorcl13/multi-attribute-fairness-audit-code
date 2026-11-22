@@ -1,0 +1,60 @@
+2026-10-31 20:10:42,398 INFO Loading UCI Diabetes 130, binary early-readmission task
+2026-10-31 20:10:43,297 INFO eligible encounters=101766, patients=71518, prevalence=0.1116, features=43
+2026-10-31 20:11:17,412 INFO seed=20261027 split sizes train/val/test=61060/20352/20354 transformed=(61060, 586)
+2026-10-31 20:11:28,664 INFO seed=20261027 model=logistic_regression target=gender completed
+2026-10-31 20:11:36,405 INFO seed=20261027 model=logistic_regression target=race completed
+2026-10-31 20:11:43,599 INFO seed=20261027 model=logistic_regression target=age completed
+2026-10-31 20:11:50,910 INFO seed=20261027 model=logistic_regression target=race_x_gender completed
+2026-10-31 20:11:58,006 INFO seed=20261027 model=logistic_regression target=race_x_gender_x_age completed
+2026-10-31 20:11:58,044 INFO seed=20261027 model=logistic_regression checkpoint saved: 11 conditions
+2026-10-31 20:12:52,658 INFO seed=20261027 model=random_forest target=gender completed
+2026-10-31 20:13:24,194 INFO seed=20261027 model=random_forest target=race completed
+2026-10-31 20:13:59,710 INFO seed=20261027 model=random_forest target=age completed
+2026-10-31 20:14:34,649 INFO seed=20261027 model=random_forest target=race_x_gender completed
+2026-10-31 20:15:09,043 INFO seed=20261027 model=random_forest target=race_x_gender_x_age completed
+2026-10-31 20:15:09,075 INFO seed=20261027 model=random_forest checkpoint saved: 11 conditions
+2026-10-31 20:15:17,457 INFO seed=20261027 model=xgboost target=gender completed
+2026-10-31 20:15:24,610 INFO seed=20261027 model=xgboost target=race completed
+2026-10-31 20:15:31,663 INFO seed=20261027 model=xgboost target=age completed
+2026-10-31 20:15:37,140 INFO seed=20261027 model=xgboost target=race_x_gender completed
+2026-10-31 20:15:42,591 INFO seed=20261027 model=xgboost target=race_x_gender_x_age completed
+2026-10-31 20:15:42,626 INFO seed=20261027 model=xgboost checkpoint saved: 11 conditions
+2026-10-31 20:16:20,981 INFO seed=20261028 split sizes train/val/test=61060/20352/20354 transformed=(61060, 589)
+2026-10-31 20:16:33,915 INFO seed=20261028 model=logistic_regression target=gender completed
+2026-10-31 20:16:42,193 INFO seed=20261028 model=logistic_regression target=race completed
+2026-10-31 20:16:49,461 INFO seed=20261028 model=logistic_regression target=age completed
+2026-10-31 20:16:55,593 INFO seed=20261028 model=logistic_regression target=race_x_gender completed
+2026-10-31 20:17:01,712 INFO seed=20261028 model=logistic_regression target=race_x_gender_x_age completed
+2026-10-31 20:17:01,751 INFO seed=20261028 model=logistic_regression checkpoint saved: 11 conditions
+2026-10-31 20:17:57,017 INFO seed=20261028 model=random_forest target=gender completed
+2026-10-31 20:18:27,377 INFO seed=20261028 model=random_forest target=race completed
+2026-10-31 20:18:56,939 INFO seed=20261028 model=random_forest target=age completed
+2026-10-31 20:19:26,299 INFO seed=20261028 model=random_forest target=race_x_gender completed
+2026-10-31 20:19:56,437 INFO seed=20261028 model=random_forest target=race_x_gender_x_age completed
+2026-10-31 20:19:56,477 INFO seed=20261028 model=random_forest checkpoint saved: 11 conditions
+2026-10-31 20:20:02,514 INFO seed=20261028 model=xgboost target=gender completed
+2026-10-31 20:20:08,066 INFO seed=20261028 model=xgboost target=race completed
+2026-10-31 20:20:14,722 INFO seed=20261028 model=xgboost target=age completed
+2026-10-31 20:20:21,120 INFO seed=20261028 model=xgboost target=race_x_gender completed
+2026-10-31 20:20:26,459 INFO seed=20261028 model=xgboost target=race_x_gender_x_age completed
+2026-10-31 20:20:26,492 INFO seed=20261028 model=xgboost checkpoint saved: 11 conditions
+2026-10-31 20:21:01,926 INFO seed=20261029 split sizes train/val/test=61060/20354/20352 transformed=(61060, 591)
+2026-10-31 20:21:12,493 INFO seed=20261029 model=logistic_regression target=gender completed
+2026-10-31 20:21:20,141 INFO seed=20261029 model=logistic_regression target=race completed
+2026-10-31 20:21:28,123 INFO seed=20261029 model=logistic_regression target=age completed
+2026-10-31 20:21:35,176 INFO seed=20261029 model=logistic_regression target=race_x_gender completed
+2026-10-31 20:21:45,109 INFO seed=20261029 model=logistic_regression target=race_x_gender_x_age completed
+2026-10-31 20:21:45,165 INFO seed=20261029 model=logistic_regression checkpoint saved: 11 conditions
+2026-10-31 20:22:49,280 INFO seed=20261029 model=random_forest target=gender completed
+2026-10-31 20:23:23,879 INFO seed=20261029 model=random_forest target=race completed
+2026-10-31 20:23:55,024 INFO seed=20261029 model=random_forest target=age completed
+2026-10-31 20:24:25,488 INFO seed=20261029 model=random_forest target=race_x_gender completed
+2026-10-31 20:24:57,780 INFO seed=20261029 model=random_forest target=race_x_gender_x_age completed
+2026-10-31 20:24:57,815 INFO seed=20261029 model=random_forest checkpoint saved: 11 conditions
+2026-10-31 20:25:04,769 INFO seed=20261029 model=xgboost target=gender completed
+2026-10-31 20:25:09,605 INFO seed=20261029 model=xgboost target=race completed
+2026-10-31 20:25:15,012 INFO seed=20261029 model=xgboost target=age completed
+2026-10-31 20:25:19,771 INFO seed=20261029 model=xgboost target=race_x_gender completed
+2026-10-31 20:25:25,159 INFO seed=20261029 model=xgboost target=race_x_gender_x_age completed
+2026-10-31 20:25:25,206 INFO seed=20261029 model=xgboost checkpoint saved: 11 conditions
+2026-10-31 20:26:51,967 INFO Harmonized run aggregation complete in 16.2 minutes; conditions=99

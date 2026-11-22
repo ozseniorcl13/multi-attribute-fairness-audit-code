@@ -1,0 +1,36 @@
+# Source data: BRFSS remains excluded because the extracted file is >1 GiB.
+# Diabetes 130-US Hospitals, NHANES, and the Yale ED release are intentionally
+# versioned for this study; see their dataset READMEs for provenance and terms.
+data/raw/*
+!data/raw/*/
+data/raw/*/*
+!data/raw/*/README.md
+!data/raw/diabetes_130/diabetic_data.csv
+!data/raw/nhanes/P_DEMO.xpt
+!data/raw/nhanes/P_GHB.xpt
+!data/raw/nhanes/P_BMX.xpt
+!data/raw/nhanes/P_BPXO.xpt
+!data/raw/yale_ed/5v_cleandf.RData
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/nhanes/
+!data/processed/nhanes/cohort_summary.json
+!data/processed/nhanes/survey_data.csv
+
+# Aggregate experiment outputs, diagnostic logs, and the NHANES row-level
+# out-of-fold predictions are versioned.  The latter is retained because it
+# is the direct input to the survey-weighted supplementary analysis.
+
+# Figures used in the short manuscript are retained; other generated files
+# remain local and can be recreated with the notebook.
+figures/*
+!figures/fig2_audit_scope.png
+!figures/fig3_target.png
+!figures/fig6_support.png
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.egg-info/

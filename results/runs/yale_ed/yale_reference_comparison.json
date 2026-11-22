@@ -1,0 +1,68 @@
+[
+  {
+    "file": "overall_all_seeds.csv",
+    "new_rows": 81,
+    "reference_rows": 81,
+    "joined_rows": 81,
+    "max_abs_differences": {
+      "threshold": 1.1102230246251565e-16,
+      "roc_auc_score": 3.809166315704715e-10,
+      "average_precision_score": 2.633235074434026e-09,
+      "fit_seconds": 100.084,
+      "convergence_warning_n": 0.0,
+      "n": 0.0,
+      "positive_n": 0.0,
+      "negative_n": 0.0,
+      "accuracy_expected": 0.0,
+      "balanced_accuracy_expected": 0.0,
+      "tpr_expected": 0.0,
+      "fpr_expected": 0.0,
+      "specificity_expected": 0.0,
+      "ppv_expected": 0.0,
+      "selection_rate_expected": 0.0,
+      "f1_expected": 0.0,
+      "weight_min": 0.0,
+      "weight_median": 0.0,
+      "weight_max": 0.0,
+      "weight_mean": 0.0
+    }
+  },
+  {
+    "file": "core/group_metrics_by_split.csv",
+    "new_rows": 3375,
+    "reference_rows": 3375,
+    "joined_rows": 3375,
+    "max_abs_differences": {
+      "n": 0.0,
+      "positive_n": 0.0,
+      "negative_n": 0.0,
+      "accuracy_expected": 0.0,
+      "balanced_accuracy_expected": 0.0,
+      "tpr_expected": 0.0,
+      "fpr_expected": 0.0,
+      "specificity_expected": 0.0,
+      "ppv_expected": 0.0,
+      "selection_rate_expected": 0.0,
+      "f1_expected": 0.0
+    }
+  },
+  {
+    "file": "repeat_seeds/group_metrics_by_split.csv",
+    "new_rows": 6669,
+    "reference_rows": 6669,
+    "joined_rows": 6669,
+    "max_abs_differences": {
+      "n": 0.0,
+      "positive_n": 0.0,
+      "negative_n": 0.0,
+      "accuracy_expected": 0.0,
+      "balanced_accuracy_expected": 0.0,
+      "tpr_expected": 0.0,
+      "fpr_expected": 0.0,
+      "specificity_expected": 0.0,
+      "ppv_expected": 0.0,
+      "selection_rate_expected": 0.0,
+      "f1_expected": 0.0
+    }
+  }
+]

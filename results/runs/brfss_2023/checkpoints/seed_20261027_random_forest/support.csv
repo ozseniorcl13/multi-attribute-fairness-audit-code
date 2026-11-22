@@ -1,0 +1,69 @@
+seed,model,target_axis,group,train_n,train_positive_n,train_negative_n,used_as_group
+20261027,random_forest,sex,Female,132063,18211,113852,True
+20261027,random_forest,sex,Male,119031,17671,101360,True
+20261027,random_forest,race_ethnicity,Black non-Hispanic,18889,3983,14906,True
+20261027,random_forest,race_ethnicity,Hispanic,24698,3509,21189,True
+20261027,random_forest,race_ethnicity,Missing race,57,8,49,False
+20261027,random_forest,race_ethnicity,Multiracial non-Hispanic,5836,802,5034,True
+20261027,random_forest,race_ethnicity,Other race non-Hispanic,13887,2099,11788,True
+20261027,random_forest,race_ethnicity,Unknown/refused,5427,771,4656,True
+20261027,random_forest,race_ethnicity,White non-Hispanic,182300,24710,157590,True
+20261027,random_forest,age_band,18-39,58419,1530,56889,True
+20261027,random_forest,age_band,40-64,97289,13626,83663,True
+20261027,random_forest,age_band,65+,95386,20726,74660,True
+20261027,random_forest,race_x_sex,Black non-Hispanic × Female,10979,2464,8515,True
+20261027,random_forest,race_x_sex,Black non-Hispanic × Male,7910,1519,6391,True
+20261027,random_forest,race_x_sex,Hispanic × Female,12727,1858,10869,True
+20261027,random_forest,race_x_sex,Hispanic × Male,11971,1651,10320,True
+20261027,random_forest,race_x_sex,Missing race × Female,29,2,27,False
+20261027,random_forest,race_x_sex,Missing race × Male,28,6,22,False
+20261027,random_forest,race_x_sex,Multiracial non-Hispanic × Female,2937,402,2535,True
+20261027,random_forest,race_x_sex,Multiracial non-Hispanic × Male,2899,400,2499,True
+20261027,random_forest,race_x_sex,Other race non-Hispanic × Female,6683,994,5689,True
+20261027,random_forest,race_x_sex,Other race non-Hispanic × Male,7204,1105,6099,True
+20261027,random_forest,race_x_sex,Unknown/refused × Female,2419,334,2085,True
+20261027,random_forest,race_x_sex,Unknown/refused × Male,3008,437,2571,True
+20261027,random_forest,race_x_sex,White non-Hispanic × Female,96289,12157,84132,True
+20261027,random_forest,race_x_sex,White non-Hispanic × Male,86011,12553,73458,True
+20261027,random_forest,race_x_sex_x_age,Black non-Hispanic × Female × 18-39,2536,134,2402,True
+20261027,random_forest,race_x_sex_x_age,Black non-Hispanic × Female × 40-64,4691,957,3734,True
+20261027,random_forest,race_x_sex_x_age,Black non-Hispanic × Female × 65+,3752,1373,2379,True
+20261027,random_forest,race_x_sex_x_age,Black non-Hispanic × Male × 18-39,2099,73,2026,False
+20261027,random_forest,race_x_sex_x_age,Black non-Hispanic × Male × 40-64,3645,697,2948,True
+20261027,random_forest,race_x_sex_x_age,Black non-Hispanic × Male × 65+,2166,749,1417,True
+20261027,random_forest,race_x_sex_x_age,Hispanic × Female × 18-39,5498,193,5305,True
+20261027,random_forest,race_x_sex_x_age,Hispanic × Female × 40-64,5136,986,4150,True
+20261027,random_forest,race_x_sex_x_age,Hispanic × Female × 65+,2093,679,1414,True
+20261027,random_forest,race_x_sex_x_age,Hispanic × Male × 18-39,5618,156,5462,True
+20261027,random_forest,race_x_sex_x_age,Hispanic × Male × 40-64,4760,894,3866,True
+20261027,random_forest,race_x_sex_x_age,Hispanic × Male × 65+,1593,601,992,True
+20261027,random_forest,race_x_sex_x_age,Missing race × Female × 18-39,2,0,2,False
+20261027,random_forest,race_x_sex_x_age,Missing race × Female × 40-64,10,1,9,False
+20261027,random_forest,race_x_sex_x_age,Missing race × Female × 65+,17,1,16,False
+20261027,random_forest,race_x_sex_x_age,Missing race × Male × 18-39,7,0,7,False
+20261027,random_forest,race_x_sex_x_age,Missing race × Male × 40-64,9,1,8,False
+20261027,random_forest,race_x_sex_x_age,Missing race × Male × 65+,12,5,7,False
+20261027,random_forest,race_x_sex_x_age,Multiracial non-Hispanic × Female × 18-39,1036,33,1003,False
+20261027,random_forest,race_x_sex_x_age,Multiracial non-Hispanic × Female × 40-64,1200,183,1017,True
+20261027,random_forest,race_x_sex_x_age,Multiracial non-Hispanic × Female × 65+,701,186,515,True
+20261027,random_forest,race_x_sex_x_age,Multiracial non-Hispanic × Male × 18-39,1122,39,1083,False
+20261027,random_forest,race_x_sex_x_age,Multiracial non-Hispanic × Male × 40-64,1143,176,967,True
+20261027,random_forest,race_x_sex_x_age,Multiracial non-Hispanic × Male × 65+,634,185,449,True
+20261027,random_forest,race_x_sex_x_age,Other race non-Hispanic × Female × 18-39,2252,60,2192,False
+20261027,random_forest,race_x_sex_x_age,Other race non-Hispanic × Female × 40-64,2757,502,2255,True
+20261027,random_forest,race_x_sex_x_age,Other race non-Hispanic × Female × 65+,1674,432,1242,True
+20261027,random_forest,race_x_sex_x_age,Other race non-Hispanic × Male × 18-39,2862,82,2780,False
+20261027,random_forest,race_x_sex_x_age,Other race non-Hispanic × Male × 40-64,2807,556,2251,True
+20261027,random_forest,race_x_sex_x_age,Other race non-Hispanic × Male × 65+,1535,467,1068,True
+20261027,random_forest,race_x_sex_x_age,Unknown/refused × Female × 18-39,398,11,387,False
+20261027,random_forest,race_x_sex_x_age,Unknown/refused × Female × 40-64,1019,124,895,True
+20261027,random_forest,race_x_sex_x_age,Unknown/refused × Female × 65+,1002,199,803,True
+20261027,random_forest,race_x_sex_x_age,Unknown/refused × Male × 18-39,576,10,566,False
+20261027,random_forest,race_x_sex_x_age,Unknown/refused × Male × 40-64,1394,167,1227,True
+20261027,random_forest,race_x_sex_x_age,Unknown/refused × Male × 65+,1038,260,778,True
+20261027,random_forest,race_x_sex_x_age,White non-Hispanic × Female × 18-39,15928,383,15545,True
+20261027,random_forest,race_x_sex_x_age,White non-Hispanic × Female × 40-64,36314,4157,32157,True
+20261027,random_forest,race_x_sex_x_age,White non-Hispanic × Female × 65+,44047,7617,36430,True
+20261027,random_forest,race_x_sex_x_age,White non-Hispanic × Male × 18-39,18485,356,18129,True
+20261027,random_forest,race_x_sex_x_age,White non-Hispanic × Male × 40-64,32404,4225,28179,True
+20261027,random_forest,race_x_sex_x_age,White non-Hispanic × Male × 65+,35122,7972,27150,True

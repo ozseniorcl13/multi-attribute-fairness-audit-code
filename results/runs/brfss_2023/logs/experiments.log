@@ -1,0 +1,292 @@
+2026-10-31 20:05:34,361 INFO Loading compact BRFSS 2023 task data
+2026-10-31 20:05:39,234 INFO Read 3 XPT chunks
+2026-10-31 20:05:43,697 INFO Read 6 XPT chunks
+2026-10-31 20:05:48,078 INFO Read 9 XPT chunks
+2026-10-31 20:05:50,931 INFO Eligible records=418492; outcome prevalence unweighted=0.1429 weighted=0.1251
+2026-10-31 20:05:50,931 INFO ===== split seed 20261027 =====
+2026-10-31 20:05:57,168 INFO seed=20261027 transformed shape=(251094, 28) sparse=False
+2026-10-31 20:05:57,169 INFO seed=20261027 model=logistic_regression baseline fit
+2026-10-31 20:05:59,413 INFO seed=20261027 model=logistic_regression reweighing axis=sex
+2026-10-31 20:06:11,634 INFO seed=20261027 model=logistic_regression weighted EO axis=sex
+2026-10-31 20:06:11,708 INFO EO LP solved with 2 groups and 206 threshold variables; objective=-0.245036
+2026-10-31 20:06:12,630 INFO seed=20261027 model=logistic_regression reweighing axis=race_ethnicity
+2026-10-31 20:06:24,597 INFO seed=20261027 model=logistic_regression weighted EO axis=race_ethnicity
+2026-10-31 20:06:24,667 INFO EO LP solved with 7 groups and 719 threshold variables; objective=-0.228575
+2026-10-31 20:06:25,915 INFO seed=20261027 model=logistic_regression reweighing axis=age_band
+2026-10-31 20:06:37,270 INFO seed=20261027 model=logistic_regression weighted EO axis=age_band
+2026-10-31 20:06:37,327 INFO EO LP solved with 3 groups and 309 threshold variables; objective=-0.175726
+2026-10-31 20:06:38,270 INFO seed=20261027 model=logistic_regression reweighing axis=race_x_sex
+2026-10-31 20:06:49,730 INFO seed=20261027 model=logistic_regression weighted EO axis=race_x_sex
+2026-10-31 20:06:49,818 INFO EO LP solved with 13 groups and 1335 threshold variables; objective=-0.226838
+2026-10-31 20:06:51,441 INFO seed=20261027 model=logistic_regression reweighing axis=race_x_sex_x_age
+2026-10-31 20:07:03,552 INFO seed=20261027 model=logistic_regression weighted EO axis=race_x_sex_x_age
+2026-10-31 20:07:03,708 INFO EO LP solved with 30 groups and 3082 threshold variables; objective=-0.102381
+2026-10-31 20:07:07,211 INFO seed=20261027 model=logistic_regression checkpoint saved (11 conditions)
+2026-10-31 20:07:07,273 INFO seed=20261027 model=random_forest baseline fit
+2026-10-31 20:07:25,890 INFO seed=20261027 model=random_forest reweighing axis=sex
+2026-10-31 20:07:53,780 INFO seed=20261027 model=random_forest weighted EO axis=sex
+2026-10-31 20:07:53,849 INFO EO LP solved with 2 groups and 206 threshold variables; objective=-0.241946
+2026-10-31 20:07:54,811 INFO seed=20261027 model=random_forest reweighing axis=race_ethnicity
+2026-10-31 20:08:23,361 INFO seed=20261027 model=random_forest weighted EO axis=race_ethnicity
+2026-10-31 20:08:23,447 INFO EO LP solved with 7 groups and 720 threshold variables; objective=-0.212445
+2026-10-31 20:08:24,589 INFO seed=20261027 model=random_forest reweighing axis=age_band
+2026-10-31 20:08:53,785 INFO seed=20261027 model=random_forest weighted EO axis=age_band
+2026-10-31 20:08:53,850 INFO EO LP solved with 3 groups and 309 threshold variables; objective=-0.172617
+2026-10-31 20:08:55,003 INFO seed=20261027 model=random_forest reweighing axis=race_x_sex
+2026-10-31 20:09:27,143 INFO seed=20261027 model=random_forest weighted EO axis=race_x_sex
+2026-10-31 20:09:27,235 INFO EO LP solved with 13 groups and 1334 threshold variables; objective=-0.207011
+2026-10-31 20:09:28,954 INFO seed=20261027 model=random_forest reweighing axis=race_x_sex_x_age
+2026-10-31 20:10:01,278 INFO seed=20261027 model=random_forest weighted EO axis=race_x_sex_x_age
+2026-10-31 20:10:01,442 INFO EO LP solved with 30 groups and 3081 threshold variables; objective=-0.065764
+2026-10-31 20:10:05,437 INFO seed=20261027 model=random_forest checkpoint saved (11 conditions)
+2026-10-31 20:10:05,509 INFO seed=20261027 model=xgboost baseline fit
+2026-10-31 20:10:09,961 INFO seed=20261027 model=xgboost reweighing axis=sex
+2026-10-31 20:10:24,282 INFO seed=20261027 model=xgboost weighted EO axis=sex
+2026-10-31 20:10:24,354 INFO EO LP solved with 2 groups and 206 threshold variables; objective=-0.243081
+2026-10-31 20:10:25,406 INFO seed=20261027 model=xgboost reweighing axis=race_ethnicity
+2026-10-31 20:10:39,066 INFO seed=20261027 model=xgboost weighted EO axis=race_ethnicity
+2026-10-31 20:10:39,163 INFO EO LP solved with 7 groups and 719 threshold variables; objective=-0.217549
+2026-10-31 20:10:40,441 INFO seed=20261027 model=xgboost reweighing axis=age_band
+2026-10-31 20:10:54,728 INFO seed=20261027 model=xgboost weighted EO axis=age_band
+2026-10-31 20:10:54,796 INFO EO LP solved with 3 groups and 309 threshold variables; objective=-0.180038
+2026-10-31 20:10:55,784 INFO seed=20261027 model=xgboost reweighing axis=race_x_sex
+2026-10-31 20:11:11,847 INFO seed=20261027 model=xgboost weighted EO axis=race_x_sex
+2026-10-31 20:11:11,957 INFO EO LP solved with 13 groups and 1336 threshold variables; objective=-0.225749
+2026-10-31 20:11:13,934 INFO seed=20261027 model=xgboost reweighing axis=race_x_sex_x_age
+2026-10-31 20:11:30,110 INFO seed=20261027 model=xgboost weighted EO axis=race_x_sex_x_age
+2026-10-31 20:11:30,285 INFO EO LP solved with 30 groups and 3081 threshold variables; objective=-0.100493
+2026-10-31 20:11:34,627 INFO seed=20261027 model=xgboost checkpoint saved (11 conditions)
+2026-10-31 20:11:34,708 INFO seed=20261027 completed; elapsed 6.0 minutes
+2026-10-31 20:11:34,803 INFO ===== split seed 20261028 =====
+2026-10-31 20:11:41,660 INFO seed=20261028 transformed shape=(251094, 28) sparse=False
+2026-10-31 20:11:41,663 INFO seed=20261028 model=logistic_regression baseline fit
+2026-10-31 20:11:44,525 INFO seed=20261028 model=logistic_regression reweighing axis=sex
+2026-10-31 20:11:58,220 INFO seed=20261028 model=logistic_regression weighted EO axis=sex
+2026-10-31 20:11:58,306 INFO EO LP solved with 2 groups and 206 threshold variables; objective=-0.251727
+2026-10-31 20:11:59,562 INFO seed=20261028 model=logistic_regression reweighing axis=race_ethnicity
+2026-10-31 20:12:16,602 INFO seed=20261028 model=logistic_regression weighted EO axis=race_ethnicity
+2026-10-31 20:12:16,699 INFO EO LP solved with 7 groups and 720 threshold variables; objective=-0.261333
+2026-10-31 20:12:18,290 INFO seed=20261028 model=logistic_regression reweighing axis=age_band
+2026-10-31 20:12:33,206 INFO seed=20261028 model=logistic_regression weighted EO axis=age_band
+2026-10-31 20:12:33,287 INFO EO LP solved with 3 groups and 309 threshold variables; objective=-0.185014
+2026-10-31 20:12:34,637 INFO seed=20261028 model=logistic_regression reweighing axis=race_x_sex
+2026-10-31 20:12:51,091 INFO seed=20261028 model=logistic_regression weighted EO axis=race_x_sex
+2026-10-31 20:12:51,205 INFO EO LP solved with 13 groups and 1339 threshold variables; objective=-0.257810
+2026-10-31 20:12:53,114 INFO seed=20261028 model=logistic_regression reweighing axis=race_x_sex_x_age
+2026-10-31 20:13:09,315 INFO seed=20261028 model=logistic_regression weighted EO axis=race_x_sex_x_age
+2026-10-31 20:13:09,528 INFO EO LP solved with 30 groups and 3085 threshold variables; objective=-0.149540
+2026-10-31 20:13:14,351 INFO seed=20261028 model=logistic_regression checkpoint saved (11 conditions)
+2026-10-31 20:13:14,435 INFO seed=20261028 model=random_forest baseline fit
+2026-10-31 20:13:38,022 INFO seed=20261028 model=random_forest reweighing axis=sex
+2026-10-31 20:14:18,932 INFO seed=20261028 model=random_forest weighted EO axis=sex
+2026-10-31 20:14:19,001 INFO EO LP solved with 2 groups and 206 threshold variables; objective=-0.246575
+2026-10-31 20:14:20,134 INFO seed=20261028 model=random_forest reweighing axis=race_ethnicity
+2026-10-31 20:14:57,808 INFO seed=20261028 model=random_forest weighted EO axis=race_ethnicity
+2026-10-31 20:14:57,921 INFO EO LP solved with 7 groups and 720 threshold variables; objective=-0.251923
+2026-10-31 20:14:59,497 INFO seed=20261028 model=random_forest reweighing axis=age_band
+2026-10-31 20:15:32,133 INFO seed=20261028 model=random_forest weighted EO axis=age_band
+2026-10-31 20:15:32,200 INFO EO LP solved with 3 groups and 309 threshold variables; objective=-0.180547
+2026-10-31 20:15:33,233 INFO seed=20261028 model=random_forest reweighing axis=race_x_sex
+2026-10-31 20:16:06,000 INFO seed=20261028 model=random_forest weighted EO axis=race_x_sex
+2026-10-31 20:16:06,097 INFO EO LP solved with 13 groups and 1339 threshold variables; objective=-0.242220
+2026-10-31 20:16:07,827 INFO seed=20261028 model=random_forest reweighing axis=race_x_sex_x_age
+2026-10-31 20:16:39,777 INFO seed=20261028 model=random_forest weighted EO axis=race_x_sex_x_age
+2026-10-31 20:16:39,963 INFO EO LP solved with 30 groups and 3086 threshold variables; objective=-0.121657
+2026-10-31 20:16:44,204 INFO seed=20261028 model=random_forest checkpoint saved (11 conditions)
+2026-10-31 20:16:44,280 INFO seed=20261028 model=xgboost baseline fit
+2026-10-31 20:16:48,643 INFO seed=20261028 model=xgboost reweighing axis=sex
+2026-10-31 20:17:01,981 INFO seed=20261028 model=xgboost weighted EO axis=sex
+2026-10-31 20:17:02,051 INFO EO LP solved with 2 groups and 206 threshold variables; objective=-0.255784
+2026-10-31 20:17:03,145 INFO seed=20261028 model=xgboost reweighing axis=race_ethnicity
+2026-10-31 20:17:21,213 INFO seed=20261028 model=xgboost weighted EO axis=race_ethnicity
+2026-10-31 20:17:21,321 INFO EO LP solved with 7 groups and 721 threshold variables; objective=-0.263245
+2026-10-31 20:17:22,897 INFO seed=20261028 model=xgboost reweighing axis=age_band
+2026-10-31 20:17:40,756 INFO seed=20261028 model=xgboost weighted EO axis=age_band
+2026-10-31 20:17:40,833 INFO EO LP solved with 3 groups and 309 threshold variables; objective=-0.189742
+2026-10-31 20:17:42,152 INFO seed=20261028 model=xgboost reweighing axis=race_x_sex
+2026-10-31 20:18:00,293 INFO seed=20261028 model=xgboost weighted EO axis=race_x_sex
+2026-10-31 20:18:00,409 INFO EO LP solved with 13 groups and 1339 threshold variables; objective=-0.258530
+2026-10-31 20:18:02,639 INFO seed=20261028 model=xgboost reweighing axis=race_x_sex_x_age
+2026-10-31 20:18:22,258 INFO seed=20261028 model=xgboost weighted EO axis=race_x_sex_x_age
+2026-10-31 20:18:22,458 INFO EO LP solved with 30 groups and 3084 threshold variables; objective=-0.135721
+2026-10-31 20:18:26,991 INFO seed=20261028 model=xgboost checkpoint saved (11 conditions)
+2026-10-31 20:18:27,069 INFO seed=20261028 completed; elapsed 12.9 minutes
+2026-10-31 20:18:27,136 INFO ===== split seed 20261029 =====
+2026-10-31 20:18:34,120 INFO seed=20261029 transformed shape=(251094, 28) sparse=False
+2026-10-31 20:18:34,122 INFO seed=20261029 model=logistic_regression baseline fit
+2026-10-31 20:18:37,137 INFO seed=20261029 model=logistic_regression reweighing axis=sex
+2026-10-31 20:18:52,970 INFO seed=20261029 model=logistic_regression weighted EO axis=sex
+2026-10-31 20:18:53,061 INFO EO LP solved with 2 groups and 206 threshold variables; objective=-0.254308
+2026-10-31 20:18:54,079 INFO seed=20261029 model=logistic_regression reweighing axis=race_ethnicity
+2026-10-31 20:19:08,679 INFO seed=20261029 model=logistic_regression weighted EO axis=race_ethnicity
+2026-10-31 20:19:08,777 INFO EO LP solved with 7 groups and 721 threshold variables; objective=-0.244363
+2026-10-31 20:19:10,340 INFO seed=20261029 model=logistic_regression reweighing axis=age_band
+2026-10-31 20:19:26,081 INFO seed=20261029 model=logistic_regression weighted EO axis=age_band
+2026-10-31 20:19:26,157 INFO EO LP solved with 3 groups and 309 threshold variables; objective=-0.178941
+2026-10-31 20:19:27,148 INFO seed=20261029 model=logistic_regression reweighing axis=race_x_sex
+2026-10-31 20:19:42,943 INFO seed=20261029 model=logistic_regression weighted EO axis=race_x_sex
+2026-10-31 20:19:43,070 INFO EO LP solved with 13 groups and 1338 threshold variables; objective=-0.215843
+2026-10-31 20:19:45,420 INFO seed=20261029 model=logistic_regression reweighing axis=race_x_sex_x_age
+2026-10-31 20:20:01,341 INFO seed=20261029 model=logistic_regression weighted EO axis=race_x_sex_x_age
+2026-10-31 20:20:01,503 INFO EO LP solved with 30 groups and 3085 threshold variables; objective=-0.107931
+2026-10-31 20:20:05,431 INFO seed=20261029 model=logistic_regression checkpoint saved (11 conditions)
+2026-10-31 20:20:05,512 INFO seed=20261029 model=random_forest baseline fit
+2026-10-31 20:20:24,147 INFO seed=20261029 model=random_forest reweighing axis=sex
+2026-10-31 20:20:53,462 INFO seed=20261029 model=random_forest weighted EO axis=sex
+2026-10-31 20:20:53,528 INFO EO LP solved with 2 groups and 206 threshold variables; objective=-0.252962
+2026-10-31 20:20:54,461 INFO seed=20261029 model=random_forest reweighing axis=race_ethnicity
+2026-10-31 20:21:23,903 INFO seed=20261029 model=random_forest weighted EO axis=race_ethnicity
+2026-10-31 20:21:24,009 INFO EO LP solved with 7 groups and 720 threshold variables; objective=-0.240423
+2026-10-31 20:21:25,376 INFO seed=20261029 model=random_forest reweighing axis=age_band
+2026-10-31 20:22:02,816 INFO seed=20261029 model=random_forest weighted EO axis=age_band
+2026-10-31 20:22:02,894 INFO EO LP solved with 3 groups and 309 threshold variables; objective=-0.177088
+2026-10-31 20:22:04,131 INFO seed=20261029 model=random_forest reweighing axis=race_x_sex
+2026-10-31 20:22:44,906 INFO seed=20261029 model=random_forest weighted EO axis=race_x_sex
+2026-10-31 20:22:45,020 INFO EO LP solved with 13 groups and 1337 threshold variables; objective=-0.206228
+2026-10-31 20:22:47,082 INFO seed=20261029 model=random_forest reweighing axis=race_x_sex_x_age
+2026-10-31 20:23:24,956 INFO seed=20261029 model=random_forest weighted EO axis=race_x_sex_x_age
+2026-10-31 20:23:25,112 INFO EO LP solved with 30 groups and 3086 threshold variables; objective=-0.091226
+2026-10-31 20:23:29,649 INFO seed=20261029 model=random_forest checkpoint saved (11 conditions)
+2026-10-31 20:23:29,735 INFO seed=20261029 model=xgboost baseline fit
+2026-10-31 20:23:35,084 INFO seed=20261029 model=xgboost reweighing axis=sex
+2026-10-31 20:23:53,828 INFO seed=20261029 model=xgboost weighted EO axis=sex
+2026-10-31 20:23:53,885 INFO EO LP solved with 2 groups and 206 threshold variables; objective=-0.259852
+2026-10-31 20:23:55,012 INFO seed=20261029 model=xgboost reweighing axis=race_ethnicity
+2026-10-31 20:24:14,239 INFO seed=20261029 model=xgboost weighted EO axis=race_ethnicity
+2026-10-31 20:24:14,363 INFO EO LP solved with 7 groups and 721 threshold variables; objective=-0.243249
+2026-10-31 20:24:16,181 INFO seed=20261029 model=xgboost reweighing axis=age_band
+2026-10-31 20:24:34,266 INFO seed=20261029 model=xgboost weighted EO axis=age_band
+2026-10-31 20:24:34,349 INFO EO LP solved with 3 groups and 309 threshold variables; objective=-0.182869
+2026-10-31 20:24:35,647 INFO seed=20261029 model=xgboost reweighing axis=race_x_sex
+2026-10-31 20:24:55,080 INFO seed=20261029 model=xgboost weighted EO axis=race_x_sex
+2026-10-31 20:24:55,215 INFO EO LP solved with 13 groups and 1338 threshold variables; objective=-0.229258
+2026-10-31 20:24:57,471 INFO seed=20261029 model=xgboost reweighing axis=race_x_sex_x_age
+2026-10-31 20:25:13,138 INFO seed=20261029 model=xgboost weighted EO axis=race_x_sex_x_age
+2026-10-31 20:25:13,320 INFO EO LP solved with 30 groups and 3086 threshold variables; objective=-0.085090
+2026-10-31 20:25:17,210 INFO seed=20261029 model=xgboost checkpoint saved (11 conditions)
+2026-10-31 20:25:17,274 INFO seed=20261029 completed; elapsed 19.7 minutes
+2026-10-31 20:25:24,450 INFO All runs complete in 19.8 minutes; outputs are aggregate-only
+2026-11-21 09:56:16,627 INFO Loading compact BRFSS 2023 task data
+2026-11-21 09:56:45,967 INFO Loading compact BRFSS 2023 task data
+2026-11-21 09:56:48,116 INFO Read 3 XPT chunks
+2026-11-21 09:56:50,069 INFO Read 6 XPT chunks
+2026-11-21 09:56:51,946 INFO Read 9 XPT chunks
+2026-11-21 09:56:54,699 INFO Eligible records=418492; outcome prevalence unweighted=0.1429 weighted=0.1251
+2026-11-21 09:56:54,700 INFO ===== split seed 20261027 =====
+2026-11-21 09:56:57,523 INFO seed=20261027 transformed shape=(251094, 28) sparse=False
+2026-11-21 09:56:57,523 INFO seed=20261027 model=logistic_regression baseline fit
+2026-11-21 09:56:58,538 INFO seed=20261027 model=logistic_regression reweighing axis=sex
+2026-11-21 09:57:04,319 INFO seed=20261027 model=logistic_regression Fairlearn equalized odds axis=sex
+2026-11-21 09:57:05,193 INFO seed=20261027 model=logistic_regression reweighing axis=race_ethnicity
+2026-11-21 09:57:14,566 INFO seed=20261027 model=logistic_regression Fairlearn equalized odds axis=race_ethnicity
+2026-11-21 09:57:15,670 INFO seed=20261027 model=logistic_regression reweighing axis=age_band
+2026-11-21 09:57:21,523 INFO seed=20261027 model=logistic_regression Fairlearn equalized odds axis=age_band
+2026-11-21 09:57:22,441 INFO seed=20261027 model=logistic_regression reweighing axis=race_x_sex
+2026-11-21 09:57:28,554 INFO seed=20261027 model=logistic_regression Fairlearn equalized odds axis=race_x_sex
+2026-11-21 09:57:30,041 INFO seed=20261027 model=logistic_regression reweighing axis=race_x_sex_x_age
+2026-11-21 09:57:36,183 INFO seed=20261027 model=logistic_regression Fairlearn equalized odds axis=race_x_sex_x_age
+2026-11-21 09:57:38,983 INFO seed=20261027 model=logistic_regression checkpoint saved (11 conditions)
+2026-11-21 09:57:39,003 INFO seed=20261027 model=random_forest baseline fit
+2026-11-21 09:57:51,182 INFO seed=20261027 model=random_forest reweighing axis=sex
+2026-11-21 09:58:04,619 INFO seed=20261027 model=random_forest Fairlearn equalized odds axis=sex
+2026-11-21 09:58:05,457 INFO seed=20261027 model=random_forest reweighing axis=race_ethnicity
+2026-11-21 09:58:18,674 INFO seed=20261027 model=random_forest Fairlearn equalized odds axis=race_ethnicity
+2026-11-21 09:58:23,153 INFO seed=20261027 model=random_forest reweighing axis=age_band
+2026-11-21 09:58:36,427 INFO seed=20261027 model=random_forest Fairlearn equalized odds axis=age_band
+2026-11-21 09:58:37,307 INFO seed=20261027 model=random_forest reweighing axis=race_x_sex
+2026-11-21 09:58:50,803 INFO seed=20261027 model=random_forest Fairlearn equalized odds axis=race_x_sex
+2026-11-21 09:58:52,239 INFO seed=20261027 model=random_forest reweighing axis=race_x_sex_x_age
+2026-11-21 09:59:09,433 INFO seed=20261027 model=random_forest Fairlearn equalized odds axis=race_x_sex_x_age
+2026-11-21 09:59:12,216 INFO seed=20261027 model=random_forest checkpoint saved (11 conditions)
+2026-11-21 09:59:12,243 INFO seed=20261027 model=xgboost baseline fit
+2026-11-21 09:59:14,212 INFO seed=20261027 model=xgboost reweighing axis=sex
+2026-11-21 09:59:20,515 INFO seed=20261027 model=xgboost Fairlearn equalized odds axis=sex
+2026-11-21 09:59:21,314 INFO seed=20261027 model=xgboost reweighing axis=race_ethnicity
+2026-11-21 09:59:27,661 INFO seed=20261027 model=xgboost Fairlearn equalized odds axis=race_ethnicity
+2026-11-21 09:59:28,695 INFO seed=20261027 model=xgboost reweighing axis=age_band
+2026-11-21 09:59:38,508 INFO seed=20261027 model=xgboost Fairlearn equalized odds axis=age_band
+2026-11-21 09:59:39,363 INFO seed=20261027 model=xgboost reweighing axis=race_x_sex
+2026-11-21 09:59:46,002 INFO seed=20261027 model=xgboost Fairlearn equalized odds axis=race_x_sex
+2026-11-21 09:59:47,430 INFO seed=20261027 model=xgboost reweighing axis=race_x_sex_x_age
+2026-11-21 09:59:54,075 INFO seed=20261027 model=xgboost Fairlearn equalized odds axis=race_x_sex_x_age
+2026-11-21 09:59:56,853 INFO seed=20261027 model=xgboost checkpoint saved (11 conditions)
+2026-11-21 09:59:56,876 INFO seed=20261027 completed; elapsed 3.2 minutes
+2026-11-21 09:59:56,895 INFO ===== split seed 20261028 =====
+2026-11-21 09:59:59,523 INFO seed=20261028 transformed shape=(251094, 28) sparse=False
+2026-11-21 09:59:59,524 INFO seed=20261028 model=logistic_regression baseline fit
+2026-11-21 10:00:00,554 INFO seed=20261028 model=logistic_regression reweighing axis=sex
+2026-11-21 10:00:06,238 INFO seed=20261028 model=logistic_regression Fairlearn equalized odds axis=sex
+2026-11-21 10:00:10,664 INFO seed=20261028 model=logistic_regression reweighing axis=race_ethnicity
+2026-11-21 10:00:16,334 INFO seed=20261028 model=logistic_regression Fairlearn equalized odds axis=race_ethnicity
+2026-11-21 10:00:17,398 INFO seed=20261028 model=logistic_regression reweighing axis=age_band
+2026-11-21 10:00:23,142 INFO seed=20261028 model=logistic_regression Fairlearn equalized odds axis=age_band
+2026-11-21 10:00:24,034 INFO seed=20261028 model=logistic_regression reweighing axis=race_x_sex
+2026-11-21 10:00:29,966 INFO seed=20261028 model=logistic_regression Fairlearn equalized odds axis=race_x_sex
+2026-11-21 10:00:31,431 INFO seed=20261028 model=logistic_regression reweighing axis=race_x_sex_x_age
+2026-11-21 10:00:37,416 INFO seed=20261028 model=logistic_regression Fairlearn equalized odds axis=race_x_sex_x_age
+2026-11-21 10:00:40,211 INFO seed=20261028 model=logistic_regression checkpoint saved (11 conditions)
+2026-11-21 10:00:40,233 INFO seed=20261028 model=random_forest baseline fit
+2026-11-21 10:00:52,156 INFO seed=20261028 model=random_forest reweighing axis=sex
+2026-11-21 10:01:05,048 INFO seed=20261028 model=random_forest Fairlearn equalized odds axis=sex
+2026-11-21 10:01:05,907 INFO seed=20261028 model=random_forest reweighing axis=race_ethnicity
+2026-11-21 10:01:22,312 INFO seed=20261028 model=random_forest Fairlearn equalized odds axis=race_ethnicity
+2026-11-21 10:01:23,389 INFO seed=20261028 model=random_forest reweighing axis=age_band
+2026-11-21 10:01:36,348 INFO seed=20261028 model=random_forest Fairlearn equalized odds axis=age_band
+2026-11-21 10:01:37,220 INFO seed=20261028 model=random_forest reweighing axis=race_x_sex
+2026-11-21 10:01:50,337 INFO seed=20261028 model=random_forest Fairlearn equalized odds axis=race_x_sex
+2026-11-21 10:01:51,797 INFO seed=20261028 model=random_forest reweighing axis=race_x_sex_x_age
+2026-11-21 10:02:08,565 INFO seed=20261028 model=random_forest Fairlearn equalized odds axis=race_x_sex_x_age
+2026-11-21 10:02:11,390 INFO seed=20261028 model=random_forest checkpoint saved (11 conditions)
+2026-11-21 10:02:11,412 INFO seed=20261028 model=xgboost baseline fit
+2026-11-21 10:02:13,106 INFO seed=20261028 model=xgboost reweighing axis=sex
+2026-11-21 10:02:19,558 INFO seed=20261028 model=xgboost Fairlearn equalized odds axis=sex
+2026-11-21 10:02:20,366 INFO seed=20261028 model=xgboost reweighing axis=race_ethnicity
+2026-11-21 10:02:26,778 INFO seed=20261028 model=xgboost Fairlearn equalized odds axis=race_ethnicity
+2026-11-21 10:02:27,807 INFO seed=20261028 model=xgboost reweighing axis=age_band
+2026-11-21 10:02:37,606 INFO seed=20261028 model=xgboost Fairlearn equalized odds axis=age_band
+2026-11-21 10:02:38,475 INFO seed=20261028 model=xgboost reweighing axis=race_x_sex
+2026-11-21 10:02:45,073 INFO seed=20261028 model=xgboost Fairlearn equalized odds axis=race_x_sex
+2026-11-21 10:02:46,507 INFO seed=20261028 model=xgboost reweighing axis=race_x_sex_x_age
+2026-11-21 10:02:53,015 INFO seed=20261028 model=xgboost Fairlearn equalized odds axis=race_x_sex_x_age
+2026-11-21 10:02:55,808 INFO seed=20261028 model=xgboost checkpoint saved (11 conditions)
+2026-11-21 10:02:55,848 INFO seed=20261028 completed; elapsed 6.2 minutes
+2026-11-21 10:02:55,877 INFO ===== split seed 20261029 =====
+2026-11-21 10:02:58,494 INFO seed=20261029 transformed shape=(251094, 28) sparse=False
+2026-11-21 10:02:58,495 INFO seed=20261029 model=logistic_regression baseline fit
+2026-11-21 10:02:59,513 INFO seed=20261029 model=logistic_regression reweighing axis=sex
+2026-11-21 10:03:05,237 INFO seed=20261029 model=logistic_regression Fairlearn equalized odds axis=sex
+2026-11-21 10:03:06,095 INFO seed=20261029 model=logistic_regression reweighing axis=race_ethnicity
+2026-11-21 10:03:15,339 INFO seed=20261029 model=logistic_regression Fairlearn equalized odds axis=race_ethnicity
+2026-11-21 10:03:16,394 INFO seed=20261029 model=logistic_regression reweighing axis=age_band
+2026-11-21 10:03:22,123 INFO seed=20261029 model=logistic_regression Fairlearn equalized odds axis=age_band
+2026-11-21 10:03:23,018 INFO seed=20261029 model=logistic_regression reweighing axis=race_x_sex
+2026-11-21 10:03:28,850 INFO seed=20261029 model=logistic_regression Fairlearn equalized odds axis=race_x_sex
+2026-11-21 10:03:30,293 INFO seed=20261029 model=logistic_regression reweighing axis=race_x_sex_x_age
+2026-11-21 10:03:36,282 INFO seed=20261029 model=logistic_regression Fairlearn equalized odds axis=race_x_sex_x_age
+2026-11-21 10:03:39,084 INFO seed=20261029 model=logistic_regression checkpoint saved (11 conditions)
+2026-11-21 10:03:39,105 INFO seed=20261029 model=random_forest baseline fit
+2026-11-21 10:03:50,845 INFO seed=20261029 model=random_forest reweighing axis=sex
+2026-11-21 10:04:03,706 INFO seed=20261029 model=random_forest Fairlearn equalized odds axis=sex
+2026-11-21 10:04:04,526 INFO seed=20261029 model=random_forest reweighing axis=race_ethnicity
+2026-11-21 10:04:17,225 INFO seed=20261029 model=random_forest Fairlearn equalized odds axis=race_ethnicity
+2026-11-21 10:04:21,871 INFO seed=20261029 model=random_forest reweighing axis=age_band
+2026-11-21 10:04:34,569 INFO seed=20261029 model=random_forest Fairlearn equalized odds axis=age_band
+2026-11-21 10:04:35,461 INFO seed=20261029 model=random_forest reweighing axis=race_x_sex
+2026-11-21 10:04:48,442 INFO seed=20261029 model=random_forest Fairlearn equalized odds axis=race_x_sex
+2026-11-21 10:04:49,863 INFO seed=20261029 model=random_forest reweighing axis=race_x_sex_x_age
+2026-11-21 10:05:06,451 INFO seed=20261029 model=random_forest Fairlearn equalized odds axis=race_x_sex_x_age
+2026-11-21 10:05:09,272 INFO seed=20261029 model=random_forest checkpoint saved (11 conditions)
+2026-11-21 10:05:09,294 INFO seed=20261029 model=xgboost baseline fit
+2026-11-21 10:05:10,948 INFO seed=20261029 model=xgboost reweighing axis=sex
+2026-11-21 10:05:17,300 INFO seed=20261029 model=xgboost Fairlearn equalized odds axis=sex
+2026-11-21 10:05:18,108 INFO seed=20261029 model=xgboost reweighing axis=race_ethnicity
+2026-11-21 10:05:24,577 INFO seed=20261029 model=xgboost Fairlearn equalized odds axis=race_ethnicity
+2026-11-21 10:05:25,608 INFO seed=20261029 model=xgboost reweighing axis=age_band
+2026-11-21 10:05:35,450 INFO seed=20261029 model=xgboost Fairlearn equalized odds axis=age_band
+2026-11-21 10:05:36,322 INFO seed=20261029 model=xgboost reweighing axis=race_x_sex
+2026-11-21 10:05:42,902 INFO seed=20261029 model=xgboost Fairlearn equalized odds axis=race_x_sex
+2026-11-21 10:05:44,322 INFO seed=20261029 model=xgboost reweighing axis=race_x_sex_x_age
+2026-11-21 10:05:51,017 INFO seed=20261029 model=xgboost Fairlearn equalized odds axis=race_x_sex_x_age
+2026-11-21 10:05:53,791 INFO seed=20261029 model=xgboost checkpoint saved (11 conditions)
+2026-11-21 10:05:53,812 INFO seed=20261029 completed; elapsed 9.1 minutes
+2026-11-21 10:05:56,629 INFO All runs complete in 9.2 minutes; outputs are aggregate-only

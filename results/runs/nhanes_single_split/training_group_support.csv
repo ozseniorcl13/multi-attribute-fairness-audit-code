@@ -1,0 +1,1594 @@
+task,seed,fold,model,target_axis,group,n_train,positive_train,negative_train,used_separately
+hba1c_high,20261027,1,logistic_regression,sex,Female,2522,336,2186,True
+hba1c_high,20261027,1,logistic_regression,sex,Male,2326,367,1959,True
+hba1c_high,20261027,1,logistic_regression,race_ethnicity,Mexican American,597,95,502,True
+hba1c_high,20261027,1,logistic_regression,race_ethnicity,Non-Hispanic Asian,577,83,494,True
+hba1c_high,20261027,1,logistic_regression,race_ethnicity,Non-Hispanic Black,1247,188,1059,True
+hba1c_high,20261027,1,logistic_regression,race_ethnicity,Non-Hispanic White,1671,212,1459,True
+hba1c_high,20261027,1,logistic_regression,race_ethnicity,Other Hispanic,519,84,435,True
+hba1c_high,20261027,1,logistic_regression,race_ethnicity,Other/Multi-racial,237,41,196,True
+hba1c_high,20261027,1,logistic_regression,age_group,20-39,1435,36,1399,True
+hba1c_high,20261027,1,logistic_regression,age_group,40-59,1608,243,1365,True
+hba1c_high,20261027,1,logistic_regression,age_group,60+,1805,424,1381,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Mexican American,310,45,265,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Asian,324,43,281,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Black,660,100,560,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic White,845,89,756,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Other Hispanic,280,46,234,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Other/Multi-racial,103,13,90,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Mexican American,287,50,237,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Asian,253,40,213,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Black,587,88,499,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic White,826,123,703,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Other Hispanic,239,38,201,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Other/Multi-racial,134,28,106,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,116,6,110,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,116,15,101,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,78,24,54,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,109,1,108,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,139,20,119,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,76,22,54,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,202,5,197,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,229,42,187,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,229,53,176,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,223,3,220,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,236,24,212,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,386,62,324,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,88,1,87,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,94,19,75,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,98,26,72,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,40,2,38,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,34,4,30,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,29,7,22,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,110,5,105,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,92,15,77,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,85,30,55,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,76,3,73,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,110,18,92,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,67,19,48,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,161,4,157,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,194,35,159,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,232,49,183,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,186,1,185,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,247,32,215,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,393,90,303,True
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,80,2,78,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,72,10,62,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,87,26,61,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,44,3,41,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,45,9,36,False
+hba1c_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,45,16,29,False
+hba1c_high,20261027,1,random_forest,sex,Female,2522,336,2186,True
+hba1c_high,20261027,1,random_forest,sex,Male,2326,367,1959,True
+hba1c_high,20261027,1,random_forest,race_ethnicity,Mexican American,597,95,502,True
+hba1c_high,20261027,1,random_forest,race_ethnicity,Non-Hispanic Asian,577,83,494,True
+hba1c_high,20261027,1,random_forest,race_ethnicity,Non-Hispanic Black,1247,188,1059,True
+hba1c_high,20261027,1,random_forest,race_ethnicity,Non-Hispanic White,1671,212,1459,True
+hba1c_high,20261027,1,random_forest,race_ethnicity,Other Hispanic,519,84,435,True
+hba1c_high,20261027,1,random_forest,race_ethnicity,Other/Multi-racial,237,41,196,True
+hba1c_high,20261027,1,random_forest,age_group,20-39,1435,36,1399,True
+hba1c_high,20261027,1,random_forest,age_group,40-59,1608,243,1365,True
+hba1c_high,20261027,1,random_forest,age_group,60+,1805,424,1381,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity,Female | Mexican American,310,45,265,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Asian,324,43,281,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Black,660,100,560,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic White,845,89,756,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity,Female | Other Hispanic,280,46,234,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity,Female | Other/Multi-racial,103,13,90,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity,Male | Mexican American,287,50,237,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Asian,253,40,213,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Black,587,88,499,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic White,826,123,703,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity,Male | Other Hispanic,239,38,201,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity,Male | Other/Multi-racial,134,28,106,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,116,6,110,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,116,15,101,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,78,24,54,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,109,1,108,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,139,20,119,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,76,22,54,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,202,5,197,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,229,42,187,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,229,53,176,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,223,3,220,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,236,24,212,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,386,62,324,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,88,1,87,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,94,19,75,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,98,26,72,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,40,2,38,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,34,4,30,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,29,7,22,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,110,5,105,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,92,15,77,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,85,30,55,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,76,3,73,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,110,18,92,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,67,19,48,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,161,4,157,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,194,35,159,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,232,49,183,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,186,1,185,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,247,32,215,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,393,90,303,True
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,80,2,78,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,72,10,62,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,87,26,61,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,44,3,41,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,45,9,36,False
+hba1c_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,45,16,29,False
+hba1c_high,20261027,1,xgboost,sex,Female,2522,336,2186,True
+hba1c_high,20261027,1,xgboost,sex,Male,2326,367,1959,True
+hba1c_high,20261027,1,xgboost,race_ethnicity,Mexican American,597,95,502,True
+hba1c_high,20261027,1,xgboost,race_ethnicity,Non-Hispanic Asian,577,83,494,True
+hba1c_high,20261027,1,xgboost,race_ethnicity,Non-Hispanic Black,1247,188,1059,True
+hba1c_high,20261027,1,xgboost,race_ethnicity,Non-Hispanic White,1671,212,1459,True
+hba1c_high,20261027,1,xgboost,race_ethnicity,Other Hispanic,519,84,435,True
+hba1c_high,20261027,1,xgboost,race_ethnicity,Other/Multi-racial,237,41,196,True
+hba1c_high,20261027,1,xgboost,age_group,20-39,1435,36,1399,True
+hba1c_high,20261027,1,xgboost,age_group,40-59,1608,243,1365,True
+hba1c_high,20261027,1,xgboost,age_group,60+,1805,424,1381,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity,Female | Mexican American,310,45,265,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Asian,324,43,281,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Black,660,100,560,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic White,845,89,756,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity,Female | Other Hispanic,280,46,234,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity,Female | Other/Multi-racial,103,13,90,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity,Male | Mexican American,287,50,237,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Asian,253,40,213,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Black,587,88,499,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic White,826,123,703,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity,Male | Other Hispanic,239,38,201,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity,Male | Other/Multi-racial,134,28,106,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,116,6,110,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,116,15,101,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,78,24,54,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,109,1,108,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,139,20,119,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,76,22,54,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,202,5,197,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,229,42,187,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,229,53,176,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,223,3,220,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,236,24,212,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,386,62,324,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,88,1,87,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,94,19,75,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,98,26,72,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,40,2,38,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,34,4,30,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,29,7,22,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,110,5,105,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,92,15,77,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,85,30,55,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,76,3,73,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,110,18,92,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,67,19,48,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,161,4,157,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,194,35,159,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,232,49,183,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,186,1,185,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,247,32,215,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,393,90,303,True
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,80,2,78,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,72,10,62,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,87,26,61,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,44,3,41,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,45,9,36,False
+hba1c_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,45,16,29,False
+hba1c_high,20261028,1,logistic_regression,sex,Female,2538,336,2202,True
+hba1c_high,20261028,1,logistic_regression,sex,Male,2310,367,1943,True
+hba1c_high,20261028,1,logistic_regression,race_ethnicity,Mexican American,593,100,493,True
+hba1c_high,20261028,1,logistic_regression,race_ethnicity,Non-Hispanic Asian,597,84,513,True
+hba1c_high,20261028,1,logistic_regression,race_ethnicity,Non-Hispanic Black,1277,214,1063,True
+hba1c_high,20261028,1,logistic_regression,race_ethnicity,Non-Hispanic White,1685,188,1497,True
+hba1c_high,20261028,1,logistic_regression,race_ethnicity,Other Hispanic,480,81,399,True
+hba1c_high,20261028,1,logistic_regression,race_ethnicity,Other/Multi-racial,216,36,180,True
+hba1c_high,20261028,1,logistic_regression,age_group,20-39,1476,37,1439,True
+hba1c_high,20261028,1,logistic_regression,age_group,40-59,1603,240,1363,True
+hba1c_high,20261028,1,logistic_regression,age_group,60+,1769,426,1343,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Mexican American,303,48,255,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Asian,322,41,281,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Black,692,111,581,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic White,848,75,773,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Other Hispanic,268,46,222,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Other/Multi-racial,105,15,90,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Mexican American,290,52,238,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Asian,275,43,232,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Black,585,103,482,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic White,837,113,724,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Other Hispanic,212,35,177,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Other/Multi-racial,111,21,90,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,102,5,97,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,134,20,114,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,67,23,44,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,106,0,106,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,135,18,117,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,81,23,58,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,230,6,224,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,226,46,180,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,236,59,177,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,247,6,241,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,244,24,220,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,357,45,312,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,76,2,74,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,96,16,80,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,96,28,68,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,43,3,40,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,33,2,31,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,29,10,19,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,111,3,108,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,94,17,77,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,85,32,53,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,89,2,87,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,115,18,97,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,71,23,48,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,163,4,159,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,184,35,149,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,238,64,174,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,197,3,194,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,239,28,211,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,401,82,319,True
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,76,2,74,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,61,9,52,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,75,24,51,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,36,1,35,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,42,7,35,False
+hba1c_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,33,13,20,False
+hba1c_high,20261028,1,random_forest,sex,Female,2538,336,2202,True
+hba1c_high,20261028,1,random_forest,sex,Male,2310,367,1943,True
+hba1c_high,20261028,1,random_forest,race_ethnicity,Mexican American,593,100,493,True
+hba1c_high,20261028,1,random_forest,race_ethnicity,Non-Hispanic Asian,597,84,513,True
+hba1c_high,20261028,1,random_forest,race_ethnicity,Non-Hispanic Black,1277,214,1063,True
+hba1c_high,20261028,1,random_forest,race_ethnicity,Non-Hispanic White,1685,188,1497,True
+hba1c_high,20261028,1,random_forest,race_ethnicity,Other Hispanic,480,81,399,True
+hba1c_high,20261028,1,random_forest,race_ethnicity,Other/Multi-racial,216,36,180,True
+hba1c_high,20261028,1,random_forest,age_group,20-39,1476,37,1439,True
+hba1c_high,20261028,1,random_forest,age_group,40-59,1603,240,1363,True
+hba1c_high,20261028,1,random_forest,age_group,60+,1769,426,1343,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity,Female | Mexican American,303,48,255,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Asian,322,41,281,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Black,692,111,581,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic White,848,75,773,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity,Female | Other Hispanic,268,46,222,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity,Female | Other/Multi-racial,105,15,90,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity,Male | Mexican American,290,52,238,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Asian,275,43,232,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Black,585,103,482,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic White,837,113,724,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity,Male | Other Hispanic,212,35,177,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity,Male | Other/Multi-racial,111,21,90,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,102,5,97,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,134,20,114,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,67,23,44,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,106,0,106,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,135,18,117,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,81,23,58,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,230,6,224,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,226,46,180,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,236,59,177,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,247,6,241,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,244,24,220,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,357,45,312,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,76,2,74,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,96,16,80,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,96,28,68,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,43,3,40,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,33,2,31,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,29,10,19,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,111,3,108,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,94,17,77,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,85,32,53,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,89,2,87,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,115,18,97,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,71,23,48,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,163,4,159,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,184,35,149,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,238,64,174,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,197,3,194,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,239,28,211,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,401,82,319,True
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,76,2,74,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,61,9,52,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,75,24,51,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,36,1,35,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,42,7,35,False
+hba1c_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,33,13,20,False
+hba1c_high,20261028,1,xgboost,sex,Female,2538,336,2202,True
+hba1c_high,20261028,1,xgboost,sex,Male,2310,367,1943,True
+hba1c_high,20261028,1,xgboost,race_ethnicity,Mexican American,593,100,493,True
+hba1c_high,20261028,1,xgboost,race_ethnicity,Non-Hispanic Asian,597,84,513,True
+hba1c_high,20261028,1,xgboost,race_ethnicity,Non-Hispanic Black,1277,214,1063,True
+hba1c_high,20261028,1,xgboost,race_ethnicity,Non-Hispanic White,1685,188,1497,True
+hba1c_high,20261028,1,xgboost,race_ethnicity,Other Hispanic,480,81,399,True
+hba1c_high,20261028,1,xgboost,race_ethnicity,Other/Multi-racial,216,36,180,True
+hba1c_high,20261028,1,xgboost,age_group,20-39,1476,37,1439,True
+hba1c_high,20261028,1,xgboost,age_group,40-59,1603,240,1363,True
+hba1c_high,20261028,1,xgboost,age_group,60+,1769,426,1343,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity,Female | Mexican American,303,48,255,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Asian,322,41,281,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Black,692,111,581,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic White,848,75,773,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity,Female | Other Hispanic,268,46,222,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity,Female | Other/Multi-racial,105,15,90,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity,Male | Mexican American,290,52,238,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Asian,275,43,232,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Black,585,103,482,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic White,837,113,724,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity,Male | Other Hispanic,212,35,177,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity,Male | Other/Multi-racial,111,21,90,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,102,5,97,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,134,20,114,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,67,23,44,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,106,0,106,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,135,18,117,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,81,23,58,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,230,6,224,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,226,46,180,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,236,59,177,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,247,6,241,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,244,24,220,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,357,45,312,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,76,2,74,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,96,16,80,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,96,28,68,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,43,3,40,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,33,2,31,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,29,10,19,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,111,3,108,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,94,17,77,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,85,32,53,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,89,2,87,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,115,18,97,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,71,23,48,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,163,4,159,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,184,35,149,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,238,64,174,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,197,3,194,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,239,28,211,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,401,82,319,True
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,76,2,74,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,61,9,52,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,75,24,51,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,36,1,35,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,42,7,35,False
+hba1c_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,33,13,20,False
+hba1c_high,20261029,1,logistic_regression,sex,Female,2523,335,2188,True
+hba1c_high,20261029,1,logistic_regression,sex,Male,2325,368,1957,True
+hba1c_high,20261029,1,logistic_regression,race_ethnicity,Mexican American,591,103,488,True
+hba1c_high,20261029,1,logistic_regression,race_ethnicity,Non-Hispanic Asian,598,92,506,True
+hba1c_high,20261029,1,logistic_regression,race_ethnicity,Non-Hispanic Black,1243,201,1042,True
+hba1c_high,20261029,1,logistic_regression,race_ethnicity,Non-Hispanic White,1685,189,1496,True
+hba1c_high,20261029,1,logistic_regression,race_ethnicity,Other Hispanic,501,78,423,True
+hba1c_high,20261029,1,logistic_regression,race_ethnicity,Other/Multi-racial,230,40,190,True
+hba1c_high,20261029,1,logistic_regression,age_group,20-39,1465,37,1428,True
+hba1c_high,20261029,1,logistic_regression,age_group,40-59,1643,239,1404,True
+hba1c_high,20261029,1,logistic_regression,age_group,60+,1740,427,1313,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Mexican American,311,49,262,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Asian,329,39,290,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Black,650,115,535,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic White,857,78,779,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Other Hispanic,270,40,230,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Other/Multi-racial,106,14,92,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Mexican American,280,54,226,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Asian,269,53,216,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Black,593,86,507,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic White,828,111,717,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Other Hispanic,231,38,193,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Other/Multi-racial,124,26,98,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,111,7,104,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,126,19,107,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,74,23,51,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,108,1,107,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,134,15,119,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,87,23,64,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,208,8,200,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,225,47,178,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,217,60,157,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,246,5,241,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,245,22,223,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,366,51,315,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,80,1,79,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,97,12,85,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,93,27,66,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,41,1,40,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,39,6,33,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,26,7,19,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,117,5,112,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,89,17,72,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,74,32,42,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,76,1,75,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,120,24,96,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,73,28,45,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,155,1,154,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,219,35,184,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,219,50,169,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,198,4,194,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,240,22,218,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,390,85,305,True
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,80,1,79,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,66,10,56,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,85,27,58,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,45,2,43,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,43,10,33,False
+hba1c_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,36,14,22,False
+hba1c_high,20261029,1,random_forest,sex,Female,2523,335,2188,True
+hba1c_high,20261029,1,random_forest,sex,Male,2325,368,1957,True
+hba1c_high,20261029,1,random_forest,race_ethnicity,Mexican American,591,103,488,True
+hba1c_high,20261029,1,random_forest,race_ethnicity,Non-Hispanic Asian,598,92,506,True
+hba1c_high,20261029,1,random_forest,race_ethnicity,Non-Hispanic Black,1243,201,1042,True
+hba1c_high,20261029,1,random_forest,race_ethnicity,Non-Hispanic White,1685,189,1496,True
+hba1c_high,20261029,1,random_forest,race_ethnicity,Other Hispanic,501,78,423,True
+hba1c_high,20261029,1,random_forest,race_ethnicity,Other/Multi-racial,230,40,190,True
+hba1c_high,20261029,1,random_forest,age_group,20-39,1465,37,1428,True
+hba1c_high,20261029,1,random_forest,age_group,40-59,1643,239,1404,True
+hba1c_high,20261029,1,random_forest,age_group,60+,1740,427,1313,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity,Female | Mexican American,311,49,262,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Asian,329,39,290,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Black,650,115,535,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic White,857,78,779,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity,Female | Other Hispanic,270,40,230,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity,Female | Other/Multi-racial,106,14,92,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity,Male | Mexican American,280,54,226,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Asian,269,53,216,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Black,593,86,507,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic White,828,111,717,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity,Male | Other Hispanic,231,38,193,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity,Male | Other/Multi-racial,124,26,98,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,111,7,104,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,126,19,107,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,74,23,51,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,108,1,107,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,134,15,119,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,87,23,64,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,208,8,200,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,225,47,178,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,217,60,157,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,246,5,241,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,245,22,223,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,366,51,315,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,80,1,79,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,97,12,85,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,93,27,66,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,41,1,40,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,39,6,33,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,26,7,19,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,117,5,112,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,89,17,72,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,74,32,42,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,76,1,75,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,120,24,96,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,73,28,45,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,155,1,154,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,219,35,184,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,219,50,169,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,198,4,194,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,240,22,218,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,390,85,305,True
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,80,1,79,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,66,10,56,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,85,27,58,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,45,2,43,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,43,10,33,False
+hba1c_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,36,14,22,False
+hba1c_high,20261029,1,xgboost,sex,Female,2523,335,2188,True
+hba1c_high,20261029,1,xgboost,sex,Male,2325,368,1957,True
+hba1c_high,20261029,1,xgboost,race_ethnicity,Mexican American,591,103,488,True
+hba1c_high,20261029,1,xgboost,race_ethnicity,Non-Hispanic Asian,598,92,506,True
+hba1c_high,20261029,1,xgboost,race_ethnicity,Non-Hispanic Black,1243,201,1042,True
+hba1c_high,20261029,1,xgboost,race_ethnicity,Non-Hispanic White,1685,189,1496,True
+hba1c_high,20261029,1,xgboost,race_ethnicity,Other Hispanic,501,78,423,True
+hba1c_high,20261029,1,xgboost,race_ethnicity,Other/Multi-racial,230,40,190,True
+hba1c_high,20261029,1,xgboost,age_group,20-39,1465,37,1428,True
+hba1c_high,20261029,1,xgboost,age_group,40-59,1643,239,1404,True
+hba1c_high,20261029,1,xgboost,age_group,60+,1740,427,1313,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity,Female | Mexican American,311,49,262,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Asian,329,39,290,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Black,650,115,535,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic White,857,78,779,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity,Female | Other Hispanic,270,40,230,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity,Female | Other/Multi-racial,106,14,92,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity,Male | Mexican American,280,54,226,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Asian,269,53,216,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Black,593,86,507,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic White,828,111,717,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity,Male | Other Hispanic,231,38,193,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity,Male | Other/Multi-racial,124,26,98,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,111,7,104,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,126,19,107,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,74,23,51,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,108,1,107,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,134,15,119,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,87,23,64,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,208,8,200,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,225,47,178,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,217,60,157,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,246,5,241,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,245,22,223,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,366,51,315,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,80,1,79,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,97,12,85,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,93,27,66,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,41,1,40,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,39,6,33,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,26,7,19,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,117,5,112,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,89,17,72,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,74,32,42,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,76,1,75,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,120,24,96,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,73,28,45,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,155,1,154,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,219,35,184,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,219,50,169,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,198,4,194,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,240,22,218,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,390,85,305,True
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,80,1,79,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,66,10,56,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,85,27,58,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,45,2,43,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,43,10,33,False
+hba1c_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,36,14,22,False
+measured_bp_high,20261027,1,logistic_regression,sex,Female,2352,950,1402,True
+measured_bp_high,20261027,1,logistic_regression,sex,Male,2236,1079,1157,True
+measured_bp_high,20261027,1,logistic_regression,race_ethnicity,Mexican American,494,191,303,True
+measured_bp_high,20261027,1,logistic_regression,race_ethnicity,Non-Hispanic Asian,544,198,346,True
+measured_bp_high,20261027,1,logistic_regression,race_ethnicity,Non-Hispanic Black,1214,646,568,True
+measured_bp_high,20261027,1,logistic_regression,race_ethnicity,Non-Hispanic White,1646,706,940,True
+measured_bp_high,20261027,1,logistic_regression,race_ethnicity,Other Hispanic,456,170,286,True
+measured_bp_high,20261027,1,logistic_regression,race_ethnicity,Other/Multi-racial,234,118,116,True
+measured_bp_high,20261027,1,logistic_regression,age_group,20-39,1407,346,1061,True
+measured_bp_high,20261027,1,logistic_regression,age_group,40-59,1541,738,803,True
+measured_bp_high,20261027,1,logistic_regression,age_group,60+,1640,945,695,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Mexican American,254,79,175,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Asian,287,93,194,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Black,626,311,315,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic White,843,334,509,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Other Hispanic,237,85,152,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Other/Multi-racial,105,48,57,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Mexican American,240,112,128,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Asian,257,105,152,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Black,588,335,253,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic White,803,372,431,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Other Hispanic,219,85,134,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Other/Multi-racial,129,70,59,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,93,10,83,False
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,101,37,64,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,60,32,28,False
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,101,10,91,False
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,118,42,76,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,68,41,27,False
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,212,61,151,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,225,129,96,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,189,121,68,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,236,40,196,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,253,106,147,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,354,188,166,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,75,6,69,False
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,83,33,50,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,79,46,33,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,38,10,28,False
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,35,15,20,False
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,32,23,9,False
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,93,30,63,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,84,42,42,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,63,40,23,False
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,84,22,62,False
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,112,47,65,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,61,36,25,False
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,161,52,109,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,186,119,67,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,241,164,77,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,198,66,132,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,230,111,119,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,375,195,180,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,70,15,55,False
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,70,34,36,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,79,36,43,True
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,46,24,22,False
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,44,23,21,False
+measured_bp_high,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,39,23,16,False
+measured_bp_high,20261027,1,random_forest,sex,Female,2352,950,1402,True
+measured_bp_high,20261027,1,random_forest,sex,Male,2236,1079,1157,True
+measured_bp_high,20261027,1,random_forest,race_ethnicity,Mexican American,494,191,303,True
+measured_bp_high,20261027,1,random_forest,race_ethnicity,Non-Hispanic Asian,544,198,346,True
+measured_bp_high,20261027,1,random_forest,race_ethnicity,Non-Hispanic Black,1214,646,568,True
+measured_bp_high,20261027,1,random_forest,race_ethnicity,Non-Hispanic White,1646,706,940,True
+measured_bp_high,20261027,1,random_forest,race_ethnicity,Other Hispanic,456,170,286,True
+measured_bp_high,20261027,1,random_forest,race_ethnicity,Other/Multi-racial,234,118,116,True
+measured_bp_high,20261027,1,random_forest,age_group,20-39,1407,346,1061,True
+measured_bp_high,20261027,1,random_forest,age_group,40-59,1541,738,803,True
+measured_bp_high,20261027,1,random_forest,age_group,60+,1640,945,695,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity,Female | Mexican American,254,79,175,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Asian,287,93,194,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Black,626,311,315,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic White,843,334,509,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity,Female | Other Hispanic,237,85,152,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity,Female | Other/Multi-racial,105,48,57,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity,Male | Mexican American,240,112,128,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Asian,257,105,152,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Black,588,335,253,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic White,803,372,431,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity,Male | Other Hispanic,219,85,134,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity,Male | Other/Multi-racial,129,70,59,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,93,10,83,False
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,101,37,64,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,60,32,28,False
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,101,10,91,False
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,118,42,76,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,68,41,27,False
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,212,61,151,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,225,129,96,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,189,121,68,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,236,40,196,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,253,106,147,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,354,188,166,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,75,6,69,False
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,83,33,50,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,79,46,33,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,38,10,28,False
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,35,15,20,False
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,32,23,9,False
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,93,30,63,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,84,42,42,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,63,40,23,False
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,84,22,62,False
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,112,47,65,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,61,36,25,False
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,161,52,109,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,186,119,67,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,241,164,77,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,198,66,132,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,230,111,119,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,375,195,180,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,70,15,55,False
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,70,34,36,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,79,36,43,True
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,46,24,22,False
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,44,23,21,False
+measured_bp_high,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,39,23,16,False
+measured_bp_high,20261027,1,xgboost,sex,Female,2352,950,1402,True
+measured_bp_high,20261027,1,xgboost,sex,Male,2236,1079,1157,True
+measured_bp_high,20261027,1,xgboost,race_ethnicity,Mexican American,494,191,303,True
+measured_bp_high,20261027,1,xgboost,race_ethnicity,Non-Hispanic Asian,544,198,346,True
+measured_bp_high,20261027,1,xgboost,race_ethnicity,Non-Hispanic Black,1214,646,568,True
+measured_bp_high,20261027,1,xgboost,race_ethnicity,Non-Hispanic White,1646,706,940,True
+measured_bp_high,20261027,1,xgboost,race_ethnicity,Other Hispanic,456,170,286,True
+measured_bp_high,20261027,1,xgboost,race_ethnicity,Other/Multi-racial,234,118,116,True
+measured_bp_high,20261027,1,xgboost,age_group,20-39,1407,346,1061,True
+measured_bp_high,20261027,1,xgboost,age_group,40-59,1541,738,803,True
+measured_bp_high,20261027,1,xgboost,age_group,60+,1640,945,695,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity,Female | Mexican American,254,79,175,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Asian,287,93,194,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Black,626,311,315,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic White,843,334,509,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity,Female | Other Hispanic,237,85,152,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity,Female | Other/Multi-racial,105,48,57,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity,Male | Mexican American,240,112,128,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Asian,257,105,152,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Black,588,335,253,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic White,803,372,431,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity,Male | Other Hispanic,219,85,134,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity,Male | Other/Multi-racial,129,70,59,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,93,10,83,False
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,101,37,64,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,60,32,28,False
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,101,10,91,False
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,118,42,76,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,68,41,27,False
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,212,61,151,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,225,129,96,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,189,121,68,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,236,40,196,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,253,106,147,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,354,188,166,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,75,6,69,False
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,83,33,50,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,79,46,33,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,38,10,28,False
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,35,15,20,False
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,32,23,9,False
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,93,30,63,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,84,42,42,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,63,40,23,False
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,84,22,62,False
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,112,47,65,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,61,36,25,False
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,161,52,109,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,186,119,67,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,241,164,77,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,198,66,132,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,230,111,119,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,375,195,180,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,70,15,55,False
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,70,34,36,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,79,36,43,True
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,46,24,22,False
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,44,23,21,False
+measured_bp_high,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,39,23,16,False
+measured_bp_high,20261028,1,logistic_regression,sex,Female,2322,967,1355,True
+measured_bp_high,20261028,1,logistic_regression,sex,Male,2266,1062,1204,True
+measured_bp_high,20261028,1,logistic_regression,race_ethnicity,Mexican American,501,172,329,True
+measured_bp_high,20261028,1,logistic_regression,race_ethnicity,Non-Hispanic Asian,544,213,331,True
+measured_bp_high,20261028,1,logistic_regression,race_ethnicity,Non-Hispanic Black,1252,677,575,True
+measured_bp_high,20261028,1,logistic_regression,race_ethnicity,Non-Hispanic White,1588,688,900,True
+measured_bp_high,20261028,1,logistic_regression,race_ethnicity,Other Hispanic,473,184,289,True
+measured_bp_high,20261028,1,logistic_regression,race_ethnicity,Other/Multi-racial,230,95,135,True
+measured_bp_high,20261028,1,logistic_regression,age_group,20-39,1400,345,1055,True
+measured_bp_high,20261028,1,logistic_regression,age_group,40-59,1528,733,795,True
+measured_bp_high,20261028,1,logistic_regression,age_group,60+,1660,951,709,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Mexican American,253,72,181,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Asian,288,104,184,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Black,637,337,300,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic White,798,329,469,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Other Hispanic,246,91,155,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Other/Multi-racial,100,34,66,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Mexican American,248,100,148,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Asian,256,109,147,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Black,615,340,275,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic White,790,359,431,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Other Hispanic,227,93,134,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Other/Multi-racial,130,61,69,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,102,9,93,False
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,93,34,59,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,58,29,29,False
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,94,8,86,False
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,121,50,71,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,73,46,27,False
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,198,62,136,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,212,124,88,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,227,151,76,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,216,43,173,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,235,91,144,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,347,195,152,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,81,10,71,False
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,76,26,50,False
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,89,55,34,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,42,8,34,False
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,33,12,21,False
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,25,14,11,False
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,106,27,79,False
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,77,39,38,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,65,34,31,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,85,23,62,False
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,114,53,61,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,57,33,24,False
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,162,53,109,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,198,126,72,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,255,161,94,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,201,71,130,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,246,117,129,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,343,171,172,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,67,14,53,False
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,75,37,38,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,85,42,43,True
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,46,17,29,False
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,48,24,24,False
+measured_bp_high,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,36,20,16,False
+measured_bp_high,20261028,1,random_forest,sex,Female,2322,967,1355,True
+measured_bp_high,20261028,1,random_forest,sex,Male,2266,1062,1204,True
+measured_bp_high,20261028,1,random_forest,race_ethnicity,Mexican American,501,172,329,True
+measured_bp_high,20261028,1,random_forest,race_ethnicity,Non-Hispanic Asian,544,213,331,True
+measured_bp_high,20261028,1,random_forest,race_ethnicity,Non-Hispanic Black,1252,677,575,True
+measured_bp_high,20261028,1,random_forest,race_ethnicity,Non-Hispanic White,1588,688,900,True
+measured_bp_high,20261028,1,random_forest,race_ethnicity,Other Hispanic,473,184,289,True
+measured_bp_high,20261028,1,random_forest,race_ethnicity,Other/Multi-racial,230,95,135,True
+measured_bp_high,20261028,1,random_forest,age_group,20-39,1400,345,1055,True
+measured_bp_high,20261028,1,random_forest,age_group,40-59,1528,733,795,True
+measured_bp_high,20261028,1,random_forest,age_group,60+,1660,951,709,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity,Female | Mexican American,253,72,181,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Asian,288,104,184,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Black,637,337,300,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic White,798,329,469,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity,Female | Other Hispanic,246,91,155,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity,Female | Other/Multi-racial,100,34,66,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity,Male | Mexican American,248,100,148,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Asian,256,109,147,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Black,615,340,275,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic White,790,359,431,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity,Male | Other Hispanic,227,93,134,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity,Male | Other/Multi-racial,130,61,69,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,102,9,93,False
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,93,34,59,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,58,29,29,False
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,94,8,86,False
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,121,50,71,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,73,46,27,False
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,198,62,136,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,212,124,88,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,227,151,76,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,216,43,173,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,235,91,144,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,347,195,152,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,81,10,71,False
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,76,26,50,False
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,89,55,34,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,42,8,34,False
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,33,12,21,False
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,25,14,11,False
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,106,27,79,False
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,77,39,38,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,65,34,31,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,85,23,62,False
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,114,53,61,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,57,33,24,False
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,162,53,109,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,198,126,72,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,255,161,94,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,201,71,130,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,246,117,129,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,343,171,172,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,67,14,53,False
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,75,37,38,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,85,42,43,True
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,46,17,29,False
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,48,24,24,False
+measured_bp_high,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,36,20,16,False
+measured_bp_high,20261028,1,xgboost,sex,Female,2322,967,1355,True
+measured_bp_high,20261028,1,xgboost,sex,Male,2266,1062,1204,True
+measured_bp_high,20261028,1,xgboost,race_ethnicity,Mexican American,501,172,329,True
+measured_bp_high,20261028,1,xgboost,race_ethnicity,Non-Hispanic Asian,544,213,331,True
+measured_bp_high,20261028,1,xgboost,race_ethnicity,Non-Hispanic Black,1252,677,575,True
+measured_bp_high,20261028,1,xgboost,race_ethnicity,Non-Hispanic White,1588,688,900,True
+measured_bp_high,20261028,1,xgboost,race_ethnicity,Other Hispanic,473,184,289,True
+measured_bp_high,20261028,1,xgboost,race_ethnicity,Other/Multi-racial,230,95,135,True
+measured_bp_high,20261028,1,xgboost,age_group,20-39,1400,345,1055,True
+measured_bp_high,20261028,1,xgboost,age_group,40-59,1528,733,795,True
+measured_bp_high,20261028,1,xgboost,age_group,60+,1660,951,709,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity,Female | Mexican American,253,72,181,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Asian,288,104,184,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Black,637,337,300,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic White,798,329,469,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity,Female | Other Hispanic,246,91,155,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity,Female | Other/Multi-racial,100,34,66,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity,Male | Mexican American,248,100,148,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Asian,256,109,147,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Black,615,340,275,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic White,790,359,431,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity,Male | Other Hispanic,227,93,134,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity,Male | Other/Multi-racial,130,61,69,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,102,9,93,False
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,93,34,59,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,58,29,29,False
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,94,8,86,False
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,121,50,71,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,73,46,27,False
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,198,62,136,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,212,124,88,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,227,151,76,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,216,43,173,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,235,91,144,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,347,195,152,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,81,10,71,False
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,76,26,50,False
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,89,55,34,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,42,8,34,False
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,33,12,21,False
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,25,14,11,False
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,106,27,79,False
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,77,39,38,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,65,34,31,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,85,23,62,False
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,114,53,61,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,57,33,24,False
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,162,53,109,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,198,126,72,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,255,161,94,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,201,71,130,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,246,117,129,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,343,171,172,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,67,14,53,False
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,75,37,38,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,85,42,43,True
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,46,17,29,False
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,48,24,24,False
+measured_bp_high,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,36,20,16,False
+measured_bp_high,20261029,1,logistic_regression,sex,Female,2346,949,1397,True
+measured_bp_high,20261029,1,logistic_regression,sex,Male,2242,1080,1162,True
+measured_bp_high,20261029,1,logistic_regression,race_ethnicity,Mexican American,486,174,312,True
+measured_bp_high,20261029,1,logistic_regression,race_ethnicity,Non-Hispanic Asian,540,211,329,True
+measured_bp_high,20261029,1,logistic_regression,race_ethnicity,Non-Hispanic Black,1281,681,600,True
+measured_bp_high,20261029,1,logistic_regression,race_ethnicity,Non-Hispanic White,1599,667,932,True
+measured_bp_high,20261029,1,logistic_regression,race_ethnicity,Other Hispanic,469,191,278,True
+measured_bp_high,20261029,1,logistic_regression,race_ethnicity,Other/Multi-racial,213,105,108,True
+measured_bp_high,20261029,1,logistic_regression,age_group,20-39,1391,340,1051,True
+measured_bp_high,20261029,1,logistic_regression,age_group,40-59,1550,733,817,True
+measured_bp_high,20261029,1,logistic_regression,age_group,60+,1647,956,691,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Mexican American,259,71,188,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Asian,289,104,185,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Black,652,325,327,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic White,800,301,499,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Other Hispanic,247,101,146,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Other/Multi-racial,99,47,52,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Mexican American,227,103,124,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Asian,251,107,144,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Black,629,356,273,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic White,799,366,433,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Other Hispanic,222,90,132,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Other/Multi-racial,114,58,56,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,98,9,89,False
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,106,30,76,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,55,32,23,False
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,99,13,86,False
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,120,43,77,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,70,48,22,False
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,206,55,151,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,232,127,105,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,214,143,71,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,221,31,190,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,244,99,145,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,335,171,164,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,85,10,75,False
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,76,39,37,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,86,52,34,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,40,11,29,False
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,31,18,13,False
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,28,18,10,False
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,91,30,61,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,77,36,41,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,59,37,22,False
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,80,23,57,False
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,106,49,57,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,65,35,30,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,170,56,114,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,206,128,78,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,253,172,81,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,194,69,125,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,240,113,127,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,365,184,181,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,64,14,50,False
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,76,33,43,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,82,43,39,True
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,43,19,24,False
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,36,18,18,False
+measured_bp_high,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,35,21,14,False
+measured_bp_high,20261029,1,random_forest,sex,Female,2346,949,1397,True
+measured_bp_high,20261029,1,random_forest,sex,Male,2242,1080,1162,True
+measured_bp_high,20261029,1,random_forest,race_ethnicity,Mexican American,486,174,312,True
+measured_bp_high,20261029,1,random_forest,race_ethnicity,Non-Hispanic Asian,540,211,329,True
+measured_bp_high,20261029,1,random_forest,race_ethnicity,Non-Hispanic Black,1281,681,600,True
+measured_bp_high,20261029,1,random_forest,race_ethnicity,Non-Hispanic White,1599,667,932,True
+measured_bp_high,20261029,1,random_forest,race_ethnicity,Other Hispanic,469,191,278,True
+measured_bp_high,20261029,1,random_forest,race_ethnicity,Other/Multi-racial,213,105,108,True
+measured_bp_high,20261029,1,random_forest,age_group,20-39,1391,340,1051,True
+measured_bp_high,20261029,1,random_forest,age_group,40-59,1550,733,817,True
+measured_bp_high,20261029,1,random_forest,age_group,60+,1647,956,691,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity,Female | Mexican American,259,71,188,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Asian,289,104,185,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Black,652,325,327,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic White,800,301,499,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity,Female | Other Hispanic,247,101,146,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity,Female | Other/Multi-racial,99,47,52,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity,Male | Mexican American,227,103,124,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Asian,251,107,144,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Black,629,356,273,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic White,799,366,433,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity,Male | Other Hispanic,222,90,132,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity,Male | Other/Multi-racial,114,58,56,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,98,9,89,False
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,106,30,76,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,55,32,23,False
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,99,13,86,False
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,120,43,77,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,70,48,22,False
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,206,55,151,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,232,127,105,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,214,143,71,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,221,31,190,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,244,99,145,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,335,171,164,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,85,10,75,False
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,76,39,37,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,86,52,34,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,40,11,29,False
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,31,18,13,False
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,28,18,10,False
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,91,30,61,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,77,36,41,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,59,37,22,False
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,80,23,57,False
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,106,49,57,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,65,35,30,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,170,56,114,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,206,128,78,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,253,172,81,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,194,69,125,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,240,113,127,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,365,184,181,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,64,14,50,False
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,76,33,43,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,82,43,39,True
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,43,19,24,False
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,36,18,18,False
+measured_bp_high,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,35,21,14,False
+measured_bp_high,20261029,1,xgboost,sex,Female,2346,949,1397,True
+measured_bp_high,20261029,1,xgboost,sex,Male,2242,1080,1162,True
+measured_bp_high,20261029,1,xgboost,race_ethnicity,Mexican American,486,174,312,True
+measured_bp_high,20261029,1,xgboost,race_ethnicity,Non-Hispanic Asian,540,211,329,True
+measured_bp_high,20261029,1,xgboost,race_ethnicity,Non-Hispanic Black,1281,681,600,True
+measured_bp_high,20261029,1,xgboost,race_ethnicity,Non-Hispanic White,1599,667,932,True
+measured_bp_high,20261029,1,xgboost,race_ethnicity,Other Hispanic,469,191,278,True
+measured_bp_high,20261029,1,xgboost,race_ethnicity,Other/Multi-racial,213,105,108,True
+measured_bp_high,20261029,1,xgboost,age_group,20-39,1391,340,1051,True
+measured_bp_high,20261029,1,xgboost,age_group,40-59,1550,733,817,True
+measured_bp_high,20261029,1,xgboost,age_group,60+,1647,956,691,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity,Female | Mexican American,259,71,188,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Asian,289,104,185,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Black,652,325,327,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic White,800,301,499,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity,Female | Other Hispanic,247,101,146,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity,Female | Other/Multi-racial,99,47,52,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity,Male | Mexican American,227,103,124,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Asian,251,107,144,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Black,629,356,273,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic White,799,366,433,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity,Male | Other Hispanic,222,90,132,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity,Male | Other/Multi-racial,114,58,56,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,98,9,89,False
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,106,30,76,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,55,32,23,False
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,99,13,86,False
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,120,43,77,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,70,48,22,False
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,206,55,151,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,232,127,105,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,214,143,71,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,221,31,190,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,244,99,145,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,335,171,164,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,85,10,75,False
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,76,39,37,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,86,52,34,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,40,11,29,False
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,31,18,13,False
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,28,18,10,False
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,91,30,61,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,77,36,41,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,59,37,22,False
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,80,23,57,False
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,106,49,57,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,65,35,30,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,170,56,114,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,206,128,78,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,253,172,81,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,194,69,125,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,240,113,127,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,365,184,181,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,64,14,50,False
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,76,33,43,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,82,43,39,True
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,43,19,24,False
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,36,18,18,False
+measured_bp_high,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,35,21,14,False
+obesity_bmi30,20261027,1,logistic_regression,sex,Female,2601,1200,1401,True
+obesity_bmi30,20261027,1,logistic_regression,sex,Male,2427,949,1478,True
+obesity_bmi30,20261027,1,logistic_regression,race_ethnicity,Mexican American,585,286,299,True
+obesity_bmi30,20261027,1,logistic_regression,race_ethnicity,Non-Hispanic Asian,611,88,523,True
+obesity_bmi30,20261027,1,logistic_regression,race_ethnicity,Non-Hispanic Black,1340,687,653,True
+obesity_bmi30,20261027,1,logistic_regression,race_ethnicity,Non-Hispanic White,1715,748,967,True
+obesity_bmi30,20261027,1,logistic_regression,race_ethnicity,Other Hispanic,532,231,301,True
+obesity_bmi30,20261027,1,logistic_regression,race_ethnicity,Other/Multi-racial,245,109,136,True
+obesity_bmi30,20261027,1,logistic_regression,age_group,20-39,1522,627,895,True
+obesity_bmi30,20261027,1,logistic_regression,age_group,40-59,1666,776,890,True
+obesity_bmi30,20261027,1,logistic_regression,age_group,60+,1840,746,1094,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Mexican American,307,155,152,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Asian,328,44,284,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Black,708,429,279,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic White,876,393,483,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Other Hispanic,276,131,145,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity,Female | Other/Multi-racial,106,48,58,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Mexican American,278,131,147,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Asian,283,44,239,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Black,632,258,374,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic White,839,355,484,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Other Hispanic,256,100,156,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity,Male | Other/Multi-racial,139,61,78,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,114,54,60,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,125,69,56,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,68,32,36,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,101,15,86,False
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,147,19,128,False
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,80,10,70,False
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,220,117,103,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,247,170,77,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,241,142,99,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,245,110,135,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,252,114,138,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,379,169,210,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,89,36,53,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,86,45,41,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,101,50,51,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,42,20,22,False
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,37,16,21,False
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,27,12,15,False
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,117,58,59,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,82,40,42,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,79,33,46,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,92,20,72,False
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,121,20,101,False
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,70,4,66,False
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,164,52,112,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,205,109,96,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,263,97,166,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,208,98,110,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,237,109,128,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,394,148,246,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,81,27,54,False
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,81,39,42,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,94,34,60,True
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,49,20,29,False
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,46,26,20,False
+obesity_bmi30,20261027,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,44,15,29,False
+obesity_bmi30,20261027,1,random_forest,sex,Female,2601,1200,1401,True
+obesity_bmi30,20261027,1,random_forest,sex,Male,2427,949,1478,True
+obesity_bmi30,20261027,1,random_forest,race_ethnicity,Mexican American,585,286,299,True
+obesity_bmi30,20261027,1,random_forest,race_ethnicity,Non-Hispanic Asian,611,88,523,True
+obesity_bmi30,20261027,1,random_forest,race_ethnicity,Non-Hispanic Black,1340,687,653,True
+obesity_bmi30,20261027,1,random_forest,race_ethnicity,Non-Hispanic White,1715,748,967,True
+obesity_bmi30,20261027,1,random_forest,race_ethnicity,Other Hispanic,532,231,301,True
+obesity_bmi30,20261027,1,random_forest,race_ethnicity,Other/Multi-racial,245,109,136,True
+obesity_bmi30,20261027,1,random_forest,age_group,20-39,1522,627,895,True
+obesity_bmi30,20261027,1,random_forest,age_group,40-59,1666,776,890,True
+obesity_bmi30,20261027,1,random_forest,age_group,60+,1840,746,1094,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity,Female | Mexican American,307,155,152,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Asian,328,44,284,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Black,708,429,279,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic White,876,393,483,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity,Female | Other Hispanic,276,131,145,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity,Female | Other/Multi-racial,106,48,58,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity,Male | Mexican American,278,131,147,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Asian,283,44,239,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Black,632,258,374,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic White,839,355,484,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity,Male | Other Hispanic,256,100,156,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity,Male | Other/Multi-racial,139,61,78,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,114,54,60,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,125,69,56,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,68,32,36,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,101,15,86,False
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,147,19,128,False
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,80,10,70,False
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,220,117,103,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,247,170,77,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,241,142,99,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,245,110,135,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,252,114,138,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,379,169,210,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,89,36,53,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,86,45,41,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,101,50,51,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,42,20,22,False
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,37,16,21,False
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,27,12,15,False
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,117,58,59,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,82,40,42,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,79,33,46,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,92,20,72,False
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,121,20,101,False
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,70,4,66,False
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,164,52,112,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,205,109,96,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,263,97,166,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,208,98,110,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,237,109,128,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,394,148,246,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,81,27,54,False
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,81,39,42,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,94,34,60,True
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,49,20,29,False
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,46,26,20,False
+obesity_bmi30,20261027,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,44,15,29,False
+obesity_bmi30,20261027,1,xgboost,sex,Female,2601,1200,1401,True
+obesity_bmi30,20261027,1,xgboost,sex,Male,2427,949,1478,True
+obesity_bmi30,20261027,1,xgboost,race_ethnicity,Mexican American,585,286,299,True
+obesity_bmi30,20261027,1,xgboost,race_ethnicity,Non-Hispanic Asian,611,88,523,True
+obesity_bmi30,20261027,1,xgboost,race_ethnicity,Non-Hispanic Black,1340,687,653,True
+obesity_bmi30,20261027,1,xgboost,race_ethnicity,Non-Hispanic White,1715,748,967,True
+obesity_bmi30,20261027,1,xgboost,race_ethnicity,Other Hispanic,532,231,301,True
+obesity_bmi30,20261027,1,xgboost,race_ethnicity,Other/Multi-racial,245,109,136,True
+obesity_bmi30,20261027,1,xgboost,age_group,20-39,1522,627,895,True
+obesity_bmi30,20261027,1,xgboost,age_group,40-59,1666,776,890,True
+obesity_bmi30,20261027,1,xgboost,age_group,60+,1840,746,1094,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity,Female | Mexican American,307,155,152,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Asian,328,44,284,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Black,708,429,279,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic White,876,393,483,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity,Female | Other Hispanic,276,131,145,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity,Female | Other/Multi-racial,106,48,58,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity,Male | Mexican American,278,131,147,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Asian,283,44,239,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Black,632,258,374,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic White,839,355,484,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity,Male | Other Hispanic,256,100,156,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity,Male | Other/Multi-racial,139,61,78,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,114,54,60,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,125,69,56,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,68,32,36,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,101,15,86,False
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,147,19,128,False
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,80,10,70,False
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,220,117,103,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,247,170,77,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,241,142,99,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,245,110,135,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,252,114,138,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,379,169,210,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,89,36,53,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,86,45,41,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,101,50,51,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,42,20,22,False
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,37,16,21,False
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,27,12,15,False
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,117,58,59,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,82,40,42,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,79,33,46,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,92,20,72,False
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,121,20,101,False
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,70,4,66,False
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,164,52,112,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,205,109,96,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,263,97,166,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,208,98,110,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,237,109,128,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,394,148,246,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,81,27,54,False
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,81,39,42,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,94,34,60,True
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,49,20,29,False
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,46,26,20,False
+obesity_bmi30,20261027,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,44,15,29,False
+obesity_bmi30,20261028,1,logistic_regression,sex,Female,2618,1178,1440,True
+obesity_bmi30,20261028,1,logistic_regression,sex,Male,2410,971,1439,True
+obesity_bmi30,20261028,1,logistic_regression,race_ethnicity,Mexican American,589,308,281,True
+obesity_bmi30,20261028,1,logistic_regression,race_ethnicity,Non-Hispanic Asian,618,95,523,True
+obesity_bmi30,20261028,1,logistic_regression,race_ethnicity,Non-Hispanic Black,1330,674,656,True
+obesity_bmi30,20261028,1,logistic_regression,race_ethnicity,Non-Hispanic White,1728,737,991,True
+obesity_bmi30,20261028,1,logistic_regression,race_ethnicity,Other Hispanic,536,226,310,True
+obesity_bmi30,20261028,1,logistic_regression,race_ethnicity,Other/Multi-racial,227,109,118,True
+obesity_bmi30,20261028,1,logistic_regression,age_group,20-39,1565,634,931,True
+obesity_bmi30,20261028,1,logistic_regression,age_group,40-59,1656,773,883,True
+obesity_bmi30,20261028,1,logistic_regression,age_group,60+,1807,742,1065,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Mexican American,283,152,131,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Asian,340,47,293,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Black,712,427,285,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic White,890,377,513,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Other Hispanic,289,121,168,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity,Female | Other/Multi-racial,104,54,50,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Mexican American,306,156,150,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Asian,278,48,230,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Black,618,247,371,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic White,838,360,478,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Other Hispanic,247,105,142,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity,Male | Other/Multi-racial,123,55,68,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,104,54,50,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,125,70,55,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,54,28,26,False
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,123,14,109,False
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,137,19,118,False
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,80,14,66,False
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,228,125,103,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,240,160,80,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,244,142,102,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,257,101,156,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,244,110,134,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,389,166,223,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,104,35,69,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,96,43,53,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,89,43,46,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,43,22,21,False
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,33,17,16,False
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,28,15,13,False
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,122,62,60,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,99,55,44,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,85,39,46,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,93,21,72,False
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,114,21,93,False
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,71,6,65,False
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,166,55,111,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,198,106,92,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,254,86,168,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,200,93,107,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,251,115,136,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,387,152,235,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,81,28,53,False
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,81,42,39,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,85,35,50,True
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,44,24,20,False
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,38,15,23,False
+obesity_bmi30,20261028,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,41,16,25,False
+obesity_bmi30,20261028,1,random_forest,sex,Female,2618,1178,1440,True
+obesity_bmi30,20261028,1,random_forest,sex,Male,2410,971,1439,True
+obesity_bmi30,20261028,1,random_forest,race_ethnicity,Mexican American,589,308,281,True
+obesity_bmi30,20261028,1,random_forest,race_ethnicity,Non-Hispanic Asian,618,95,523,True
+obesity_bmi30,20261028,1,random_forest,race_ethnicity,Non-Hispanic Black,1330,674,656,True
+obesity_bmi30,20261028,1,random_forest,race_ethnicity,Non-Hispanic White,1728,737,991,True
+obesity_bmi30,20261028,1,random_forest,race_ethnicity,Other Hispanic,536,226,310,True
+obesity_bmi30,20261028,1,random_forest,race_ethnicity,Other/Multi-racial,227,109,118,True
+obesity_bmi30,20261028,1,random_forest,age_group,20-39,1565,634,931,True
+obesity_bmi30,20261028,1,random_forest,age_group,40-59,1656,773,883,True
+obesity_bmi30,20261028,1,random_forest,age_group,60+,1807,742,1065,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity,Female | Mexican American,283,152,131,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Asian,340,47,293,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Black,712,427,285,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic White,890,377,513,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity,Female | Other Hispanic,289,121,168,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity,Female | Other/Multi-racial,104,54,50,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity,Male | Mexican American,306,156,150,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Asian,278,48,230,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Black,618,247,371,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic White,838,360,478,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity,Male | Other Hispanic,247,105,142,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity,Male | Other/Multi-racial,123,55,68,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,104,54,50,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,125,70,55,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,54,28,26,False
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,123,14,109,False
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,137,19,118,False
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,80,14,66,False
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,228,125,103,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,240,160,80,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,244,142,102,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,257,101,156,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,244,110,134,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,389,166,223,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,104,35,69,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,96,43,53,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,89,43,46,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,43,22,21,False
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,33,17,16,False
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,28,15,13,False
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,122,62,60,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,99,55,44,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,85,39,46,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,93,21,72,False
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,114,21,93,False
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,71,6,65,False
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,166,55,111,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,198,106,92,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,254,86,168,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,200,93,107,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,251,115,136,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,387,152,235,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,81,28,53,False
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,81,42,39,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,85,35,50,True
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,44,24,20,False
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,38,15,23,False
+obesity_bmi30,20261028,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,41,16,25,False
+obesity_bmi30,20261028,1,xgboost,sex,Female,2618,1178,1440,True
+obesity_bmi30,20261028,1,xgboost,sex,Male,2410,971,1439,True
+obesity_bmi30,20261028,1,xgboost,race_ethnicity,Mexican American,589,308,281,True
+obesity_bmi30,20261028,1,xgboost,race_ethnicity,Non-Hispanic Asian,618,95,523,True
+obesity_bmi30,20261028,1,xgboost,race_ethnicity,Non-Hispanic Black,1330,674,656,True
+obesity_bmi30,20261028,1,xgboost,race_ethnicity,Non-Hispanic White,1728,737,991,True
+obesity_bmi30,20261028,1,xgboost,race_ethnicity,Other Hispanic,536,226,310,True
+obesity_bmi30,20261028,1,xgboost,race_ethnicity,Other/Multi-racial,227,109,118,True
+obesity_bmi30,20261028,1,xgboost,age_group,20-39,1565,634,931,True
+obesity_bmi30,20261028,1,xgboost,age_group,40-59,1656,773,883,True
+obesity_bmi30,20261028,1,xgboost,age_group,60+,1807,742,1065,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity,Female | Mexican American,283,152,131,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Asian,340,47,293,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Black,712,427,285,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic White,890,377,513,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity,Female | Other Hispanic,289,121,168,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity,Female | Other/Multi-racial,104,54,50,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity,Male | Mexican American,306,156,150,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Asian,278,48,230,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Black,618,247,371,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic White,838,360,478,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity,Male | Other Hispanic,247,105,142,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity,Male | Other/Multi-racial,123,55,68,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,104,54,50,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,125,70,55,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,54,28,26,False
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,123,14,109,False
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,137,19,118,False
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,80,14,66,False
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,228,125,103,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,240,160,80,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,244,142,102,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,257,101,156,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,244,110,134,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,389,166,223,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,104,35,69,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,96,43,53,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,89,43,46,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,43,22,21,False
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,33,17,16,False
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,28,15,13,False
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,122,62,60,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,99,55,44,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,85,39,46,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,93,21,72,False
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,114,21,93,False
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,71,6,65,False
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,166,55,111,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,198,106,92,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,254,86,168,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,200,93,107,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,251,115,136,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,387,152,235,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,81,28,53,False
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,81,42,39,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,85,35,50,True
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,44,24,20,False
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,38,15,23,False
+obesity_bmi30,20261028,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,41,16,25,False
+obesity_bmi30,20261029,1,logistic_regression,sex,Female,2584,1166,1418,True
+obesity_bmi30,20261029,1,logistic_regression,sex,Male,2444,983,1461,True
+obesity_bmi30,20261029,1,logistic_regression,race_ethnicity,Mexican American,594,302,292,True
+obesity_bmi30,20261029,1,logistic_regression,race_ethnicity,Non-Hispanic Asian,625,109,516,True
+obesity_bmi30,20261029,1,logistic_regression,race_ethnicity,Non-Hispanic Black,1327,680,647,True
+obesity_bmi30,20261029,1,logistic_regression,race_ethnicity,Non-Hispanic White,1743,738,1005,True
+obesity_bmi30,20261029,1,logistic_regression,race_ethnicity,Other Hispanic,501,203,298,True
+obesity_bmi30,20261029,1,logistic_regression,race_ethnicity,Other/Multi-racial,238,117,121,True
+obesity_bmi30,20261029,1,logistic_regression,age_group,20-39,1528,601,927,True
+obesity_bmi30,20261029,1,logistic_regression,age_group,40-59,1685,804,881,True
+obesity_bmi30,20261029,1,logistic_regression,age_group,60+,1815,744,1071,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Mexican American,311,159,152,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Asian,338,57,281,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic Black,700,418,282,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Non-Hispanic White,860,361,499,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Other Hispanic,263,111,152,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity,Female | Other/Multi-racial,112,60,52,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Mexican American,283,143,140,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Asian,287,52,235,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic Black,627,262,365,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Non-Hispanic White,883,377,506,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Other Hispanic,238,92,146,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity,Male | Other/Multi-racial,126,57,69,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,111,54,57,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,130,65,65,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,70,40,30,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,112,16,96,False
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,144,25,119,False
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,82,16,66,False
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,227,116,111,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,249,169,80,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,224,133,91,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,243,97,146,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,238,109,129,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,379,155,224,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,90,34,56,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,85,41,44,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,88,36,52,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,40,18,22,False
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,37,21,16,False
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,35,21,14,False
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,108,57,51,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,92,53,39,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,83,33,50,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,90,25,65,False
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,117,19,98,False
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,80,8,72,False
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,170,49,121,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,222,123,99,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,235,90,145,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,214,94,120,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,250,122,128,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,419,161,258,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,78,23,55,False
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,72,31,41,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,88,38,50,True
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,45,18,27,False
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,49,26,23,False
+obesity_bmi30,20261029,1,logistic_regression,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,32,13,19,False
+obesity_bmi30,20261029,1,random_forest,sex,Female,2584,1166,1418,True
+obesity_bmi30,20261029,1,random_forest,sex,Male,2444,983,1461,True
+obesity_bmi30,20261029,1,random_forest,race_ethnicity,Mexican American,594,302,292,True
+obesity_bmi30,20261029,1,random_forest,race_ethnicity,Non-Hispanic Asian,625,109,516,True
+obesity_bmi30,20261029,1,random_forest,race_ethnicity,Non-Hispanic Black,1327,680,647,True
+obesity_bmi30,20261029,1,random_forest,race_ethnicity,Non-Hispanic White,1743,738,1005,True
+obesity_bmi30,20261029,1,random_forest,race_ethnicity,Other Hispanic,501,203,298,True
+obesity_bmi30,20261029,1,random_forest,race_ethnicity,Other/Multi-racial,238,117,121,True
+obesity_bmi30,20261029,1,random_forest,age_group,20-39,1528,601,927,True
+obesity_bmi30,20261029,1,random_forest,age_group,40-59,1685,804,881,True
+obesity_bmi30,20261029,1,random_forest,age_group,60+,1815,744,1071,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity,Female | Mexican American,311,159,152,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Asian,338,57,281,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic Black,700,418,282,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity,Female | Non-Hispanic White,860,361,499,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity,Female | Other Hispanic,263,111,152,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity,Female | Other/Multi-racial,112,60,52,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity,Male | Mexican American,283,143,140,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Asian,287,52,235,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic Black,627,262,365,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity,Male | Non-Hispanic White,883,377,506,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity,Male | Other Hispanic,238,92,146,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity,Male | Other/Multi-racial,126,57,69,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,111,54,57,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,130,65,65,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,70,40,30,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,112,16,96,False
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,144,25,119,False
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,82,16,66,False
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,227,116,111,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,249,169,80,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,224,133,91,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,243,97,146,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,238,109,129,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,379,155,224,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,90,34,56,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,85,41,44,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,88,36,52,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,40,18,22,False
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,37,21,16,False
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,35,21,14,False
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,108,57,51,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,92,53,39,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,83,33,50,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,90,25,65,False
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,117,19,98,False
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,80,8,72,False
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,170,49,121,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,222,123,99,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,235,90,145,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,214,94,120,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,250,122,128,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,419,161,258,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,78,23,55,False
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,72,31,41,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,88,38,50,True
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,45,18,27,False
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,49,26,23,False
+obesity_bmi30,20261029,1,random_forest,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,32,13,19,False
+obesity_bmi30,20261029,1,xgboost,sex,Female,2584,1166,1418,True
+obesity_bmi30,20261029,1,xgboost,sex,Male,2444,983,1461,True
+obesity_bmi30,20261029,1,xgboost,race_ethnicity,Mexican American,594,302,292,True
+obesity_bmi30,20261029,1,xgboost,race_ethnicity,Non-Hispanic Asian,625,109,516,True
+obesity_bmi30,20261029,1,xgboost,race_ethnicity,Non-Hispanic Black,1327,680,647,True
+obesity_bmi30,20261029,1,xgboost,race_ethnicity,Non-Hispanic White,1743,738,1005,True
+obesity_bmi30,20261029,1,xgboost,race_ethnicity,Other Hispanic,501,203,298,True
+obesity_bmi30,20261029,1,xgboost,race_ethnicity,Other/Multi-racial,238,117,121,True
+obesity_bmi30,20261029,1,xgboost,age_group,20-39,1528,601,927,True
+obesity_bmi30,20261029,1,xgboost,age_group,40-59,1685,804,881,True
+obesity_bmi30,20261029,1,xgboost,age_group,60+,1815,744,1071,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity,Female | Mexican American,311,159,152,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Asian,338,57,281,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic Black,700,418,282,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity,Female | Non-Hispanic White,860,361,499,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity,Female | Other Hispanic,263,111,152,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity,Female | Other/Multi-racial,112,60,52,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity,Male | Mexican American,283,143,140,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Asian,287,52,235,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic Black,627,262,365,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity,Male | Non-Hispanic White,883,377,506,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity,Male | Other Hispanic,238,92,146,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity,Male | Other/Multi-racial,126,57,69,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 20-39,111,54,57,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 40-59,130,65,65,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Mexican American | 60+,70,40,30,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 20-39,112,16,96,False
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 40-59,144,25,119,False
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Asian | 60+,82,16,66,False
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 20-39,227,116,111,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 40-59,249,169,80,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic Black | 60+,224,133,91,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 20-39,243,97,146,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 40-59,238,109,129,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Non-Hispanic White | 60+,379,155,224,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 20-39,90,34,56,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 40-59,85,41,44,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other Hispanic | 60+,88,36,52,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 20-39,40,18,22,False
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 40-59,37,21,16,False
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Female | Other/Multi-racial | 60+,35,21,14,False
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 20-39,108,57,51,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 40-59,92,53,39,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Mexican American | 60+,83,33,50,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 20-39,90,25,65,False
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 40-59,117,19,98,False
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Asian | 60+,80,8,72,False
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 20-39,170,49,121,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 40-59,222,123,99,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic Black | 60+,235,90,145,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 20-39,214,94,120,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 40-59,250,122,128,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Non-Hispanic White | 60+,419,161,258,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 20-39,78,23,55,False
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 40-59,72,31,41,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other Hispanic | 60+,88,38,50,True
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 20-39,45,18,27,False
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 40-59,49,26,23,False
+obesity_bmi30,20261029,1,xgboost,sex_x_race_ethnicity_x_age_group,Male | Other/Multi-racial | 60+,32,13,19,False

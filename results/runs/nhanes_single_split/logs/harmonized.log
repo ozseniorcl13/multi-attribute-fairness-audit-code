@@ -1,0 +1,80 @@
+2026-11-18 00:14:08,077 INFO Task hba1c_high: n=8081 positive=1171 weighted prevalence=0.1028
+2026-11-18 00:14:08,119 INFO task=hba1c_high seed=20261027 fold=1 model=logistic_regression
+2026-11-18 00:14:08,413 INFO task=hba1c_high seed=20261027 fold=1 model=random_forest
+2026-11-18 00:14:11,572 INFO task=hba1c_high seed=20261027 fold=1 model=xgboost
+2026-11-18 00:14:12,637 INFO Completed task=hba1c_high seed=20261027 fold=1
+2026-11-18 00:14:12,655 INFO task=hba1c_high seed=20261028 fold=1 model=logistic_regression
+2026-11-18 00:14:12,939 INFO task=hba1c_high seed=20261028 fold=1 model=random_forest
+2026-11-18 00:14:16,105 INFO task=hba1c_high seed=20261028 fold=1 model=xgboost
+2026-11-18 00:14:16,808 INFO Completed task=hba1c_high seed=20261028 fold=1
+2026-11-18 00:14:16,828 INFO task=hba1c_high seed=20261029 fold=1 model=logistic_regression
+2026-11-18 00:14:17,128 INFO task=hba1c_high seed=20261029 fold=1 model=random_forest
+2026-11-18 00:14:20,325 INFO task=hba1c_high seed=20261029 fold=1 model=xgboost
+2026-11-18 00:14:20,989 INFO Completed task=hba1c_high seed=20261029 fold=1
+2026-11-18 00:14:20,994 INFO Task measured_bp_high: n=7648 positive=3382 weighted prevalence=0.3803
+2026-11-18 00:14:21,011 INFO task=measured_bp_high seed=20261027 fold=1 model=logistic_regression
+2026-11-18 00:14:21,303 INFO task=measured_bp_high seed=20261027 fold=1 model=random_forest
+2026-11-18 00:14:24,464 INFO task=measured_bp_high seed=20261027 fold=1 model=xgboost
+2026-11-18 00:14:25,064 INFO Completed task=measured_bp_high seed=20261027 fold=1
+2026-11-18 00:14:25,082 INFO task=measured_bp_high seed=20261028 fold=1 model=logistic_regression
+2026-11-18 00:14:25,367 INFO task=measured_bp_high seed=20261028 fold=1 model=random_forest
+2026-11-18 00:14:32,159 INFO task=measured_bp_high seed=20261028 fold=1 model=xgboost
+2026-11-18 00:14:32,785 INFO Completed task=measured_bp_high seed=20261028 fold=1
+2026-11-18 00:14:32,802 INFO task=measured_bp_high seed=20261029 fold=1 model=logistic_regression
+2026-11-18 00:14:33,096 INFO task=measured_bp_high seed=20261029 fold=1 model=random_forest
+2026-11-18 00:14:36,254 INFO task=measured_bp_high seed=20261029 fold=1 model=xgboost
+2026-11-18 00:14:36,876 INFO Completed task=measured_bp_high seed=20261029 fold=1
+2026-11-18 00:14:36,879 INFO Task obesity_bmi30: n=8381 positive=3582 weighted prevalence=0.4196
+2026-11-18 00:14:36,895 INFO task=obesity_bmi30 seed=20261027 fold=1 model=logistic_regression
+2026-11-18 00:14:37,210 INFO task=obesity_bmi30 seed=20261027 fold=1 model=random_forest
+2026-11-18 00:14:40,388 INFO task=obesity_bmi30 seed=20261027 fold=1 model=xgboost
+2026-11-18 00:14:41,077 INFO Completed task=obesity_bmi30 seed=20261027 fold=1
+2026-11-18 00:14:41,095 INFO task=obesity_bmi30 seed=20261028 fold=1 model=logistic_regression
+2026-11-18 00:14:41,403 INFO task=obesity_bmi30 seed=20261028 fold=1 model=random_forest
+2026-11-18 00:14:44,616 INFO task=obesity_bmi30 seed=20261028 fold=1 model=xgboost
+2026-11-18 00:14:45,299 INFO Completed task=obesity_bmi30 seed=20261028 fold=1
+2026-11-18 00:14:45,315 INFO task=obesity_bmi30 seed=20261029 fold=1 model=logistic_regression
+2026-11-18 00:14:45,630 INFO task=obesity_bmi30 seed=20261029 fold=1 model=random_forest
+2026-11-18 00:14:48,835 INFO task=obesity_bmi30 seed=20261029 fold=1 model=xgboost
+2026-11-18 00:14:49,510 INFO Completed task=obesity_bmi30 seed=20261029 fold=1
+2026-11-18 00:14:54,225 INFO Saved 477576 rows to /tmp/fairness-audit-tGoPwH/results/runs/nhanes_single_split/predictions_internal.csv.gz
+2026-11-21 10:13:25,259 INFO Task hba1c_high: n=8081 positive=1171 weighted prevalence=0.1028
+2026-11-21 10:13:25,288 INFO task=hba1c_high seed=20261027 fold=1 model=logistic_regression
+2026-11-21 10:13:25,669 INFO task=hba1c_high seed=20261027 fold=1 model=random_forest
+2026-11-21 10:13:28,873 INFO task=hba1c_high seed=20261027 fold=1 model=xgboost
+2026-11-21 10:13:29,999 INFO Completed task=hba1c_high seed=20261027 fold=1
+2026-11-21 10:13:30,017 INFO task=hba1c_high seed=20261028 fold=1 model=logistic_regression
+2026-11-21 10:13:30,396 INFO task=hba1c_high seed=20261028 fold=1 model=random_forest
+2026-11-21 10:13:33,591 INFO task=hba1c_high seed=20261028 fold=1 model=xgboost
+2026-11-21 10:13:34,317 INFO Completed task=hba1c_high seed=20261028 fold=1
+2026-11-21 10:13:34,335 INFO task=hba1c_high seed=20261029 fold=1 model=logistic_regression
+2026-11-21 10:13:34,709 INFO task=hba1c_high seed=20261029 fold=1 model=random_forest
+2026-11-21 10:13:37,999 INFO task=hba1c_high seed=20261029 fold=1 model=xgboost
+2026-11-21 10:13:38,744 INFO Completed task=hba1c_high seed=20261029 fold=1
+2026-11-21 10:13:38,748 INFO Task measured_bp_high: n=7648 positive=3382 weighted prevalence=0.3803
+2026-11-21 10:13:38,763 INFO task=measured_bp_high seed=20261027 fold=1 model=logistic_regression
+2026-11-21 10:13:39,169 INFO task=measured_bp_high seed=20261027 fold=1 model=random_forest
+2026-11-21 10:13:42,453 INFO task=measured_bp_high seed=20261027 fold=1 model=xgboost
+2026-11-21 10:13:43,169 INFO Completed task=measured_bp_high seed=20261027 fold=1
+2026-11-21 10:13:43,186 INFO task=measured_bp_high seed=20261028 fold=1 model=logistic_regression
+2026-11-21 10:13:43,584 INFO task=measured_bp_high seed=20261028 fold=1 model=random_forest
+2026-11-21 10:13:46,819 INFO task=measured_bp_high seed=20261028 fold=1 model=xgboost
+2026-11-21 10:13:47,537 INFO Completed task=measured_bp_high seed=20261028 fold=1
+2026-11-21 10:13:47,554 INFO task=measured_bp_high seed=20261029 fold=1 model=logistic_regression
+2026-11-21 10:13:47,961 INFO task=measured_bp_high seed=20261029 fold=1 model=random_forest
+2026-11-21 10:13:51,252 INFO task=measured_bp_high seed=20261029 fold=1 model=xgboost
+2026-11-21 10:13:55,550 INFO Completed task=measured_bp_high seed=20261029 fold=1
+2026-11-21 10:13:55,555 INFO Task obesity_bmi30: n=8381 positive=3582 weighted prevalence=0.4196
+2026-11-21 10:13:55,571 INFO task=obesity_bmi30 seed=20261027 fold=1 model=logistic_regression
+2026-11-21 10:13:56,007 INFO task=obesity_bmi30 seed=20261027 fold=1 model=random_forest
+2026-11-21 10:13:59,459 INFO task=obesity_bmi30 seed=20261027 fold=1 model=xgboost
+2026-11-21 10:14:00,274 INFO Completed task=obesity_bmi30 seed=20261027 fold=1
+2026-11-21 10:14:00,291 INFO task=obesity_bmi30 seed=20261028 fold=1 model=logistic_regression
+2026-11-21 10:14:00,720 INFO task=obesity_bmi30 seed=20261028 fold=1 model=random_forest
+2026-11-21 10:14:03,961 INFO task=obesity_bmi30 seed=20261028 fold=1 model=xgboost
+2026-11-21 10:14:04,758 INFO Completed task=obesity_bmi30 seed=20261028 fold=1
+2026-11-21 10:14:04,775 INFO task=obesity_bmi30 seed=20261029 fold=1 model=logistic_regression
+2026-11-21 10:14:05,204 INFO task=obesity_bmi30 seed=20261029 fold=1 model=random_forest
+2026-11-21 10:14:08,528 INFO task=obesity_bmi30 seed=20261029 fold=1 model=xgboost
+2026-11-21 10:14:09,313 INFO Completed task=obesity_bmi30 seed=20261029 fold=1
+2026-11-21 10:14:14,065 INFO Saved 477576 rows to /home/senior/master/multi-attribute-fairness-audit/results/runs/nhanes_single_split/predictions_internal.csv.gz

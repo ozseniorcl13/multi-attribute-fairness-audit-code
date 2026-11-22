@@ -1,0 +1,6 @@
+seed,model,target_axis,status,eo_groups,eo_training_supported_groups,eo_groups_with_validation_support,eo_validation_low_support_n,pooled_low_support_estimable,test_global_baseline_fallback_n
+20261027,xgboost,gender,estimated,3,2,2,1,False,1
+20261027,xgboost,race,estimated,6,5,5,135,False,120
+20261027,xgboost,age,estimated,9,8,8,186,False,144
+20261027,xgboost,race_x_gender,estimated,5,4,4,1273,True,0
+20261027,xgboost,race_x_gender_x_age,estimated,18,17,17,3557,True,0

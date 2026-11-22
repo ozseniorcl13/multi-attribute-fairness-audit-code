@@ -1,0 +1,59 @@
+{
+  "dataset": "NHANES 2017-March 2020 pre-pandemic",
+  "mec_records_with_positive_weight": 14300,
+  "adult_domain_n": 8544,
+  "n_strata": 24,
+  "n_psu_nested_in_strata": 49,
+  "tasks": {
+    "hba1c_high": {
+      "n_adults_with_observed_target": 8081,
+      "positive_n_unweighted": 1171,
+      "prevalence_unweighted": 0.14490780843954956,
+      "prevalence_weighted_point_estimate": 0.10276442218092657,
+      "missing_predictors_percent": {
+        "RIDAGEYR": 0.0,
+        "BMXBMI": 1.6210864991956442,
+        "mean_systolic": 9.751268407375324,
+        "mean_diastolic": 9.751268407375324,
+        "LBXGH": 0.0,
+        "INDFMPIR": 13.649300829105309,
+        "education": 0.14849647320876128
+      }
+    },
+    "measured_bp_high": {
+      "n_adults_with_observed_target": 7648,
+      "positive_n_unweighted": 3382,
+      "prevalence_unweighted": 0.4422071129707113,
+      "prevalence_weighted_point_estimate": 0.3802566552665586,
+      "missing_predictors_percent": {
+        "RIDAGEYR": 0.0,
+        "BMXBMI": 0.928347280334728,
+        "mean_systolic": 0.0,
+        "mean_diastolic": 0.0,
+        "LBXGH": 4.64173640167364,
+        "INDFMPIR": 12.905334728033473,
+        "education": 0.0653765690376569
+      }
+    },
+    "obesity_bmi30": {
+      "n_adults_with_observed_target": 8381,
+      "positive_n_unweighted": 3582,
+      "prevalence_unweighted": 0.4273952988903472,
+      "prevalence_weighted_point_estimate": 0.4195579485496644,
+      "missing_predictors_percent": {
+        "RIDAGEYR": 0.0,
+        "BMXBMI": 0.0,
+        "mean_systolic": 9.593127311776637,
+        "mean_diastolic": 9.593127311776637,
+        "LBXGH": 5.142584417133993,
+        "INDFMPIR": 13.864693950602552,
+        "education": 0.13124925426560075
+      }
+    }
+  },
+  "notes": [
+    "Keep the complete positive-MEC-weight examination sample for design-based domain estimation.",
+    "All three targets are measured markers from a single examination, not confirmed clinical diagnoses.",
+    "Target-specific eligible adults are selected as survey domains, not by discarding other records before survey design setup."
+  ]
+}

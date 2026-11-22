@@ -1,0 +1,1072 @@
+dataset,seed,model,group,n_positive,n_negative,tpr_baseline,fpr_baseline,tpr_eo,fpr_eo
+brfss,20261027,logistic_regression,Black non-Hispanic × Female × 40-64,332,1215,0.837349,0.400000,0.668798,0.409204
+brfss,20261027,logistic_regression,Black non-Hispanic × Female × 65+,431,808,0.870070,0.617574,0.650032,0.385927
+brfss,20261027,logistic_regression,Black non-Hispanic × Male × 40-64,242,893,0.706612,0.365062,0.649313,0.425324
+brfss,20261027,logistic_regression,Black non-Hispanic × Male × 65+,247,461,0.773279,0.572668,0.643748,0.431696
+brfss,20261027,logistic_regression,Hispanic × Female × 40-64,327,1457,0.770642,0.297872,0.670365,0.388045
+brfss,20261027,logistic_regression,Hispanic × Female × 65+,261,470,0.831418,0.502128,0.664742,0.374873
+brfss,20261027,logistic_regression,Hispanic × Male × 40-64,306,1325,0.696078,0.290566,0.658797,0.394028
+brfss,20261027,logistic_regression,Hispanic × Male × 65+,163,319,0.766871,0.501567,0.630757,0.421893
+brfss,20261027,logistic_regression,Other race non-Hispanic × Female × 40-64,170,749,0.711765,0.226969,0.654978,0.404336
+brfss,20261027,logistic_regression,Other race non-Hispanic × Female × 65+,173,402,0.739884,0.450249,0.661507,0.447599
+brfss,20261027,logistic_regression,Other race non-Hispanic × Male × 40-64,185,768,0.708108,0.274740,0.653024,0.416869
+brfss,20261027,logistic_regression,Other race non-Hispanic × Male × 65+,149,342,0.771812,0.409357,0.651878,0.414591
+brfss,20261027,logistic_regression,White non-Hispanic × Female × 18-39,131,5046,0.473282,0.083829,0.649524,0.395264
+brfss,20261027,logistic_regression,White non-Hispanic × Female × 40-64,1312,10673,0.737043,0.242575,0.653725,0.405837
+brfss,20261027,logistic_regression,White non-Hispanic × Female × 65+,2544,12159,0.775550,0.434822,0.650607,0.411957
+brfss,20261027,logistic_regression,White non-Hispanic × Male × 18-39,110,6105,0.436364,0.086323,0.644382,0.401249
+brfss,20261027,logistic_regression,White non-Hispanic × Male × 40-64,1452,9644,0.728650,0.289714,0.647231,0.406083
+brfss,20261027,logistic_regression,White non-Hispanic × Male × 65+,2664,9137,0.751502,0.468425,0.642848,0.408663
+brfss,20261027,random_forest,Black non-Hispanic × Female × 40-64,332,1215,0.855422,0.437860,0.754701,0.507356
+brfss,20261027,random_forest,Black non-Hispanic × Female × 65+,431,808,0.872390,0.672030,0.730283,0.503208
+brfss,20261027,random_forest,Black non-Hispanic × Male × 40-64,242,893,0.772727,0.409854,0.755911,0.528936
+brfss,20261027,random_forest,Black non-Hispanic × Male × 65+,247,461,0.834008,0.635575,0.732867,0.529353
+brfss,20261027,random_forest,Hispanic × Female × 40-64,327,1457,0.798165,0.345916,0.740407,0.489585
+brfss,20261027,random_forest,Hispanic × Female × 65+,261,470,0.858238,0.570213,0.755012,0.501220
+brfss,20261027,random_forest,Hispanic × Male × 40-64,306,1325,0.797386,0.351698,0.743197,0.503883
+brfss,20261027,random_forest,Hispanic × Male × 65+,163,319,0.840491,0.561129,0.773780,0.528597
+brfss,20261027,random_forest,Other race non-Hispanic × Female × 40-64,170,749,0.741176,0.280374,0.721623,0.514587
+brfss,20261027,random_forest,Other race non-Hispanic × Female × 65+,173,402,0.797688,0.524876,0.770841,0.535112
+brfss,20261027,random_forest,Other race non-Hispanic × Male × 40-64,185,768,0.783784,0.337240,0.754493,0.518503
+brfss,20261027,random_forest,Other race non-Hispanic × Male × 65+,149,342,0.805369,0.500000,0.766980,0.511744
+brfss,20261027,random_forest,White non-Hispanic × Female × 18-39,131,5046,0.526718,0.107808,0.729682,0.498527
+brfss,20261027,random_forest,White non-Hispanic × Female × 40-64,1312,10673,0.769817,0.282582,0.743501,0.511496
+brfss,20261027,random_forest,White non-Hispanic × Female × 65+,2544,12159,0.813679,0.474792,0.741678,0.516304
+brfss,20261027,random_forest,White non-Hispanic × Male × 18-39,110,6105,0.500000,0.110238,0.719665,0.508384
+brfss,20261027,random_forest,White non-Hispanic × Male × 40-64,1452,9644,0.765840,0.337930,0.731698,0.514012
+brfss,20261027,random_forest,White non-Hispanic × Male × 65+,2664,9137,0.794294,0.515158,0.734098,0.510008
+brfss,20261027,xgboost,Black non-Hispanic × Female × 40-64,332,1215,0.843373,0.396708,0.714645,0.448110
+brfss,20261027,xgboost,Black non-Hispanic × Female × 65+,431,808,0.870070,0.629950,0.674071,0.445233
+brfss,20261027,xgboost,Black non-Hispanic × Male × 40-64,242,893,0.723140,0.381859,0.690516,0.464407
+brfss,20261027,xgboost,Black non-Hispanic × Male × 65+,247,461,0.801619,0.587852,0.692370,0.459934
+brfss,20261027,xgboost,Hispanic × Female × 40-64,327,1457,0.792049,0.318463,0.697878,0.430507
+brfss,20261027,xgboost,Hispanic × Female × 65+,261,470,0.846743,0.493617,0.715088,0.404854
+brfss,20261027,xgboost,Hispanic × Male × 40-64,306,1325,0.754902,0.307170,0.709830,0.439975
+brfss,20261027,xgboost,Hispanic × Male × 65+,163,319,0.803681,0.514107,0.663183,0.460106
+brfss,20261027,xgboost,Other race non-Hispanic × Female × 40-64,170,749,0.711765,0.237650,0.685815,0.451958
+brfss,20261027,xgboost,Other race non-Hispanic × Female × 65+,173,402,0.780347,0.462687,0.714188,0.476104
+brfss,20261027,xgboost,Other race non-Hispanic × Male × 40-64,185,768,0.724324,0.307292,0.688395,0.462538
+brfss,20261027,xgboost,Other race non-Hispanic × Male × 65+,149,342,0.778523,0.444444,0.704780,0.447510
+brfss,20261027,xgboost,White non-Hispanic × Female × 18-39,131,5046,0.427481,0.079469,0.691123,0.436944
+brfss,20261027,xgboost,White non-Hispanic × Female × 40-64,1312,10673,0.739329,0.242013,0.692400,0.446132
+brfss,20261027,xgboost,White non-Hispanic × Female × 65+,2544,12159,0.787736,0.422814,0.686126,0.451133
+brfss,20261027,xgboost,White non-Hispanic × Male × 18-39,110,6105,0.418182,0.084848,0.690242,0.443273
+brfss,20261027,xgboost,White non-Hispanic × Male × 40-64,1452,9644,0.743802,0.297594,0.678116,0.449469
+brfss,20261027,xgboost,White non-Hispanic × Male × 65+,2664,9137,0.764640,0.475758,0.683357,0.451938
+brfss,20261028,logistic_regression,Black non-Hispanic × Female × 40-64,312,1264,0.868590,0.409019,0.634171,0.374448
+brfss,20261028,logistic_regression,Black non-Hispanic × Female × 65+,480,809,0.885417,0.672435,0.654167,0.390606
+brfss,20261028,logistic_regression,Black non-Hispanic × Male × 40-64,218,985,0.802752,0.368528,0.652936,0.357333
+brfss,20261028,logistic_regression,Black non-Hispanic × Male × 65+,247,487,0.842105,0.550308,0.625204,0.357889
+brfss,20261028,logistic_regression,Hispanic × Female × 40-64,341,1399,0.771261,0.323803,0.648551,0.388671
+brfss,20261028,logistic_regression,Hispanic × Female × 65+,265,469,0.826415,0.545842,0.662315,0.342528
+brfss,20261028,logistic_regression,Hispanic × Male × 40-64,298,1279,0.718121,0.297889,0.605323,0.368468
+brfss,20261028,logistic_regression,Hispanic × Male × 65+,201,333,0.845771,0.516517,0.619993,0.401622
+brfss,20261028,logistic_regression,Other race non-Hispanic × Female × 40-64,152,761,0.763158,0.215506,0.668409,0.371269
+brfss,20261028,logistic_regression,Other race non-Hispanic × Female × 65+,167,416,0.736527,0.430288,0.604780,0.376446
+brfss,20261028,logistic_regression,Other race non-Hispanic × Male × 40-64,187,725,0.705882,0.260690,0.624855,0.354541
+brfss,20261028,logistic_regression,Other race non-Hispanic × Male × 65+,146,349,0.732877,0.455587,0.605316,0.359754
+brfss,20261028,logistic_regression,White non-Hispanic × Female × 18-39,133,5179,0.473684,0.088434,0.622963,0.365269
+brfss,20261028,logistic_regression,White non-Hispanic × Female × 40-64,1328,10718,0.773343,0.258071,0.646958,0.369996
+brfss,20261028,logistic_regression,White non-Hispanic × Female × 65+,2498,12203,0.799039,0.448168,0.619879,0.368162
+brfss,20261028,logistic_regression,White non-Hispanic × Male × 18-39,120,5971,0.433333,0.096969,0.601368,0.367472
+brfss,20261028,logistic_regression,White non-Hispanic × Male × 40-64,1407,9446,0.742715,0.305420,0.619335,0.374798
+brfss,20261028,logistic_regression,White non-Hispanic × Male × 65+,2663,8990,0.779947,0.484205,0.625422,0.366860
+brfss,20261028,random_forest,Black non-Hispanic × Female × 40-64,312,1264,0.836538,0.416139,0.725831,0.495074
+brfss,20261028,random_forest,Black non-Hispanic × Female × 65+,480,809,0.881250,0.665019,0.737254,0.516959
+brfss,20261028,random_forest,Black non-Hispanic × Male × 40-64,218,985,0.802752,0.370558,0.768582,0.470152
+brfss,20261028,random_forest,Black non-Hispanic × Male × 65+,247,487,0.813765,0.577002,0.739665,0.471062
+brfss,20261028,random_forest,Hispanic × Female × 40-64,341,1399,0.774194,0.352395,0.738693,0.499832
+brfss,20261028,random_forest,Hispanic × Female × 65+,265,469,0.841509,0.541578,0.746123,0.466481
+brfss,20261028,random_forest,Hispanic × Male × 40-64,298,1279,0.751678,0.326036,0.690201,0.486465
+brfss,20261028,random_forest,Hispanic × Male × 65+,201,333,0.860697,0.507508,0.740664,0.522104
+brfss,20261028,random_forest,Other race non-Hispanic × Female × 40-64,152,761,0.736842,0.243101,0.765839,0.484681
+brfss,20261028,random_forest,Other race non-Hispanic × Female × 65+,167,416,0.736527,0.430288,0.686140,0.491827
+brfss,20261028,random_forest,Other race non-Hispanic × Male × 40-64,187,725,0.679144,0.288276,0.701774,0.496929
+brfss,20261028,random_forest,Other race non-Hispanic × Male × 65+,146,349,0.732877,0.458453,0.678055,0.449540
+brfss,20261028,random_forest,White non-Hispanic × Female × 18-39,133,5179,0.458647,0.097702,0.705903,0.488534
+brfss,20261028,random_forest,White non-Hispanic × Female × 40-64,1328,10718,0.766566,0.263762,0.738579,0.490834
+brfss,20261028,random_forest,White non-Hispanic × Female × 65+,2498,12203,0.780224,0.441285,0.724405,0.492538
+brfss,20261028,random_forest,White non-Hispanic × Male × 18-39,120,5971,0.475000,0.107520,0.703948,0.493341
+brfss,20261028,random_forest,White non-Hispanic × Male × 40-64,1407,9446,0.759062,0.320030,0.722425,0.495496
+brfss,20261028,random_forest,White non-Hispanic × Male × 65+,2663,8990,0.775817,0.489544,0.729265,0.486610
+brfss,20261028,xgboost,Black non-Hispanic × Female × 40-64,312,1264,0.846154,0.405854,0.625501,0.393492
+brfss,20261028,xgboost,Black non-Hispanic × Female × 65+,480,809,0.872917,0.666255,0.667262,0.407411
+brfss,20261028,xgboost,Black non-Hispanic × Male × 40-64,218,985,0.788991,0.377665,0.648881,0.374125
+brfss,20261028,xgboost,Black non-Hispanic × Male × 65+,247,487,0.838057,0.566735,0.645514,0.372053
+brfss,20261028,xgboost,Hispanic × Female × 40-64,341,1399,0.780059,0.330951,0.666027,0.394412
+brfss,20261028,xgboost,Hispanic × Female × 65+,265,469,0.826415,0.543710,0.649624,0.364113
+brfss,20261028,xgboost,Hispanic × Male × 40-64,298,1279,0.741611,0.304926,0.619354,0.383804
+brfss,20261028,xgboost,Hispanic × Male × 65+,201,333,0.855721,0.549550,0.660523,0.431366
+brfss,20261028,xgboost,Other race non-Hispanic × Female × 40-64,152,761,0.763158,0.229961,0.665002,0.384181
+brfss,20261028,xgboost,Other race non-Hispanic × Female × 65+,167,416,0.748503,0.437500,0.609413,0.392128
+brfss,20261028,xgboost,Other race non-Hispanic × Male × 40-64,187,725,0.700535,0.278621,0.606349,0.374163
+brfss,20261028,xgboost,Other race non-Hispanic × Male × 65+,146,349,0.760274,0.446991,0.609757,0.394401
+brfss,20261028,xgboost,White non-Hispanic × Female × 18-39,133,5179,0.481203,0.085345,0.632558,0.383951
+brfss,20261028,xgboost,White non-Hispanic × Female × 40-64,1328,10718,0.765813,0.254338,0.657229,0.388330
+brfss,20261028,xgboost,White non-Hispanic × Female × 65+,2498,12203,0.798239,0.440711,0.625824,0.388173
+brfss,20261028,xgboost,White non-Hispanic × Male × 18-39,120,5971,0.416667,0.093954,0.615086,0.382837
+brfss,20261028,xgboost,White non-Hispanic × Male × 40-64,1407,9446,0.751244,0.312302,0.625105,0.391225
+brfss,20261028,xgboost,White non-Hispanic × Male × 65+,2663,8990,0.793466,0.493215,0.631084,0.382465
+brfss,20261029,logistic_regression,Black non-Hispanic × Female × 40-64,342,1198,0.833333,0.408180,0.640412,0.385668
+brfss,20261029,logistic_regression,Black non-Hispanic × Female × 65+,467,790,0.862955,0.669620,0.608911,0.393524
+brfss,20261029,logistic_regression,Black non-Hispanic × Male × 40-64,221,990,0.760181,0.375758,0.613869,0.364447
+brfss,20261029,logistic_regression,Black non-Hispanic × Male × 65+,245,480,0.853061,0.577083,0.615706,0.347464
+brfss,20261029,logistic_regression,Hispanic × Female × 40-64,324,1420,0.793210,0.335915,0.659348,0.362766
+brfss,20261029,logistic_regression,Hispanic × Female × 65+,243,477,0.847737,0.566038,0.596607,0.379751
+brfss,20261029,logistic_regression,Hispanic × Male × 40-64,286,1253,0.762238,0.318436,0.643383,0.380423
+brfss,20261029,logistic_regression,Hispanic × Male × 65+,181,324,0.817680,0.561728,0.594627,0.388489
+brfss,20261029,logistic_regression,Other race non-Hispanic × Female × 40-64,165,766,0.745455,0.288512,0.623478,0.374343
+brfss,20261029,logistic_regression,Other race non-Hispanic × Female × 65+,149,436,0.765101,0.495413,0.632239,0.431831
+brfss,20261029,logistic_regression,Other race non-Hispanic × Male × 40-64,197,771,0.736041,0.274968,0.627481,0.357080
+brfss,20261029,logistic_regression,Other race non-Hispanic × Male × 65+,174,367,0.798851,0.474114,0.615077,0.366876
+brfss,20261029,logistic_regression,White non-Hispanic × Female × 18-39,110,5077,0.409091,0.104589,0.633618,0.378844
+brfss,20261029,logistic_regression,White non-Hispanic × Female × 40-64,1322,10700,0.780635,0.265140,0.654007,0.377462
+brfss,20261029,logistic_regression,White non-Hispanic × Female × 65+,2640,12256,0.797727,0.467771,0.642317,0.380254
+brfss,20261029,logistic_regression,White non-Hispanic × Male × 18-39,116,6017,0.491379,0.116836,0.613532,0.383807
+brfss,20261029,logistic_regression,White non-Hispanic × Male × 40-64,1427,9484,0.790470,0.307887,0.656673,0.376622
+brfss,20261029,logistic_regression,White non-Hispanic × Male × 65+,2605,8937,0.791555,0.498713,0.655086,0.376489
+brfss,20261029,random_forest,Black non-Hispanic × Female × 40-64,342,1198,0.815789,0.407346,0.752111,0.507363
+brfss,20261029,random_forest,Black non-Hispanic × Female × 65+,467,790,0.847966,0.667089,0.716949,0.527240
+brfss,20261029,random_forest,Black non-Hispanic × Male × 40-64,221,990,0.760181,0.369697,0.724417,0.490160
+brfss,20261029,random_forest,Black non-Hispanic × Male × 65+,245,480,0.836735,0.570833,0.754405,0.472123
+brfss,20261029,random_forest,Hispanic × Female × 40-64,324,1420,0.771605,0.339437,0.759863,0.493215
+brfss,20261029,random_forest,Hispanic × Female × 65+,243,477,0.831276,0.538784,0.717362,0.502402
+brfss,20261029,random_forest,Hispanic × Male × 40-64,286,1253,0.741259,0.331205,0.740289,0.527648
+brfss,20261029,random_forest,Hispanic × Male × 65+,181,324,0.839779,0.555556,0.733617,0.524878
+brfss,20261029,random_forest,Other race non-Hispanic × Female × 40-64,165,766,0.721212,0.274151,0.732840,0.513781
+brfss,20261029,random_forest,Other race non-Hispanic × Female × 65+,149,436,0.791946,0.488532,0.757551,0.553778
+brfss,20261029,random_forest,Other race non-Hispanic × Male × 40-64,197,771,0.725888,0.282750,0.741270,0.509916
+brfss,20261029,random_forest,Other race non-Hispanic × Male × 65+,174,367,0.787356,0.471390,0.728312,0.506570
+brfss,20261029,random_forest,White non-Hispanic × Female × 18-39,110,5077,0.409091,0.099074,0.736764,0.516725
+brfss,20261029,random_forest,White non-Hispanic × Female × 40-64,1322,10700,0.755673,0.258879,0.753711,0.517053
+brfss,20261029,random_forest,White non-Hispanic × Female × 65+,2640,12256,0.782955,0.446149,0.747078,0.522094
+brfss,20261029,random_forest,White non-Hispanic × Male × 18-39,116,6017,0.491379,0.114509,0.710225,0.524264
+brfss,20261029,random_forest,White non-Hispanic × Male × 40-64,1427,9484,0.768746,0.310523,0.757262,0.519063
+brfss,20261029,random_forest,White non-Hispanic × Male × 65+,2605,8937,0.782342,0.492895,0.761441,0.525497
+brfss,20261029,xgboost,Black non-Hispanic × Female × 40-64,342,1198,0.862573,0.430718,0.610462,0.362807
+brfss,20261029,xgboost,Black non-Hispanic × Female × 65+,467,790,0.895075,0.713924,0.581106,0.344203
+brfss,20261029,xgboost,Black non-Hispanic × Male × 40-64,221,990,0.796380,0.405051,0.600644,0.348979
+brfss,20261029,xgboost,Black non-Hispanic × Male × 65+,245,480,0.869388,0.622917,0.590483,0.334794
+brfss,20261029,xgboost,Hispanic × Female × 40-64,324,1420,0.817901,0.356338,0.627069,0.339596
+brfss,20261029,xgboost,Hispanic × Female × 65+,243,477,0.864198,0.578616,0.559362,0.337387
+brfss,20261029,xgboost,Hispanic × Male × 40-64,286,1253,0.807692,0.352753,0.609419,0.356868
+brfss,20261029,xgboost,Hispanic × Male × 65+,181,324,0.834254,0.608025,0.577471,0.377873
+brfss,20261029,xgboost,Other race non-Hispanic × Female × 40-64,165,766,0.763636,0.300261,0.605673,0.362897
+brfss,20261029,xgboost,Other race non-Hispanic × Female × 65+,149,436,0.798658,0.522936,0.619559,0.404966
+brfss,20261029,xgboost,Other race non-Hispanic × Male × 40-64,197,771,0.786802,0.312581,0.606451,0.336947
+brfss,20261029,xgboost,Other race non-Hispanic × Male × 65+,174,367,0.827586,0.523161,0.593309,0.342430
+brfss,20261029,xgboost,White non-Hispanic × Female × 18-39,110,5077,0.409091,0.105180,0.600534,0.350258
+brfss,20261029,xgboost,White non-Hispanic × Female × 40-64,1322,10700,0.791225,0.281776,0.628214,0.357245
+brfss,20261029,xgboost,White non-Hispanic × Female × 65+,2640,12256,0.823106,0.481886,0.612993,0.357938
+brfss,20261029,xgboost,White non-Hispanic × Male × 18-39,116,6017,0.474138,0.120824,0.592285,0.360017
+brfss,20261029,xgboost,White non-Hispanic × Male × 40-64,1427,9484,0.808690,0.340679,0.624411,0.356899
+brfss,20261029,xgboost,White non-Hispanic × Male × 65+,2605,8937,0.830710,0.540450,0.628645,0.353007
+diabetes130,20261027,logistic_regression,Caucasian × Female × [50-60),120,979,0.550000,0.293156,0.769342,0.694569
+diabetes130,20261027,logistic_regression,Caucasian × Female × [60-70),129,1399,0.581395,0.348821,0.759554,0.691089
+diabetes130,20261027,logistic_regression,Caucasian × Female × [70-80),296,1925,0.557432,0.445714,0.773873,0.727805
+diabetes130,20261027,logistic_regression,Caucasian × Female × [80-90),209,1454,0.559809,0.476616,0.747857,0.719781
+diabetes130,20261027,logistic_regression,Caucasian × Male × [50-60),124,1156,0.580645,0.301903,0.757764,0.703201
+diabetes130,20261027,logistic_regression,Caucasian × Male × [60-70),206,1496,0.495146,0.348930,0.771644,0.714838
+diabetes130,20261027,logistic_regression,Caucasian × Male × [70-80),248,1805,0.568548,0.401108,0.740726,0.706927
+diabetes130,20261027,logistic_regression,Caucasian × Male × [80-90),135,1072,0.629630,0.458022,0.817077,0.728793
+diabetes130,20261027,random_forest,Caucasian × Female × [50-60),120,979,0.566667,0.186925,0.796482,0.693859
+diabetes130,20261027,random_forest,Caucasian × Female × [60-70),129,1399,0.434109,0.224446,0.785210,0.667450
+diabetes130,20261027,random_forest,Caucasian × Female × [70-80),296,1925,0.469595,0.295065,0.795378,0.707834
+diabetes130,20261027,random_forest,Caucasian × Female × [80-90),209,1454,0.473684,0.299175,0.756196,0.693587
+diabetes130,20261027,random_forest,Caucasian × Male × [50-60),124,1156,0.516129,0.197232,0.788388,0.680514
+diabetes130,20261027,random_forest,Caucasian × Male × [60-70),206,1496,0.412621,0.207888,0.798762,0.706145
+diabetes130,20261027,random_forest,Caucasian × Male × [70-80),248,1805,0.463710,0.255402,0.807076,0.673283
+diabetes130,20261027,random_forest,Caucasian × Male × [80-90),135,1072,0.474074,0.319963,0.863698,0.695652
+diabetes130,20261027,xgboost,Caucasian × Female × [50-60),120,979,0.683333,0.347293,0.136265,0.136875
+diabetes130,20261027,xgboost,Caucasian × Female × [60-70),129,1399,0.674419,0.408863,0.132850,0.138976
+diabetes130,20261027,xgboost,Caucasian × Female × [70-80),296,1925,0.736486,0.516883,0.153500,0.131221
+diabetes130,20261027,xgboost,Caucasian × Female × [80-90),209,1454,0.722488,0.563274,0.148892,0.131210
+diabetes130,20261027,xgboost,Caucasian × Male × [50-60),124,1156,0.612903,0.330450,0.132400,0.135598
+diabetes130,20261027,xgboost,Caucasian × Male × [60-70),206,1496,0.621359,0.365642,0.138301,0.135367
+diabetes130,20261027,xgboost,Caucasian × Male × [70-80),248,1805,0.693548,0.454294,0.146881,0.135712
+diabetes130,20261027,xgboost,Caucasian × Male × [80-90),135,1072,0.740741,0.529851,0.147832,0.137879
+diabetes130,20261028,logistic_regression,Caucasian × Female × [50-60),128,1014,0.468750,0.280079,0.477751,0.424259
+diabetes130,20261028,logistic_regression,Caucasian × Female × [60-70),211,1482,0.559242,0.338731,0.508052,0.422248
+diabetes130,20261028,logistic_regression,Caucasian × Female × [70-80),272,1883,0.536765,0.393521,0.506810,0.420393
+diabetes130,20261028,logistic_regression,Caucasian × Female × [80-90),203,1639,0.527094,0.416107,0.516247,0.414935
+diabetes130,20261028,logistic_regression,Caucasian × Male × [50-60),109,1103,0.596330,0.270172,0.569485,0.406112
+diabetes130,20261028,logistic_regression,Caucasian × Male × [60-70),196,1538,0.505102,0.291938,0.526270,0.423851
+diabetes130,20261028,logistic_regression,Caucasian × Male × [70-80),274,1774,0.583942,0.382187,0.570581,0.420916
+diabetes130,20261028,logistic_regression,Caucasian × Male × [80-90),124,1011,0.459677,0.363007,0.467403,0.385408
+diabetes130,20261028,random_forest,Caucasian × Female × [50-60),128,1014,0.523438,0.330375,0.353266,0.280590
+diabetes130,20261028,random_forest,Caucasian × Female × [60-70),211,1482,0.668246,0.400135,0.403684,0.285931
+diabetes130,20261028,random_forest,Caucasian × Female × [70-80),272,1883,0.639706,0.469995,0.387092,0.278879
+diabetes130,20261028,random_forest,Caucasian × Female × [80-90),203,1639,0.684729,0.538133,0.404039,0.287511
+diabetes130,20261028,random_forest,Caucasian × Male × [50-60),109,1103,0.642202,0.283772,0.459406,0.249707
+diabetes130,20261028,random_forest,Caucasian × Male × [60-70),196,1538,0.591837,0.335501,0.405060,0.270326
+diabetes130,20261028,random_forest,Caucasian × Male × [70-80),274,1774,0.693431,0.428410,0.480242,0.273106
+diabetes130,20261028,random_forest,Caucasian × Male × [80-90),124,1011,0.612903,0.472799,0.351644,0.272275
+diabetes130,20261028,xgboost,Caucasian × Female × [50-60),128,1014,0.554688,0.318540,0.904163,0.893877
+diabetes130,20261028,xgboost,Caucasian × Female × [60-70),211,1482,0.620853,0.402159,0.890710,0.889929
+diabetes130,20261028,xgboost,Caucasian × Female × [70-80),272,1883,0.683824,0.456187,0.902123,0.893620
+diabetes130,20261028,xgboost,Caucasian × Female × [80-90),203,1639,0.699507,0.531422,0.900694,0.889593
+diabetes130,20261028,xgboost,Caucasian × Male × [50-60),109,1103,0.605505,0.281052,0.831587,0.901873
+diabetes130,20261028,xgboost,Caucasian × Male × [60-70),196,1538,0.561224,0.315345,0.898265,0.885443
+diabetes130,20261028,xgboost,Caucasian × Male × [70-80),274,1774,0.656934,0.416009,0.891332,0.890150
+diabetes130,20261028,xgboost,Caucasian × Male × [80-90),124,1011,0.620968,0.462908,0.898536,0.889819
+diabetes130,20261029,logistic_regression,Caucasian × Female × [50-60),120,959,0.658333,0.338895,0.749821,0.647388
+diabetes130,20261029,logistic_regression,Caucasian × Female × [60-70),173,1442,0.578035,0.391817,0.730847,0.628323
+diabetes130,20261029,logistic_regression,Caucasian × Female × [70-80),256,1890,0.601562,0.436508,0.735130,0.634613
+diabetes130,20261029,logistic_regression,Caucasian × Female × [80-90),204,1490,0.583333,0.469128,0.698856,0.638764
+diabetes130,20261029,logistic_regression,Caucasian × Male × [50-60),116,1081,0.594828,0.318224,0.759521,0.621684
+diabetes130,20261029,logistic_regression,Caucasian × Male × [60-70),210,1581,0.571429,0.369386,0.726872,0.657016
+diabetes130,20261029,logistic_regression,Caucasian × Male × [70-80),256,1794,0.511719,0.452062,0.753650,0.670885
+diabetes130,20261029,logistic_regression,Caucasian × Male × [80-90),142,1060,0.549296,0.459434,0.660048,0.615147
+diabetes130,20261029,random_forest,Caucasian × Female × [50-60),120,959,0.600000,0.298227,0.846876,0.719683
+diabetes130,20261029,random_forest,Caucasian × Female × [60-70),173,1442,0.549133,0.352288,0.814139,0.717042
+diabetes130,20261029,random_forest,Caucasian × Female × [70-80),256,1890,0.566406,0.397354,0.803700,0.711875
+diabetes130,20261029,random_forest,Caucasian × Female × [80-90),204,1490,0.647059,0.482550,0.849205,0.731162
+diabetes130,20261029,random_forest,Caucasian × Male × [50-60),116,1081,0.525862,0.263645,0.791154,0.733456
+diabetes130,20261029,random_forest,Caucasian × Male × [60-70),210,1581,0.571429,0.323213,0.833997,0.743929
+diabetes130,20261029,random_forest,Caucasian × Male × [70-80),256,1794,0.566406,0.391304,0.820161,0.748515
+diabetes130,20261029,random_forest,Caucasian × Male × [80-90),142,1060,0.556338,0.448113,0.781211,0.734393
+diabetes130,20261029,xgboost,Caucasian × Female × [50-60),120,959,0.575000,0.255474,0.331952,0.248587
+diabetes130,20261029,xgboost,Caucasian × Female × [60-70),173,1442,0.508671,0.287101,0.301975,0.224391
+diabetes130,20261029,xgboost,Caucasian × Female × [70-80),256,1890,0.582031,0.357143,0.289628,0.260505
+diabetes130,20261029,xgboost,Caucasian × Female × [80-90),204,1490,0.617647,0.444295,0.292668,0.255820
+diabetes130,20261029,xgboost,Caucasian × Male × [50-60),116,1081,0.491379,0.209066,0.345438,0.264336
+diabetes130,20261029,xgboost,Caucasian × Male × [60-70),210,1581,0.523810,0.261227,0.294952,0.242758
+diabetes130,20261029,xgboost,Caucasian × Male × [70-80),256,1794,0.503906,0.334448,0.287076,0.250784
+diabetes130,20261029,xgboost,Caucasian × Male × [80-90),142,1060,0.535211,0.390566,0.283917,0.255855
+nhanes_bp,20261027,logistic_regression,Female | Mexican American | 40-59,58,109,0.810345,0.688073,0.471876,0.536862
+nhanes_bp,20261027,logistic_regression,Female | Mexican American | 60+,51,48,0.843137,0.854167,0.552831,0.572840
+nhanes_bp,20261027,logistic_regression,Female | Non-Hispanic Asian | 40-59,72,121,0.458333,0.289256,0.460153,0.468682
+nhanes_bp,20261027,logistic_regression,Female | Non-Hispanic Asian | 60+,74,45,0.554054,0.444444,0.498264,0.538242
+nhanes_bp,20261027,logistic_regression,Female | Non-Hispanic Black | 20-39,102,237,0.696078,0.434599,0.467663,0.517103
+nhanes_bp,20261027,logistic_regression,Female | Non-Hispanic Black | 40-59,203,159,0.719212,0.704403,0.519159,0.453208
+nhanes_bp,20261027,logistic_regression,Female | Non-Hispanic Black | 60+,239,126,0.757322,0.722222,0.489604,0.539243
+nhanes_bp,20261027,logistic_regression,Female | Non-Hispanic White | 20-39,65,307,0.446154,0.302932,0.543489,0.481031
+nhanes_bp,20261027,logistic_regression,Female | Non-Hispanic White | 40-59,160,241,0.618750,0.414938,0.515371,0.501859
+nhanes_bp,20261027,logistic_regression,Female | Non-Hispanic White | 60+,312,260,0.567308,0.553846,0.520745,0.520691
+nhanes_bp,20261027,logistic_regression,Female | Other Hispanic | 40-59,52,79,0.615385,0.518987,0.507646,0.465307
+nhanes_bp,20261027,logistic_regression,Female | Other Hispanic | 60+,86,58,0.813953,0.603448,0.480383,0.546573
+nhanes_bp,20261027,logistic_regression,Male | Mexican American | 20-39,47,116,0.638298,0.543103,0.465297,0.495233
+nhanes_bp,20261027,logistic_regression,Male | Mexican American | 40-59,65,66,0.784615,0.742424,0.451260,0.533850
+nhanes_bp,20261027,logistic_regression,Male | Mexican American | 60+,69,53,0.840580,0.698113,0.488847,0.516338
+nhanes_bp,20261027,logistic_regression,Male | Non-Hispanic Asian | 20-39,37,95,0.405405,0.157895,0.488188,0.433914
+nhanes_bp,20261027,logistic_regression,Male | Non-Hispanic Asian | 40-59,84,98,0.369048,0.336735,0.539577,0.533907
+nhanes_bp,20261027,logistic_regression,Male | Non-Hispanic Asian | 60+,65,47,0.553846,0.468085,0.505883,0.441248
+nhanes_bp,20261027,logistic_regression,Male | Non-Hispanic Black | 20-39,84,186,0.476190,0.424731,0.514788,0.482804
+nhanes_bp,20261027,logistic_regression,Male | Non-Hispanic Black | 40-59,203,126,0.704433,0.563492,0.549349,0.463531
+nhanes_bp,20261027,logistic_regression,Male | Non-Hispanic Black | 60+,269,134,0.710037,0.701493,0.502811,0.515686
+nhanes_bp,20261027,logistic_regression,Male | Non-Hispanic White | 20-39,112,220,0.500000,0.286364,0.463714,0.445309
+nhanes_bp,20261027,logistic_regression,Male | Non-Hispanic White | 40-59,192,208,0.562500,0.471154,0.522952,0.479013
+nhanes_bp,20261027,logistic_regression,Male | Non-Hispanic White | 60+,316,313,0.601266,0.568690,0.534237,0.475957
+nhanes_bp,20261027,logistic_regression,Male | Other Hispanic | 40-59,56,59,0.714286,0.508475,0.487799,0.494047
+nhanes_bp,20261027,logistic_regression,Male | Other Hispanic | 60+,70,67,0.757143,0.746269,0.470017,0.533480
+nhanes_bp,20261027,logistic_regression,Male | Other/Multi-racial | 20-39,30,43,0.633333,0.465116,0.510270,0.509158
+nhanes_bp,20261027,logistic_regression,Male | Other/Multi-racial | 40-59,35,39,0.600000,0.589744,0.490864,0.474425
+nhanes_bp,20261027,random_forest,Female | Mexican American | 40-59,58,109,0.706897,0.669725,0.456830,0.390648
+nhanes_bp,20261027,random_forest,Female | Mexican American | 60+,51,48,0.784314,0.833333,0.517397,0.495840
+nhanes_bp,20261027,random_forest,Female | Non-Hispanic Asian | 40-59,72,121,0.569444,0.338843,0.471359,0.451208
+nhanes_bp,20261027,random_forest,Female | Non-Hispanic Asian | 60+,74,45,0.635135,0.555556,0.462267,0.466106
+nhanes_bp,20261027,random_forest,Female | Non-Hispanic Black | 20-39,102,237,0.529412,0.375527,0.476552,0.424638
+nhanes_bp,20261027,random_forest,Female | Non-Hispanic Black | 40-59,203,159,0.729064,0.735849,0.424907,0.435900
+nhanes_bp,20261027,random_forest,Female | Non-Hispanic Black | 60+,239,126,0.774059,0.730159,0.459205,0.458008
+nhanes_bp,20261027,random_forest,Female | Non-Hispanic White | 20-39,65,307,0.384615,0.224756,0.432184,0.407036
+nhanes_bp,20261027,random_forest,Female | Non-Hispanic White | 40-59,160,241,0.568750,0.439834,0.453475,0.414463
+nhanes_bp,20261027,random_forest,Female | Non-Hispanic White | 60+,312,260,0.618590,0.596154,0.412197,0.442399
+nhanes_bp,20261027,random_forest,Female | Other Hispanic | 40-59,52,79,0.711538,0.518987,0.495224,0.422317
+nhanes_bp,20261027,random_forest,Female | Other Hispanic | 60+,86,58,0.813953,0.637931,0.472553,0.377641
+nhanes_bp,20261027,random_forest,Male | Mexican American | 20-39,47,116,0.659574,0.456897,0.518282,0.385423
+nhanes_bp,20261027,random_forest,Male | Mexican American | 40-59,65,66,0.723077,0.651515,0.477303,0.454679
+nhanes_bp,20261027,random_forest,Male | Mexican American | 60+,69,53,0.884058,0.773585,0.465590,0.422450
+nhanes_bp,20261027,random_forest,Male | Non-Hispanic Asian | 20-39,37,95,0.351351,0.336842,0.397288,0.468526
+nhanes_bp,20261027,random_forest,Male | Non-Hispanic Asian | 40-59,84,98,0.476190,0.397959,0.399600,0.403682
+nhanes_bp,20261027,random_forest,Male | Non-Hispanic Asian | 60+,65,47,0.600000,0.723404,0.424544,0.428721
+nhanes_bp,20261027,random_forest,Male | Non-Hispanic Black | 20-39,84,186,0.464286,0.494624,0.445127,0.445117
+nhanes_bp,20261027,random_forest,Male | Non-Hispanic Black | 40-59,203,126,0.694581,0.634921,0.419820,0.424278
+nhanes_bp,20261027,random_forest,Male | Non-Hispanic Black | 60+,269,134,0.698885,0.731343,0.431842,0.465648
+nhanes_bp,20261027,random_forest,Male | Non-Hispanic White | 20-39,112,220,0.500000,0.231818,0.464620,0.450039
+nhanes_bp,20261027,random_forest,Male | Non-Hispanic White | 40-59,192,208,0.541667,0.500000,0.439927,0.446109
+nhanes_bp,20261027,random_forest,Male | Non-Hispanic White | 60+,316,313,0.664557,0.607029,0.434943,0.433277
+nhanes_bp,20261027,random_forest,Male | Other Hispanic | 40-59,56,59,0.625000,0.576271,0.409377,0.479387
+nhanes_bp,20261027,random_forest,Male | Other Hispanic | 60+,70,67,0.742857,0.791045,0.445116,0.428420
+nhanes_bp,20261027,random_forest,Male | Other/Multi-racial | 20-39,30,43,0.533333,0.488372,0.435556,0.375826
+nhanes_bp,20261027,random_forest,Male | Other/Multi-racial | 40-59,35,39,0.571429,0.692308,0.491988,0.472528
+nhanes_bp,20261027,xgboost,Female | Mexican American | 40-59,58,109,0.741379,0.577982,0.362686,0.372797
+nhanes_bp,20261027,xgboost,Female | Mexican American | 60+,51,48,0.803922,0.791667,0.353616,0.394659
+nhanes_bp,20261027,xgboost,Female | Non-Hispanic Asian | 40-59,72,121,0.541667,0.396694,0.328050,0.290920
+nhanes_bp,20261027,xgboost,Female | Non-Hispanic Asian | 60+,74,45,0.689189,0.622222,0.328179,0.327201
+nhanes_bp,20261027,xgboost,Female | Non-Hispanic Black | 20-39,102,237,0.568627,0.409283,0.295037,0.289546
+nhanes_bp,20261027,xgboost,Female | Non-Hispanic Black | 40-59,203,159,0.704433,0.635220,0.298192,0.304779
+nhanes_bp,20261027,xgboost,Female | Non-Hispanic Black | 60+,239,126,0.774059,0.746032,0.342349,0.362785
+nhanes_bp,20261027,xgboost,Female | Non-Hispanic White | 20-39,65,307,0.446154,0.267101,0.388150,0.314502
+nhanes_bp,20261027,xgboost,Female | Non-Hispanic White | 40-59,160,241,0.606250,0.477178,0.329717,0.318892
+nhanes_bp,20261027,xgboost,Female | Non-Hispanic White | 60+,312,260,0.634615,0.630769,0.358006,0.355774
+nhanes_bp,20261027,xgboost,Female | Other Hispanic | 40-59,52,79,0.692308,0.569620,0.333952,0.299766
+nhanes_bp,20261027,xgboost,Female | Other Hispanic | 60+,86,58,0.813953,0.637931,0.325764,0.361847
+nhanes_bp,20261027,xgboost,Male | Mexican American | 20-39,47,116,0.617021,0.543103,0.276465,0.331913
+nhanes_bp,20261027,xgboost,Male | Mexican American | 40-59,65,66,0.676923,0.666667,0.343541,0.332821
+nhanes_bp,20261027,xgboost,Male | Mexican American | 60+,69,53,0.884058,0.754717,0.381422,0.309125
+nhanes_bp,20261027,xgboost,Male | Non-Hispanic Asian | 20-39,37,95,0.405405,0.357895,0.288313,0.293501
+nhanes_bp,20261027,xgboost,Male | Non-Hispanic Asian | 40-59,84,98,0.511905,0.459184,0.317656,0.287385
+nhanes_bp,20261027,xgboost,Male | Non-Hispanic Asian | 60+,65,47,0.692308,0.659574,0.417415,0.325791
+nhanes_bp,20261027,xgboost,Male | Non-Hispanic Black | 20-39,84,186,0.511905,0.516129,0.269642,0.291684
+nhanes_bp,20261027,xgboost,Male | Non-Hispanic Black | 40-59,203,126,0.689655,0.666667,0.352081,0.363637
+nhanes_bp,20261027,xgboost,Male | Non-Hispanic Black | 60+,269,134,0.702602,0.716418,0.304415,0.316642
+nhanes_bp,20261027,xgboost,Male | Non-Hispanic White | 20-39,112,220,0.553571,0.286364,0.335566,0.319192
+nhanes_bp,20261027,xgboost,Male | Non-Hispanic White | 40-59,192,208,0.562500,0.538462,0.347647,0.312431
+nhanes_bp,20261027,xgboost,Male | Non-Hispanic White | 60+,316,313,0.680380,0.638978,0.343234,0.310304
+nhanes_bp,20261027,xgboost,Male | Other Hispanic | 40-59,56,59,0.732143,0.661017,0.326722,0.381411
+nhanes_bp,20261027,xgboost,Male | Other Hispanic | 60+,70,67,0.714286,0.731343,0.329826,0.385168
+nhanes_bp,20261027,xgboost,Male | Other/Multi-racial | 20-39,30,43,0.666667,0.488372,0.364933,0.307023
+nhanes_bp,20261027,xgboost,Male | Other/Multi-racial | 40-59,35,39,0.657143,0.615385,0.332347,0.279656
+nhanes_bp,20261028,logistic_regression,Female | Mexican American | 40-59,58,109,0.810345,0.770642,0.379471,0.346398
+nhanes_bp,20261028,logistic_regression,Female | Mexican American | 60+,51,48,0.901961,0.937500,0.407875,0.314559
+nhanes_bp,20261028,logistic_regression,Female | Non-Hispanic Asian | 40-59,72,121,0.513889,0.363636,0.311466,0.305118
+nhanes_bp,20261028,logistic_regression,Female | Non-Hispanic Asian | 60+,74,45,0.675676,0.511111,0.248993,0.349676
+nhanes_bp,20261028,logistic_regression,Female | Non-Hispanic Black | 20-39,102,237,0.735294,0.590717,0.344311,0.337127
+nhanes_bp,20261028,logistic_regression,Female | Non-Hispanic Black | 40-59,203,159,0.812808,0.773585,0.358339,0.341408
+nhanes_bp,20261028,logistic_regression,Female | Non-Hispanic Black | 60+,239,126,0.820084,0.785714,0.343958,0.365284
+nhanes_bp,20261028,logistic_regression,Female | Non-Hispanic White | 20-39,65,307,0.584615,0.374593,0.359457,0.338905
+nhanes_bp,20261028,logistic_regression,Female | Non-Hispanic White | 40-59,160,241,0.718750,0.531120,0.387349,0.340856
+nhanes_bp,20261028,logistic_regression,Female | Non-Hispanic White | 60+,312,260,0.721154,0.684615,0.353643,0.351306
+nhanes_bp,20261028,logistic_regression,Female | Other Hispanic | 40-59,52,79,0.807692,0.658228,0.387509,0.409213
+nhanes_bp,20261028,logistic_regression,Female | Other Hispanic | 60+,86,58,0.906977,0.724138,0.540033,0.554000
+nhanes_bp,20261028,logistic_regression,Male | Mexican American | 20-39,47,116,0.808511,0.706897,0.329865,0.355123
+nhanes_bp,20261028,logistic_regression,Male | Mexican American | 40-59,65,66,0.800000,0.803030,0.397482,0.386490
+nhanes_bp,20261028,logistic_regression,Male | Mexican American | 60+,69,53,0.913043,0.830189,0.320142,0.408754
+nhanes_bp,20261028,logistic_regression,Male | Non-Hispanic Asian | 20-39,37,95,0.432432,0.294737,0.310199,0.306826
+nhanes_bp,20261028,logistic_regression,Male | Non-Hispanic Asian | 40-59,84,98,0.416667,0.408163,0.346409,0.362226
+nhanes_bp,20261028,logistic_regression,Male | Non-Hispanic Asian | 60+,65,47,0.584615,0.489362,0.367610,0.237709
+nhanes_bp,20261028,logistic_regression,Male | Non-Hispanic Black | 20-39,84,186,0.619048,0.586022,0.379154,0.312047
+nhanes_bp,20261028,logistic_regression,Male | Non-Hispanic Black | 40-59,203,126,0.793103,0.650794,0.374385,0.349465
+nhanes_bp,20261028,logistic_regression,Male | Non-Hispanic Black | 60+,269,134,0.776952,0.768657,0.304885,0.338194
+nhanes_bp,20261028,logistic_regression,Male | Non-Hispanic White | 20-39,112,220,0.633929,0.381818,0.337024,0.331918
+nhanes_bp,20261028,logistic_regression,Male | Non-Hispanic White | 40-59,192,208,0.692708,0.562500,0.335924,0.320163
+nhanes_bp,20261028,logistic_regression,Male | Non-Hispanic White | 60+,316,313,0.731013,0.686901,0.373562,0.344285
+nhanes_bp,20261028,logistic_regression,Male | Other Hispanic | 40-59,56,59,0.750000,0.728814,0.359543,0.321363
+nhanes_bp,20261028,logistic_regression,Male | Other Hispanic | 60+,70,67,0.785714,0.805970,0.289599,0.329873
+nhanes_bp,20261028,logistic_regression,Male | Other/Multi-racial | 20-39,30,43,0.733333,0.534884,0.287007,0.315421
+nhanes_bp,20261028,logistic_regression,Male | Other/Multi-racial | 40-59,35,39,0.714286,0.743590,0.302583,0.398455
+nhanes_bp,20261028,random_forest,Female | Mexican American | 40-59,58,109,0.724138,0.678899,0.520254,0.518101
+nhanes_bp,20261028,random_forest,Female | Mexican American | 60+,51,48,0.823529,0.895833,0.587935,0.623710
+nhanes_bp,20261028,random_forest,Female | Non-Hispanic Asian | 40-59,72,121,0.527778,0.371901,0.548464,0.555557
+nhanes_bp,20261028,random_forest,Female | Non-Hispanic Asian | 60+,74,45,0.689189,0.644444,0.586240,0.544700
+nhanes_bp,20261028,random_forest,Female | Non-Hispanic Black | 20-39,102,237,0.490196,0.430380,0.534130,0.535330
+nhanes_bp,20261028,random_forest,Female | Non-Hispanic Black | 40-59,203,159,0.778325,0.704403,0.579670,0.527061
+nhanes_bp,20261028,random_forest,Female | Non-Hispanic Black | 60+,239,126,0.782427,0.769841,0.524850,0.556420
+nhanes_bp,20261028,random_forest,Female | Non-Hispanic White | 20-39,65,307,0.476923,0.224756,0.590088,0.507578
+nhanes_bp,20261028,random_forest,Female | Non-Hispanic White | 40-59,160,241,0.650000,0.460581,0.571095,0.544812
+nhanes_bp,20261028,random_forest,Female | Non-Hispanic White | 60+,312,260,0.666667,0.630769,0.537471,0.534023
+nhanes_bp,20261028,random_forest,Female | Other Hispanic | 40-59,52,79,0.692308,0.493671,0.544308,0.430842
+nhanes_bp,20261028,random_forest,Female | Other Hispanic | 60+,86,58,0.837209,0.758621,0.548262,0.604040
+nhanes_bp,20261028,random_forest,Male | Mexican American | 20-39,47,116,0.553191,0.456897,0.447388,0.538702
+nhanes_bp,20261028,random_forest,Male | Mexican American | 40-59,65,66,0.723077,0.696970,0.557543,0.572330
+nhanes_bp,20261028,random_forest,Male | Mexican American | 60+,69,53,0.898551,0.754717,0.608138,0.559839
+nhanes_bp,20261028,random_forest,Male | Non-Hispanic Asian | 20-39,37,95,0.378378,0.284211,0.509557,0.481178
+nhanes_bp,20261028,random_forest,Male | Non-Hispanic Asian | 40-59,84,98,0.476190,0.387755,0.604895,0.541303
+nhanes_bp,20261028,random_forest,Male | Non-Hispanic Asian | 60+,65,47,0.676923,0.659574,0.561098,0.588361
+nhanes_bp,20261028,random_forest,Male | Non-Hispanic Black | 20-39,84,186,0.535714,0.467742,0.563548,0.546722
+nhanes_bp,20261028,random_forest,Male | Non-Hispanic Black | 40-59,203,126,0.773399,0.666667,0.555573,0.562048
+nhanes_bp,20261028,random_forest,Male | Non-Hispanic Black | 60+,269,134,0.754647,0.761194,0.530983,0.531416
+nhanes_bp,20261028,random_forest,Male | Non-Hispanic White | 20-39,112,220,0.544643,0.277273,0.568769,0.541267
+nhanes_bp,20261028,random_forest,Male | Non-Hispanic White | 40-59,192,208,0.593750,0.524038,0.610083,0.555443
+nhanes_bp,20261028,random_forest,Male | Non-Hispanic White | 60+,316,313,0.632911,0.635783,0.539015,0.556543
+nhanes_bp,20261028,random_forest,Male | Other Hispanic | 40-59,56,59,0.642857,0.576271,0.546081,0.528794
+nhanes_bp,20261028,random_forest,Male | Other Hispanic | 60+,70,67,0.728571,0.791045,0.537398,0.500593
+nhanes_bp,20261028,random_forest,Male | Other/Multi-racial | 20-39,30,43,0.500000,0.441860,0.534265,0.540879
+nhanes_bp,20261028,random_forest,Male | Other/Multi-racial | 40-59,35,39,0.714286,0.692308,0.548283,0.574166
+nhanes_bp,20261028,xgboost,Female | Mexican American | 40-59,58,109,0.827586,0.743119,0.441663,0.397165
+nhanes_bp,20261028,xgboost,Female | Mexican American | 60+,51,48,0.862745,0.854167,0.409088,0.303583
+nhanes_bp,20261028,xgboost,Female | Non-Hispanic Asian | 40-59,72,121,0.597222,0.438017,0.381327,0.340702
+nhanes_bp,20261028,xgboost,Female | Non-Hispanic Asian | 60+,74,45,0.783784,0.711111,0.336277,0.398271
+nhanes_bp,20261028,xgboost,Female | Non-Hispanic Black | 20-39,102,237,0.696078,0.535865,0.417227,0.374613
+nhanes_bp,20261028,xgboost,Female | Non-Hispanic Black | 40-59,203,159,0.793103,0.716981,0.396282,0.392087
+nhanes_bp,20261028,xgboost,Female | Non-Hispanic Black | 60+,239,126,0.807531,0.785714,0.375833,0.382922
+nhanes_bp,20261028,xgboost,Female | Non-Hispanic White | 20-39,65,307,0.600000,0.335505,0.346860,0.367734
+nhanes_bp,20261028,xgboost,Female | Non-Hispanic White | 40-59,160,241,0.643750,0.560166,0.385395,0.377756
+nhanes_bp,20261028,xgboost,Female | Non-Hispanic White | 60+,312,260,0.721154,0.653846,0.382823,0.389785
+nhanes_bp,20261028,xgboost,Female | Other Hispanic | 40-59,52,79,0.750000,0.582278,0.405144,0.443817
+nhanes_bp,20261028,xgboost,Female | Other Hispanic | 60+,86,58,0.744186,0.741379,0.584867,0.555595
+nhanes_bp,20261028,xgboost,Male | Mexican American | 20-39,47,116,0.638298,0.594828,0.469825,0.356416
+nhanes_bp,20261028,xgboost,Male | Mexican American | 40-59,65,66,0.830769,0.818182,0.410488,0.380234
+nhanes_bp,20261028,xgboost,Male | Mexican American | 60+,69,53,0.942029,0.830189,0.351265,0.435133
+nhanes_bp,20261028,xgboost,Male | Non-Hispanic Asian | 20-39,37,95,0.567568,0.505263,0.360848,0.405399
+nhanes_bp,20261028,xgboost,Male | Non-Hispanic Asian | 40-59,84,98,0.619048,0.520408,0.343769,0.405506
+nhanes_bp,20261028,xgboost,Male | Non-Hispanic Asian | 60+,65,47,0.723077,0.638298,0.354278,0.352639
+nhanes_bp,20261028,xgboost,Male | Non-Hispanic Black | 20-39,84,186,0.607143,0.580645,0.428338,0.360862
+nhanes_bp,20261028,xgboost,Male | Non-Hispanic Black | 40-59,203,126,0.783251,0.706349,0.363342,0.350271
+nhanes_bp,20261028,xgboost,Male | Non-Hispanic Black | 60+,269,134,0.806691,0.753731,0.377669,0.401228
+nhanes_bp,20261028,xgboost,Male | Non-Hispanic White | 20-39,112,220,0.633929,0.381818,0.369295,0.359647
+nhanes_bp,20261028,xgboost,Male | Non-Hispanic White | 40-59,192,208,0.651042,0.625000,0.369162,0.371188
+nhanes_bp,20261028,xgboost,Male | Non-Hispanic White | 60+,316,313,0.750000,0.690096,0.407929,0.344183
+nhanes_bp,20261028,xgboost,Male | Other Hispanic | 40-59,56,59,0.696429,0.711864,0.371828,0.368203
+nhanes_bp,20261028,xgboost,Male | Other Hispanic | 60+,70,67,0.742857,0.865672,0.340474,0.438114
+nhanes_bp,20261028,xgboost,Male | Other/Multi-racial | 20-39,30,43,0.600000,0.558140,0.319681,0.359535
+nhanes_bp,20261028,xgboost,Male | Other/Multi-racial | 40-59,35,39,0.742857,0.717949,0.406187,0.401750
+nhanes_bp,20261029,logistic_regression,Female | Mexican American | 40-59,58,109,0.724138,0.688073,0.624465,0.518431
+nhanes_bp,20261029,logistic_regression,Female | Mexican American | 60+,51,48,0.901961,0.916667,0.678932,0.720293
+nhanes_bp,20261029,logistic_regression,Female | Non-Hispanic Asian | 40-59,72,121,0.444444,0.355372,0.606831,0.595216
+nhanes_bp,20261029,logistic_regression,Female | Non-Hispanic Asian | 60+,74,45,0.540541,0.466667,0.638184,0.564646
+nhanes_bp,20261029,logistic_regression,Female | Non-Hispanic Black | 20-39,102,237,0.676471,0.489451,0.661660,0.610185
+nhanes_bp,20261029,logistic_regression,Female | Non-Hispanic Black | 40-59,203,159,0.748768,0.754717,0.635272,0.604558
+nhanes_bp,20261029,logistic_regression,Female | Non-Hispanic Black | 60+,239,126,0.757322,0.738095,0.611043,0.614399
+nhanes_bp,20261029,logistic_regression,Female | Non-Hispanic White | 20-39,65,307,0.538462,0.319218,0.651332,0.595031
+nhanes_bp,20261029,logistic_regression,Female | Non-Hispanic White | 40-59,160,241,0.668750,0.468880,0.651575,0.615868
+nhanes_bp,20261029,logistic_regression,Female | Non-Hispanic White | 60+,312,260,0.599359,0.576923,0.623771,0.612457
+nhanes_bp,20261029,logistic_regression,Female | Other Hispanic | 40-59,52,79,0.673077,0.531646,0.667426,0.614871
+nhanes_bp,20261029,logistic_regression,Female | Other Hispanic | 60+,86,58,0.802326,0.689655,0.666028,0.605368
+nhanes_bp,20261029,logistic_regression,Male | Mexican American | 20-39,47,116,0.659574,0.594828,0.629996,0.610842
+nhanes_bp,20261029,logistic_regression,Male | Mexican American | 40-59,65,66,0.815385,0.712121,0.632070,0.616292
+nhanes_bp,20261029,logistic_regression,Male | Mexican American | 60+,69,53,0.913043,0.792453,0.634100,0.625518
+nhanes_bp,20261029,logistic_regression,Male | Non-Hispanic Asian | 20-39,37,95,0.405405,0.200000,0.577047,0.553435
+nhanes_bp,20261029,logistic_regression,Male | Non-Hispanic Asian | 40-59,84,98,0.392857,0.306122,0.608603,0.622685
+nhanes_bp,20261029,logistic_regression,Male | Non-Hispanic Asian | 60+,65,47,0.523077,0.489362,0.640450,0.672166
+nhanes_bp,20261029,logistic_regression,Male | Non-Hispanic Black | 20-39,84,186,0.440476,0.440860,0.631468,0.620457
+nhanes_bp,20261029,logistic_regression,Male | Non-Hispanic Black | 40-59,203,126,0.699507,0.523810,0.634966,0.609148
+nhanes_bp,20261029,logistic_regression,Male | Non-Hispanic Black | 60+,269,134,0.691450,0.708955,0.637054,0.605842
+nhanes_bp,20261029,logistic_regression,Male | Non-Hispanic White | 20-39,112,220,0.535714,0.300000,0.647733,0.614095
+nhanes_bp,20261029,logistic_regression,Male | Non-Hispanic White | 40-59,192,208,0.583333,0.475962,0.616228,0.597647
+nhanes_bp,20261029,logistic_regression,Male | Non-Hispanic White | 60+,316,313,0.639241,0.591054,0.620560,0.609420
+nhanes_bp,20261029,logistic_regression,Male | Other Hispanic | 40-59,56,59,0.660714,0.593220,0.625945,0.652608
+nhanes_bp,20261029,logistic_regression,Male | Other Hispanic | 60+,70,67,0.771429,0.746269,0.585650,0.642201
+nhanes_bp,20261029,logistic_regression,Male | Other/Multi-racial | 20-39,30,43,0.633333,0.488372,0.654136,0.563326
+nhanes_bp,20261029,logistic_regression,Male | Other/Multi-racial | 40-59,35,39,0.657143,0.666667,0.658727,0.660848
+nhanes_bp,20261029,random_forest,Female | Mexican American | 40-59,58,109,0.689655,0.623853,0.294901,0.287405
+nhanes_bp,20261029,random_forest,Female | Mexican American | 60+,51,48,0.843137,0.875000,0.391714,0.384139
+nhanes_bp,20261029,random_forest,Female | Non-Hispanic Asian | 40-59,72,121,0.541667,0.305785,0.315782,0.311946
+nhanes_bp,20261029,random_forest,Female | Non-Hispanic Asian | 60+,74,45,0.648649,0.555556,0.329576,0.321616
+nhanes_bp,20261029,random_forest,Female | Non-Hispanic Black | 20-39,102,237,0.578431,0.421941,0.348265,0.293614
+nhanes_bp,20261029,random_forest,Female | Non-Hispanic Black | 40-59,203,159,0.714286,0.679245,0.314730,0.277312
+nhanes_bp,20261029,random_forest,Female | Non-Hispanic Black | 60+,239,126,0.748954,0.769841,0.311611,0.281556
+nhanes_bp,20261029,random_forest,Female | Non-Hispanic White | 20-39,65,307,0.446154,0.270358,0.384789,0.272051
+nhanes_bp,20261029,random_forest,Female | Non-Hispanic White | 40-59,160,241,0.600000,0.456432,0.343928,0.315106
+nhanes_bp,20261029,random_forest,Female | Non-Hispanic White | 60+,312,260,0.650641,0.607692,0.316172,0.304345
+nhanes_bp,20261029,random_forest,Female | Other Hispanic | 40-59,52,79,0.750000,0.569620,0.348250,0.311862
+nhanes_bp,20261029,random_forest,Female | Other Hispanic | 60+,86,58,0.813953,0.862069,0.345227,0.309381
+nhanes_bp,20261029,random_forest,Male | Mexican American | 20-39,47,116,0.659574,0.474138,0.310868,0.265819
+nhanes_bp,20261029,random_forest,Male | Mexican American | 40-59,65,66,0.661538,0.757576,0.279643,0.280923
+nhanes_bp,20261029,random_forest,Male | Mexican American | 60+,69,53,0.898551,0.830189,0.325177,0.297757
+nhanes_bp,20261029,random_forest,Male | Non-Hispanic Asian | 20-39,37,95,0.540541,0.315789,0.283956,0.270034
+nhanes_bp,20261029,random_forest,Male | Non-Hispanic Asian | 40-59,84,98,0.523810,0.428571,0.293993,0.326524
+nhanes_bp,20261029,random_forest,Male | Non-Hispanic Asian | 60+,65,47,0.569231,0.702128,0.352148,0.391460
+nhanes_bp,20261029,random_forest,Male | Non-Hispanic Black | 20-39,84,186,0.428571,0.446237,0.324263,0.283324
+nhanes_bp,20261029,random_forest,Male | Non-Hispanic Black | 40-59,203,126,0.709360,0.658730,0.307317,0.323287
+nhanes_bp,20261029,random_forest,Male | Non-Hispanic Black | 60+,269,134,0.732342,0.783582,0.308218,0.298595
+nhanes_bp,20261029,random_forest,Male | Non-Hispanic White | 20-39,112,220,0.517857,0.250000,0.354768,0.277555
+nhanes_bp,20261029,random_forest,Male | Non-Hispanic White | 40-59,192,208,0.583333,0.528846,0.285741,0.258321
+nhanes_bp,20261029,random_forest,Male | Non-Hispanic White | 60+,316,313,0.680380,0.613419,0.319531,0.316544
+nhanes_bp,20261029,random_forest,Male | Other Hispanic | 40-59,56,59,0.678571,0.508475,0.287566,0.326278
+nhanes_bp,20261029,random_forest,Male | Other Hispanic | 60+,70,67,0.742857,0.716418,0.265800,0.310313
+nhanes_bp,20261029,random_forest,Male | Other/Multi-racial | 20-39,30,43,0.533333,0.511628,0.240257,0.270979
+nhanes_bp,20261029,random_forest,Male | Other/Multi-racial | 40-59,35,39,0.685714,0.641026,0.335476,0.340171
+nhanes_bp,20261029,xgboost,Female | Mexican American | 40-59,58,109,0.672414,0.633028,0.328371,0.337942
+nhanes_bp,20261029,xgboost,Female | Mexican American | 60+,51,48,0.745098,0.812500,0.461851,0.362129
+nhanes_bp,20261029,xgboost,Female | Non-Hispanic Asian | 40-59,72,121,0.611111,0.438017,0.399604,0.320913
+nhanes_bp,20261029,xgboost,Female | Non-Hispanic Asian | 60+,74,45,0.648649,0.622222,0.378945,0.367998
+nhanes_bp,20261029,xgboost,Female | Non-Hispanic Black | 20-39,102,237,0.529412,0.468354,0.369322,0.353660
+nhanes_bp,20261029,xgboost,Female | Non-Hispanic Black | 40-59,203,159,0.724138,0.666667,0.326739,0.280284
+nhanes_bp,20261029,xgboost,Female | Non-Hispanic Black | 60+,239,126,0.753138,0.706349,0.351921,0.352010
+nhanes_bp,20261029,xgboost,Female | Non-Hispanic White | 20-39,65,307,0.538462,0.332248,0.383417,0.308144
+nhanes_bp,20261029,xgboost,Female | Non-Hispanic White | 40-59,160,241,0.606250,0.493776,0.361473,0.361232
+nhanes_bp,20261029,xgboost,Female | Non-Hispanic White | 60+,312,260,0.650641,0.611538,0.352068,0.305109
+nhanes_bp,20261029,xgboost,Female | Other Hispanic | 40-59,52,79,0.692308,0.556962,0.363992,0.337501
+nhanes_bp,20261029,xgboost,Female | Other Hispanic | 60+,86,58,0.813953,0.741379,0.391811,0.326493
+nhanes_bp,20261029,xgboost,Male | Mexican American | 20-39,47,116,0.659574,0.474138,0.321548,0.276081
+nhanes_bp,20261029,xgboost,Male | Mexican American | 40-59,65,66,0.784615,0.636364,0.288012,0.338457
+nhanes_bp,20261029,xgboost,Male | Mexican American | 60+,69,53,0.869565,0.773585,0.405645,0.368777
+nhanes_bp,20261029,xgboost,Male | Non-Hispanic Asian | 20-39,37,95,0.513514,0.357895,0.290672,0.317365
+nhanes_bp,20261029,xgboost,Male | Non-Hispanic Asian | 40-59,84,98,0.571429,0.500000,0.353171,0.372559
+nhanes_bp,20261029,xgboost,Male | Non-Hispanic Asian | 60+,65,47,0.646154,0.702128,0.403649,0.385482
+nhanes_bp,20261029,xgboost,Male | Non-Hispanic Black | 20-39,84,186,0.476190,0.462366,0.350521,0.317910
+nhanes_bp,20261029,xgboost,Male | Non-Hispanic Black | 40-59,203,126,0.733990,0.595238,0.334322,0.333592
+nhanes_bp,20261029,xgboost,Male | Non-Hispanic Black | 60+,269,134,0.739777,0.753731,0.337981,0.369831
+nhanes_bp,20261029,xgboost,Male | Non-Hispanic White | 20-39,112,220,0.553571,0.277273,0.388574,0.319969
+nhanes_bp,20261029,xgboost,Male | Non-Hispanic White | 40-59,192,208,0.625000,0.552885,0.340912,0.327357
+nhanes_bp,20261029,xgboost,Male | Non-Hispanic White | 60+,316,313,0.696203,0.661342,0.365814,0.360208
+nhanes_bp,20261029,xgboost,Male | Other Hispanic | 40-59,56,59,0.660714,0.694915,0.295709,0.341322
+nhanes_bp,20261029,xgboost,Male | Other Hispanic | 60+,70,67,0.771429,0.776119,0.326051,0.320721
+nhanes_bp,20261029,xgboost,Male | Other/Multi-racial | 20-39,30,43,0.633333,0.488372,0.246995,0.360614
+nhanes_bp,20261029,xgboost,Male | Other/Multi-racial | 40-59,35,39,0.771429,0.717949,0.384209,0.425465
+nhanes_hba1c,20261027,logistic_regression,Female | Mexican American | 60+,42,76,0.857143,0.802632,0.614240,0.564217
+nhanes_hba1c,20261027,logistic_regression,Female | Non-Hispanic Asian | 40-59,30,188,0.400000,0.138298,0.409325,0.299088
+nhanes_hba1c,20261027,logistic_regression,Female | Non-Hispanic Asian | 60+,36,102,0.416667,0.490196,0.401619,0.450907
+nhanes_hba1c,20261027,logistic_regression,Female | Non-Hispanic Black | 40-59,70,302,0.628571,0.526490,0.425833,0.373767
+nhanes_hba1c,20261027,logistic_regression,Female | Non-Hispanic Black | 60+,95,279,0.747368,0.663082,0.460133,0.376876
+nhanes_hba1c,20261027,logistic_regression,Female | Non-Hispanic White | 40-59,39,369,0.743590,0.265583,0.577545,0.350851
+nhanes_hba1c,20261027,logistic_regression,Female | Non-Hispanic White | 60+,86,536,0.813953,0.552239,0.472860,0.380287
+nhanes_hba1c,20261027,logistic_regression,Female | Other Hispanic | 60+,43,113,0.837209,0.672566,0.645426,0.502202
+nhanes_hba1c,20261027,logistic_regression,Male | Mexican American | 40-59,31,121,0.741935,0.561983,0.545591,0.474833
+nhanes_hba1c,20261027,logistic_regression,Male | Mexican American | 60+,46,87,0.826087,0.781609,0.589061,0.468755
+nhanes_hba1c,20261027,logistic_regression,Male | Non-Hispanic Asian | 40-59,34,152,0.117647,0.131579,0.317291,0.312164
+nhanes_hba1c,20261027,logistic_regression,Male | Non-Hispanic Asian | 60+,37,82,0.459459,0.378049,0.396216,0.398375
+nhanes_hba1c,20261027,logistic_regression,Male | Non-Hispanic Black | 40-59,57,268,0.561404,0.429104,0.461785,0.381920
+nhanes_hba1c,20261027,logistic_regression,Male | Non-Hispanic Black | 60+,100,298,0.700000,0.540268,0.440841,0.383376
+nhanes_hba1c,20261027,logistic_regression,Male | Non-Hispanic White | 40-59,46,357,0.543478,0.305322,0.394209,0.357667
+nhanes_hba1c,20261027,logistic_regression,Male | Non-Hispanic White | 60+,144,522,0.673611,0.509579,0.476820,0.365105
+nhanes_hba1c,20261027,logistic_regression,Male | Other Hispanic | 60+,43,102,0.674419,0.549020,0.493818,0.485056
+nhanes_hba1c,20261027,random_forest,Female | Mexican American | 60+,42,76,0.809524,0.697368,0.774966,0.757310
+nhanes_hba1c,20261027,random_forest,Female | Non-Hispanic Asian | 40-59,30,188,0.333333,0.175532,0.646362,0.532665
+nhanes_hba1c,20261027,random_forest,Female | Non-Hispanic Asian | 60+,36,102,0.444444,0.470588,0.691265,0.676870
+nhanes_hba1c,20261027,random_forest,Female | Non-Hispanic Black | 40-59,70,302,0.671429,0.566225,0.760628,0.637960
+nhanes_hba1c,20261027,random_forest,Female | Non-Hispanic Black | 60+,95,279,0.757895,0.655914,0.696440,0.623025
+nhanes_hba1c,20261027,random_forest,Female | Non-Hispanic White | 40-59,39,369,0.743590,0.303523,0.782072,0.596434
+nhanes_hba1c,20261027,random_forest,Female | Non-Hispanic White | 60+,86,536,0.813953,0.548507,0.692113,0.634554
+nhanes_hba1c,20261027,random_forest,Female | Other Hispanic | 60+,43,113,0.906977,0.663717,0.856673,0.648719
+nhanes_hba1c,20261027,random_forest,Male | Mexican American | 40-59,31,121,0.806452,0.570248,0.783019,0.717388
+nhanes_hba1c,20261027,random_forest,Male | Mexican American | 60+,46,87,0.847826,0.666667,0.795899,0.742863
+nhanes_hba1c,20261027,random_forest,Male | Non-Hispanic Asian | 40-59,34,152,0.176471,0.190789,0.580485,0.546298
+nhanes_hba1c,20261027,random_forest,Male | Non-Hispanic Asian | 60+,37,82,0.324324,0.378049,0.630199,0.676307
+nhanes_hba1c,20261027,random_forest,Male | Non-Hispanic Black | 40-59,57,268,0.649123,0.466418,0.703582,0.638183
+nhanes_hba1c,20261027,random_forest,Male | Non-Hispanic Black | 60+,100,298,0.680000,0.526846,0.672516,0.628736
+nhanes_hba1c,20261027,random_forest,Male | Non-Hispanic White | 40-59,46,357,0.478261,0.341737,0.663000,0.612261
+nhanes_hba1c,20261027,random_forest,Male | Non-Hispanic White | 60+,144,522,0.694444,0.524904,0.748837,0.624399
+nhanes_hba1c,20261027,random_forest,Male | Other Hispanic | 60+,43,102,0.767442,0.627451,0.737927,0.727530
+nhanes_hba1c,20261027,xgboost,Female | Mexican American | 60+,42,76,0.952381,0.828947,0.725525,0.671551
+nhanes_hba1c,20261027,xgboost,Female | Non-Hispanic Asian | 40-59,30,188,0.533333,0.250000,0.603379,0.475650
+nhanes_hba1c,20261027,xgboost,Female | Non-Hispanic Asian | 60+,36,102,0.666667,0.568627,0.605355,0.615334
+nhanes_hba1c,20261027,xgboost,Female | Non-Hispanic Black | 40-59,70,302,0.771429,0.632450,0.574373,0.563225
+nhanes_hba1c,20261027,xgboost,Female | Non-Hispanic Black | 60+,95,279,0.800000,0.695341,0.646004,0.545785
+nhanes_hba1c,20261027,xgboost,Female | Non-Hispanic White | 40-59,39,369,0.717949,0.411924,0.670168,0.534754
+nhanes_hba1c,20261027,xgboost,Female | Non-Hispanic White | 60+,86,536,0.883721,0.666045,0.611851,0.545466
+nhanes_hba1c,20261027,xgboost,Female | Other Hispanic | 60+,43,113,0.930233,0.707965,0.762797,0.582843
+nhanes_hba1c,20261027,xgboost,Male | Mexican American | 40-59,31,121,0.838710,0.652893,0.714764,0.623113
+nhanes_hba1c,20261027,xgboost,Male | Mexican American | 60+,46,87,0.869565,0.862069,0.643294,0.656259
+nhanes_hba1c,20261027,xgboost,Male | Non-Hispanic Asian | 40-59,34,152,0.323529,0.309211,0.511543,0.499057
+nhanes_hba1c,20261027,xgboost,Male | Non-Hispanic Asian | 60+,37,82,0.513514,0.487805,0.528932,0.576854
+nhanes_hba1c,20261027,xgboost,Male | Non-Hispanic Black | 40-59,57,268,0.701754,0.589552,0.618865,0.568274
+nhanes_hba1c,20261027,xgboost,Male | Non-Hispanic Black | 60+,100,298,0.680000,0.640940,0.558263,0.524576
+nhanes_hba1c,20261027,xgboost,Male | Non-Hispanic White | 40-59,46,357,0.565217,0.442577,0.568720,0.544831
+nhanes_hba1c,20261027,xgboost,Male | Non-Hispanic White | 60+,144,522,0.777778,0.659004,0.632073,0.556132
+nhanes_hba1c,20261027,xgboost,Male | Other Hispanic | 60+,43,102,0.720930,0.647059,0.650795,0.623489
+nhanes_hba1c,20261028,logistic_regression,Female | Mexican American | 60+,42,76,0.857143,0.789474,0.867914,0.851734
+nhanes_hba1c,20261028,logistic_regression,Female | Non-Hispanic Asian | 40-59,30,188,0.400000,0.154255,0.801298,0.606956
+nhanes_hba1c,20261028,logistic_regression,Female | Non-Hispanic Asian | 60+,36,102,0.611111,0.490196,0.805565,0.799529
+nhanes_hba1c,20261028,logistic_regression,Female | Non-Hispanic Black | 40-59,70,302,0.628571,0.566225,0.754329,0.693602
+nhanes_hba1c,20261028,logistic_regression,Female | Non-Hispanic Black | 60+,95,279,0.726316,0.706093,0.778390,0.738373
+nhanes_hba1c,20261028,logistic_regression,Female | Non-Hispanic White | 40-59,39,369,0.692308,0.284553,0.852834,0.691995
+nhanes_hba1c,20261028,logistic_regression,Female | Non-Hispanic White | 60+,86,536,0.790698,0.602612,0.790622,0.721211
+nhanes_hba1c,20261028,logistic_regression,Female | Other Hispanic | 60+,43,113,0.930233,0.681416,0.881473,0.810529
+nhanes_hba1c,20261028,logistic_regression,Male | Mexican American | 40-59,31,121,0.741935,0.619835,0.870955,0.837702
+nhanes_hba1c,20261028,logistic_regression,Male | Mexican American | 60+,46,87,0.891304,0.770115,0.876780,0.832250
+nhanes_hba1c,20261028,logistic_regression,Male | Non-Hispanic Asian | 40-59,34,152,0.235294,0.151316,0.748688,0.628260
+nhanes_hba1c,20261028,logistic_regression,Male | Non-Hispanic Asian | 60+,37,82,0.540541,0.500000,0.814538,0.782625
+nhanes_hba1c,20261028,logistic_regression,Male | Non-Hispanic Black | 40-59,57,268,0.596491,0.455224,0.815523,0.694294
+nhanes_hba1c,20261028,logistic_regression,Male | Non-Hispanic Black | 60+,100,298,0.710000,0.590604,0.778773,0.699037
+nhanes_hba1c,20261028,logistic_regression,Male | Non-Hispanic White | 40-59,46,357,0.543478,0.299720,0.758331,0.722144
+nhanes_hba1c,20261028,logistic_regression,Male | Non-Hispanic White | 60+,144,522,0.666667,0.568966,0.793766,0.710391
+nhanes_hba1c,20261028,logistic_regression,Male | Other Hispanic | 60+,43,102,0.767442,0.637255,0.872389,0.843708
+nhanes_hba1c,20261028,random_forest,Female | Mexican American | 60+,42,76,0.714286,0.750000,0.797396,0.760907
+nhanes_hba1c,20261028,random_forest,Female | Non-Hispanic Asian | 40-59,30,188,0.366667,0.170213,0.616485,0.486577
+nhanes_hba1c,20261028,random_forest,Female | Non-Hispanic Asian | 60+,36,102,0.527778,0.431373,0.642410,0.689171
+nhanes_hba1c,20261028,random_forest,Female | Non-Hispanic Black | 40-59,70,302,0.657143,0.546358,0.593449,0.560682
+nhanes_hba1c,20261028,random_forest,Female | Non-Hispanic Black | 60+,95,279,0.757895,0.655914,0.682634,0.587889
+nhanes_hba1c,20261028,random_forest,Female | Non-Hispanic White | 40-59,39,369,0.769231,0.336043,0.757287,0.562855
+nhanes_hba1c,20261028,random_forest,Female | Non-Hispanic White | 60+,86,536,0.779070,0.544776,0.663287,0.596212
+nhanes_hba1c,20261028,random_forest,Female | Other Hispanic | 60+,43,113,0.906977,0.681416,0.836480,0.716386
+nhanes_hba1c,20261028,random_forest,Male | Mexican American | 40-59,31,121,0.806452,0.578512,0.753196,0.740535
+nhanes_hba1c,20261028,random_forest,Male | Mexican American | 60+,46,87,0.913043,0.747126,0.837691,0.708018
+nhanes_hba1c,20261028,random_forest,Male | Non-Hispanic Asian | 40-59,34,152,0.147059,0.217105,0.494984,0.520755
+nhanes_hba1c,20261028,random_forest,Male | Non-Hispanic Asian | 60+,37,82,0.432432,0.524390,0.647363,0.683205
+nhanes_hba1c,20261028,random_forest,Male | Non-Hispanic Black | 40-59,57,268,0.631579,0.466418,0.683482,0.601839
+nhanes_hba1c,20261028,random_forest,Male | Non-Hispanic Black | 60+,100,298,0.740000,0.583893,0.628010,0.597015
+nhanes_hba1c,20261028,random_forest,Male | Non-Hispanic White | 40-59,46,357,0.500000,0.358543,0.685736,0.592891
+nhanes_hba1c,20261028,random_forest,Male | Non-Hispanic White | 60+,144,522,0.638889,0.542146,0.669615,0.595242
+nhanes_hba1c,20261028,random_forest,Male | Other Hispanic | 60+,43,102,0.720930,0.578431,0.765248,0.727580
+nhanes_hba1c,20261028,xgboost,Female | Mexican American | 60+,42,76,0.785714,0.684211,0.631398,0.609838
+nhanes_hba1c,20261028,xgboost,Female | Non-Hispanic Asian | 40-59,30,188,0.300000,0.127660,0.439473,0.336873
+nhanes_hba1c,20261028,xgboost,Female | Non-Hispanic Asian | 60+,36,102,0.472222,0.362745,0.480830,0.483463
+nhanes_hba1c,20261028,xgboost,Female | Non-Hispanic Black | 40-59,70,302,0.557143,0.417219,0.517507,0.405085
+nhanes_hba1c,20261028,xgboost,Female | Non-Hispanic Black | 60+,95,279,0.610526,0.598566,0.443525,0.437728
+nhanes_hba1c,20261028,xgboost,Female | Non-Hispanic White | 40-59,39,369,0.615385,0.284553,0.662960,0.398850
+nhanes_hba1c,20261028,xgboost,Female | Non-Hispanic White | 60+,86,536,0.732558,0.481343,0.576583,0.452042
+nhanes_hba1c,20261028,xgboost,Female | Other Hispanic | 60+,43,113,0.790698,0.601770,0.674979,0.560829
+nhanes_hba1c,20261028,xgboost,Male | Mexican American | 40-59,31,121,0.709677,0.512397,0.586149,0.553570
+nhanes_hba1c,20261028,xgboost,Male | Mexican American | 60+,46,87,0.847826,0.701149,0.665921,0.603208
+nhanes_hba1c,20261028,xgboost,Male | Non-Hispanic Asian | 40-59,34,152,0.205882,0.171053,0.313667,0.356942
+nhanes_hba1c,20261028,xgboost,Male | Non-Hispanic Asian | 60+,37,82,0.405405,0.414634,0.504536,0.518387
+nhanes_hba1c,20261028,xgboost,Male | Non-Hispanic Black | 40-59,57,268,0.578947,0.365672,0.569192,0.440058
+nhanes_hba1c,20261028,xgboost,Male | Non-Hispanic Black | 60+,100,298,0.610000,0.493289,0.516200,0.440081
+nhanes_hba1c,20261028,xgboost,Male | Non-Hispanic White | 40-59,46,357,0.391304,0.299720,0.496263,0.428812
+nhanes_hba1c,20261028,xgboost,Male | Non-Hispanic White | 60+,144,522,0.576389,0.490421,0.478077,0.439969
+nhanes_hba1c,20261028,xgboost,Male | Other Hispanic | 60+,43,102,0.627907,0.509804,0.584817,0.553482
+nhanes_hba1c,20261029,logistic_regression,Female | Mexican American | 60+,42,76,0.857143,0.789474,0.701315,0.688914
+nhanes_hba1c,20261029,logistic_regression,Female | Non-Hispanic Asian | 40-59,30,188,0.400000,0.143617,0.591156,0.422354
+nhanes_hba1c,20261029,logistic_regression,Female | Non-Hispanic Asian | 60+,36,102,0.500000,0.470588,0.552556,0.564515
+nhanes_hba1c,20261029,logistic_regression,Female | Non-Hispanic Black | 40-59,70,302,0.671429,0.506623,0.622552,0.513574
+nhanes_hba1c,20261029,logistic_regression,Female | Non-Hispanic Black | 60+,95,279,0.747368,0.645161,0.633726,0.524203
+nhanes_hba1c,20261029,logistic_regression,Female | Non-Hispanic White | 40-59,39,369,0.615385,0.260163,0.629778,0.479599
+nhanes_hba1c,20261029,logistic_regression,Female | Non-Hispanic White | 60+,86,536,0.790698,0.535448,0.607411,0.510311
+nhanes_hba1c,20261029,logistic_regression,Female | Other Hispanic | 60+,43,113,0.837209,0.654867,0.695303,0.652011
+nhanes_hba1c,20261029,logistic_regression,Male | Mexican American | 40-59,31,121,0.677419,0.603306,0.646399,0.622369
+nhanes_hba1c,20261029,logistic_regression,Male | Mexican American | 60+,46,87,0.869565,0.712644,0.704633,0.728472
+nhanes_hba1c,20261029,logistic_regression,Male | Non-Hispanic Asian | 40-59,34,152,0.117647,0.144737,0.414579,0.439917
+nhanes_hba1c,20261029,logistic_regression,Male | Non-Hispanic Asian | 60+,37,82,0.432432,0.365854,0.524880,0.576086
+nhanes_hba1c,20261029,logistic_regression,Male | Non-Hispanic Black | 40-59,57,268,0.526316,0.399254,0.626241,0.538735
+nhanes_hba1c,20261029,logistic_regression,Male | Non-Hispanic Black | 60+,100,298,0.670000,0.546980,0.591352,0.545930
+nhanes_hba1c,20261029,logistic_regression,Male | Non-Hispanic White | 40-59,46,357,0.434783,0.263305,0.524762,0.453092
+nhanes_hba1c,20261029,logistic_regression,Male | Non-Hispanic White | 60+,144,522,0.638889,0.503831,0.656680,0.521959
+nhanes_hba1c,20261029,logistic_regression,Male | Other Hispanic | 60+,43,102,0.720930,0.539216,0.694887,0.635161
+nhanes_hba1c,20261029,random_forest,Female | Mexican American | 60+,42,76,0.738095,0.763158,0.648422,0.634485
+nhanes_hba1c,20261029,random_forest,Female | Non-Hispanic Asian | 40-59,30,188,0.400000,0.170213,0.395824,0.389798
+nhanes_hba1c,20261029,random_forest,Female | Non-Hispanic Asian | 60+,36,102,0.500000,0.490196,0.550781,0.539766
+nhanes_hba1c,20261029,random_forest,Female | Non-Hispanic Black | 40-59,70,302,0.642857,0.569536,0.528550,0.467374
+nhanes_hba1c,20261029,random_forest,Female | Non-Hispanic Black | 60+,95,279,0.747368,0.673835,0.584890,0.531303
+nhanes_hba1c,20261029,random_forest,Female | Non-Hispanic White | 40-59,39,369,0.717949,0.295393,0.659407,0.462025
+nhanes_hba1c,20261029,random_forest,Female | Non-Hispanic White | 60+,86,536,0.790698,0.559701,0.551494,0.471441
+nhanes_hba1c,20261029,random_forest,Female | Other Hispanic | 60+,43,113,0.906977,0.681416,0.694159,0.581710
+nhanes_hba1c,20261029,random_forest,Male | Mexican American | 40-59,31,121,0.806452,0.561983,0.669997,0.560574
+nhanes_hba1c,20261029,random_forest,Male | Mexican American | 60+,46,87,0.891304,0.712644,0.663737,0.646147
+nhanes_hba1c,20261029,random_forest,Male | Non-Hispanic Asian | 40-59,34,152,0.117647,0.223684,0.424214,0.404334
+nhanes_hba1c,20261029,random_forest,Male | Non-Hispanic Asian | 60+,37,82,0.459459,0.426829,0.520993,0.518946
+nhanes_hba1c,20261029,random_forest,Male | Non-Hispanic Black | 40-59,57,268,0.578947,0.447761,0.544097,0.509864
+nhanes_hba1c,20261029,random_forest,Male | Non-Hispanic Black | 60+,100,298,0.660000,0.590604,0.582024,0.499186
+nhanes_hba1c,20261029,random_forest,Male | Non-Hispanic White | 40-59,46,357,0.500000,0.333333,0.535911,0.443437
+nhanes_hba1c,20261029,random_forest,Male | Non-Hispanic White | 60+,144,522,0.666667,0.565134,0.538382,0.496861
+nhanes_hba1c,20261029,random_forest,Male | Other Hispanic | 60+,43,102,0.627907,0.588235,0.547032,0.569301
+nhanes_hba1c,20261029,xgboost,Female | Mexican American | 60+,42,76,0.785714,0.802632,0.796313,0.734508
+nhanes_hba1c,20261029,xgboost,Female | Non-Hispanic Asian | 40-59,30,188,0.366667,0.218085,0.631101,0.608512
+nhanes_hba1c,20261029,xgboost,Female | Non-Hispanic Asian | 60+,36,102,0.555556,0.480392,0.716138,0.637711
+nhanes_hba1c,20261029,xgboost,Female | Non-Hispanic Black | 40-59,70,302,0.628571,0.543046,0.683154,0.627462
+nhanes_hba1c,20261029,xgboost,Female | Non-Hispanic Black | 60+,95,279,0.726316,0.655914,0.735708,0.680677
+nhanes_hba1c,20261029,xgboost,Female | Non-Hispanic White | 40-59,39,369,0.641026,0.314363,0.721190,0.649049
+nhanes_hba1c,20261029,xgboost,Female | Non-Hispanic White | 60+,86,536,0.802326,0.565299,0.716676,0.641124
+nhanes_hba1c,20261029,xgboost,Female | Other Hispanic | 60+,43,113,0.837209,0.716814,0.772863,0.750223
+nhanes_hba1c,20261029,xgboost,Male | Mexican American | 40-59,31,121,0.806452,0.545455,0.736141,0.713921
+nhanes_hba1c,20261029,xgboost,Male | Mexican American | 60+,46,87,0.826087,0.758621,0.713119,0.723916
+nhanes_hba1c,20261029,xgboost,Male | Non-Hispanic Asian | 40-59,34,152,0.264706,0.197368,0.643176,0.567511
+nhanes_hba1c,20261029,xgboost,Male | Non-Hispanic Asian | 60+,37,82,0.378378,0.451220,0.518736,0.669406
+nhanes_hba1c,20261029,xgboost,Male | Non-Hispanic Black | 40-59,57,268,0.631579,0.458955,0.698995,0.654477
+nhanes_hba1c,20261029,xgboost,Male | Non-Hispanic Black | 60+,100,298,0.700000,0.573826,0.648094,0.622498
+nhanes_hba1c,20261029,xgboost,Male | Non-Hispanic White | 40-59,46,357,0.434783,0.375350,0.515477,0.549267
+nhanes_hba1c,20261029,xgboost,Male | Non-Hispanic White | 60+,144,522,0.715278,0.588123,0.739570,0.680471
+nhanes_hba1c,20261029,xgboost,Male | Other Hispanic | 60+,43,102,0.674419,0.607843,0.734735,0.719961
+nhanes_obesity,20261027,logistic_regression,Female | Mexican American | 20-39,93,90,0.494624,0.155556,0.468460,0.380686
+nhanes_obesity,20261027,logistic_regression,Female | Mexican American | 40-59,102,93,0.490196,0.311828,0.514767,0.461488
+nhanes_obesity,20261027,logistic_regression,Female | Mexican American | 60+,61,55,0.459016,0.218182,0.423702,0.360327
+nhanes_obesity,20261027,logistic_regression,Female | Non-Hispanic Asian | 40-59,36,190,0.638889,0.378947,0.492786,0.449143
+nhanes_obesity,20261027,logistic_regression,Female | Non-Hispanic Black | 20-39,209,177,0.607656,0.220339,0.478672,0.385521
+nhanes_obesity,20261027,logistic_regression,Female | Non-Hispanic Black | 40-59,275,124,0.734545,0.459677,0.462260,0.381247
+nhanes_obesity,20261027,logistic_regression,Female | Non-Hispanic Black | 60+,230,168,0.452174,0.345238,0.474848,0.384397
+nhanes_obesity,20261027,logistic_regression,Female | Non-Hispanic White | 20-39,168,240,0.511905,0.158333,0.489031,0.370209
+nhanes_obesity,20261027,logistic_regression,Female | Non-Hispanic White | 40-59,190,230,0.752632,0.317391,0.424642,0.355545
+nhanes_obesity,20261027,logistic_regression,Female | Non-Hispanic White | 60+,272,355,0.382353,0.143662,0.432050,0.390774
+nhanes_obesity,20261027,logistic_regression,Female | Other Hispanic | 20-39,55,97,0.400000,0.144330,0.472974,0.331492
+nhanes_obesity,20261027,logistic_regression,Female | Other Hispanic | 40-59,71,78,0.661972,0.384615,0.491571,0.424392
+nhanes_obesity,20261027,logistic_regression,Female | Other Hispanic | 60+,73,82,0.369863,0.317073,0.420742,0.430617
+nhanes_obesity,20261027,logistic_regression,Female | Other/Multi-racial | 20-39,39,35,0.692308,0.257143,0.465256,0.415941
+nhanes_obesity,20261027,logistic_regression,Male | Mexican American | 20-39,90,94,0.433333,0.170213,0.485872,0.421772
+nhanes_obesity,20261027,logistic_regression,Male | Mexican American | 40-59,78,77,0.551282,0.441558,0.410027,0.399371
+nhanes_obesity,20261027,logistic_regression,Male | Mexican American | 60+,59,76,0.474576,0.250000,0.423598,0.380951
+nhanes_obesity,20261027,logistic_regression,Male | Non-Hispanic Asian | 20-39,33,113,0.424242,0.185841,0.411797,0.384981
+nhanes_obesity,20261027,logistic_regression,Male | Non-Hispanic Asian | 40-59,32,165,0.625000,0.418182,0.445855,0.434202
+nhanes_obesity,20261027,logistic_regression,Male | Non-Hispanic Black | 20-39,86,200,0.558140,0.280000,0.430390,0.395582
+nhanes_obesity,20261027,logistic_regression,Male | Non-Hispanic Black | 40-59,183,166,0.721311,0.487952,0.471575,0.382054
+nhanes_obesity,20261027,logistic_regression,Male | Non-Hispanic Black | 60+,165,258,0.569697,0.352713,0.478437,0.367072
+nhanes_obesity,20261027,logistic_regression,Male | Non-Hispanic White | 20-39,156,197,0.551282,0.177665,0.477849,0.385587
+nhanes_obesity,20261027,logistic_regression,Male | Non-Hispanic White | 40-59,188,224,0.590426,0.450893,0.452926,0.360540
+nhanes_obesity,20261027,logistic_regression,Male | Non-Hispanic White | 60+,261,406,0.344828,0.231527,0.474650,0.406719
+nhanes_obesity,20261027,logistic_regression,Male | Other Hispanic | 20-39,45,85,0.333333,0.129412,0.347120,0.290498
+nhanes_obesity,20261027,logistic_regression,Male | Other Hispanic | 40-59,65,65,0.600000,0.415385,0.488885,0.361950
+nhanes_obesity,20261027,logistic_regression,Male | Other Hispanic | 60+,56,90,0.607143,0.322222,0.450733,0.398419
+nhanes_obesity,20261027,logistic_regression,Male | Other/Multi-racial | 20-39,34,44,0.500000,0.204545,0.403748,0.345698
+nhanes_obesity,20261027,logistic_regression,Male | Other/Multi-racial | 40-59,38,39,0.763158,0.487179,0.503444,0.401366
+nhanes_obesity,20261027,random_forest,Female | Mexican American | 20-39,93,90,0.494624,0.133333,0.642516,0.564850
+nhanes_obesity,20261027,random_forest,Female | Mexican American | 40-59,102,93,0.578431,0.440860,0.590564,0.616314
+nhanes_obesity,20261027,random_forest,Female | Mexican American | 60+,61,55,0.524590,0.381818,0.581886,0.611321
+nhanes_obesity,20261027,random_forest,Female | Non-Hispanic Asian | 40-59,36,190,0.611111,0.463158,0.666844,0.588829
+nhanes_obesity,20261027,random_forest,Female | Non-Hispanic Black | 20-39,209,177,0.622010,0.265537,0.602555,0.538414
+nhanes_obesity,20261027,random_forest,Female | Non-Hispanic Black | 40-59,275,124,0.760000,0.491935,0.619268,0.531245
+nhanes_obesity,20261027,random_forest,Female | Non-Hispanic Black | 60+,230,168,0.573913,0.452381,0.625600,0.523363
+nhanes_obesity,20261027,random_forest,Female | Non-Hispanic White | 20-39,168,240,0.577381,0.166667,0.639182,0.504987
+nhanes_obesity,20261027,random_forest,Female | Non-Hispanic White | 40-59,190,230,0.742105,0.360870,0.641735,0.564375
+nhanes_obesity,20261027,random_forest,Female | Non-Hispanic White | 60+,272,355,0.503676,0.273239,0.644854,0.539555
+nhanes_obesity,20261027,random_forest,Female | Other Hispanic | 20-39,55,97,0.454545,0.103093,0.616481,0.564235
+nhanes_obesity,20261027,random_forest,Female | Other Hispanic | 40-59,71,78,0.690141,0.397436,0.627246,0.561118
+nhanes_obesity,20261027,random_forest,Female | Other Hispanic | 60+,73,82,0.479452,0.500000,0.616924,0.599931
+nhanes_obesity,20261027,random_forest,Female | Other/Multi-racial | 20-39,39,35,0.615385,0.228571,0.642586,0.567541
+nhanes_obesity,20261027,random_forest,Male | Mexican American | 20-39,90,94,0.411111,0.191489,0.659082,0.486423
+nhanes_obesity,20261027,random_forest,Male | Mexican American | 40-59,78,77,0.602564,0.493506,0.617060,0.565802
+nhanes_obesity,20261027,random_forest,Male | Mexican American | 60+,59,76,0.661017,0.381579,0.613307,0.494130
+nhanes_obesity,20261027,random_forest,Male | Non-Hispanic Asian | 20-39,33,113,0.696970,0.327434,0.699834,0.513433
+nhanes_obesity,20261027,random_forest,Male | Non-Hispanic Asian | 40-59,32,165,0.625000,0.515152,0.657978,0.600876
+nhanes_obesity,20261027,random_forest,Male | Non-Hispanic Black | 20-39,86,200,0.604651,0.300000,0.671317,0.548567
+nhanes_obesity,20261027,random_forest,Male | Non-Hispanic Black | 40-59,183,166,0.786885,0.518072,0.644106,0.559484
+nhanes_obesity,20261027,random_forest,Male | Non-Hispanic Black | 60+,165,258,0.721212,0.527132,0.638569,0.542025
+nhanes_obesity,20261027,random_forest,Male | Non-Hispanic White | 20-39,156,197,0.506410,0.208122,0.632169,0.540165
+nhanes_obesity,20261027,random_forest,Male | Non-Hispanic White | 40-59,188,224,0.654255,0.441964,0.634054,0.511335
+nhanes_obesity,20261027,random_forest,Male | Non-Hispanic White | 60+,261,406,0.505747,0.344828,0.624883,0.562768
+nhanes_obesity,20261027,random_forest,Male | Other Hispanic | 20-39,45,85,0.444444,0.152941,0.593163,0.526153
+nhanes_obesity,20261027,random_forest,Male | Other Hispanic | 40-59,65,65,0.615385,0.430769,0.628052,0.587670
+nhanes_obesity,20261027,random_forest,Male | Other Hispanic | 60+,56,90,0.696429,0.477778,0.605754,0.539482
+nhanes_obesity,20261027,random_forest,Male | Other/Multi-racial | 20-39,34,44,0.647059,0.295455,0.643130,0.582764
+nhanes_obesity,20261027,random_forest,Male | Other/Multi-racial | 40-59,38,39,0.736842,0.487179,0.644582,0.578972
+nhanes_obesity,20261027,xgboost,Female | Mexican American | 20-39,93,90,0.537634,0.144444,0.361202,0.224353
+nhanes_obesity,20261027,xgboost,Female | Mexican American | 40-59,102,93,0.509804,0.419355,0.358952,0.347785
+nhanes_obesity,20261027,xgboost,Female | Mexican American | 60+,61,55,0.426230,0.327273,0.321305,0.222441
+nhanes_obesity,20261027,xgboost,Female | Non-Hispanic Asian | 40-59,36,190,0.500000,0.463158,0.350291,0.291739
+nhanes_obesity,20261027,xgboost,Female | Non-Hispanic Black | 20-39,209,177,0.593301,0.242938,0.358578,0.265639
+nhanes_obesity,20261027,xgboost,Female | Non-Hispanic Black | 40-59,275,124,0.658182,0.427419,0.332295,0.277812
+nhanes_obesity,20261027,xgboost,Female | Non-Hispanic Black | 60+,230,168,0.443478,0.357143,0.311934,0.198867
+nhanes_obesity,20261027,xgboost,Female | Non-Hispanic White | 20-39,168,240,0.577381,0.195833,0.344270,0.245823
+nhanes_obesity,20261027,xgboost,Female | Non-Hispanic White | 40-59,190,230,0.678947,0.330435,0.324273,0.239437
+nhanes_obesity,20261027,xgboost,Female | Non-Hispanic White | 60+,272,355,0.437500,0.216901,0.309921,0.264265
+nhanes_obesity,20261027,xgboost,Female | Other Hispanic | 20-39,55,97,0.545455,0.164948,0.348851,0.222197
+nhanes_obesity,20261027,xgboost,Female | Other Hispanic | 40-59,71,78,0.704225,0.384615,0.373011,0.292388
+nhanes_obesity,20261027,xgboost,Female | Other Hispanic | 60+,73,82,0.424658,0.353659,0.307818,0.326653
+nhanes_obesity,20261027,xgboost,Female | Other/Multi-racial | 20-39,39,35,0.641026,0.285714,0.390455,0.207397
+nhanes_obesity,20261027,xgboost,Male | Mexican American | 20-39,90,94,0.422222,0.159574,0.307906,0.294400
+nhanes_obesity,20261027,xgboost,Male | Mexican American | 40-59,78,77,0.589744,0.441558,0.320078,0.278305
+nhanes_obesity,20261027,xgboost,Male | Mexican American | 60+,59,76,0.423729,0.263158,0.319940,0.244487
+nhanes_obesity,20261027,xgboost,Male | Non-Hispanic Asian | 20-39,33,113,0.545455,0.274336,0.334137,0.232493
+nhanes_obesity,20261027,xgboost,Male | Non-Hispanic Asian | 40-59,32,165,0.593750,0.442424,0.256023,0.292209
+nhanes_obesity,20261027,xgboost,Male | Non-Hispanic Black | 20-39,86,200,0.523256,0.240000,0.309775,0.245409
+nhanes_obesity,20261027,xgboost,Male | Non-Hispanic Black | 40-59,183,166,0.699454,0.475904,0.365682,0.276122
+nhanes_obesity,20261027,xgboost,Male | Non-Hispanic Black | 60+,165,258,0.563636,0.437984,0.341484,0.259383
+nhanes_obesity,20261027,xgboost,Male | Non-Hispanic White | 20-39,156,197,0.500000,0.187817,0.371603,0.232987
+nhanes_obesity,20261027,xgboost,Male | Non-Hispanic White | 40-59,188,224,0.601064,0.410714,0.386324,0.304070
+nhanes_obesity,20261027,xgboost,Male | Non-Hispanic White | 60+,261,406,0.440613,0.300493,0.353501,0.275572
+nhanes_obesity,20261027,xgboost,Male | Other Hispanic | 20-39,45,85,0.333333,0.117647,0.238926,0.206674
+nhanes_obesity,20261027,xgboost,Male | Other Hispanic | 40-59,65,65,0.538462,0.307692,0.373559,0.217653
+nhanes_obesity,20261027,xgboost,Male | Other Hispanic | 60+,56,90,0.553571,0.411111,0.326613,0.298257
+nhanes_obesity,20261027,xgboost,Male | Other/Multi-racial | 20-39,34,44,0.500000,0.272727,0.264937,0.278998
+nhanes_obesity,20261027,xgboost,Male | Other/Multi-racial | 40-59,38,39,0.578947,0.435897,0.366709,0.282241
+nhanes_obesity,20261028,logistic_regression,Female | Mexican American | 20-39,93,90,0.537634,0.200000,0.611642,0.456762
+nhanes_obesity,20261028,logistic_regression,Female | Mexican American | 40-59,102,93,0.558824,0.408602,0.597558,0.534563
+nhanes_obesity,20261028,logistic_regression,Female | Mexican American | 60+,61,55,0.508197,0.309091,0.497830,0.424841
+nhanes_obesity,20261028,logistic_regression,Female | Non-Hispanic Asian | 40-59,36,190,0.666667,0.421053,0.685230,0.514961
+nhanes_obesity,20261028,logistic_regression,Female | Non-Hispanic Black | 20-39,209,177,0.665072,0.355932,0.625486,0.475991
+nhanes_obesity,20261028,logistic_regression,Female | Non-Hispanic Black | 40-59,275,124,0.756364,0.556452,0.607961,0.509953
+nhanes_obesity,20261028,logistic_regression,Female | Non-Hispanic Black | 60+,230,168,0.491304,0.398810,0.585310,0.526499
+nhanes_obesity,20261028,logistic_regression,Female | Non-Hispanic White | 20-39,168,240,0.619048,0.212500,0.596115,0.469579
+nhanes_obesity,20261028,logistic_regression,Female | Non-Hispanic White | 40-59,190,230,0.800000,0.391304,0.609896,0.477356
+nhanes_obesity,20261028,logistic_regression,Female | Non-Hispanic White | 60+,272,355,0.444853,0.200000,0.614063,0.492330
+nhanes_obesity,20261028,logistic_regression,Female | Other Hispanic | 20-39,55,97,0.527273,0.134021,0.594307,0.391039
+nhanes_obesity,20261028,logistic_regression,Female | Other Hispanic | 40-59,71,78,0.676056,0.384615,0.584149,0.448500
+nhanes_obesity,20261028,logistic_regression,Female | Other Hispanic | 60+,73,82,0.410959,0.365854,0.560290,0.511747
+nhanes_obesity,20261028,logistic_regression,Female | Other/Multi-racial | 20-39,39,35,0.692308,0.428571,0.646394,0.551284
+nhanes_obesity,20261028,logistic_regression,Male | Mexican American | 20-39,90,94,0.455556,0.244681,0.560492,0.497384
+nhanes_obesity,20261028,logistic_regression,Male | Mexican American | 40-59,78,77,0.589744,0.506494,0.643461,0.564329
+nhanes_obesity,20261028,logistic_regression,Male | Mexican American | 60+,59,76,0.576271,0.276316,0.575631,0.462018
+nhanes_obesity,20261028,logistic_regression,Male | Non-Hispanic Asian | 20-39,33,113,0.575758,0.238938,0.611236,0.422849
+nhanes_obesity,20261028,logistic_regression,Male | Non-Hispanic Asian | 40-59,32,165,0.625000,0.448485,0.630940,0.563153
+nhanes_obesity,20261028,logistic_regression,Male | Non-Hispanic Black | 20-39,86,200,0.581395,0.315000,0.615031,0.485154
+nhanes_obesity,20261028,logistic_regression,Male | Non-Hispanic Black | 40-59,183,166,0.792350,0.596386,0.635382,0.479869
+nhanes_obesity,20261028,logistic_regression,Male | Non-Hispanic Black | 60+,165,258,0.600000,0.383721,0.586927,0.470592
+nhanes_obesity,20261028,logistic_regression,Male | Non-Hispanic White | 20-39,156,197,0.615385,0.284264,0.626079,0.462301
+nhanes_obesity,20261028,logistic_regression,Male | Non-Hispanic White | 40-59,188,224,0.622340,0.549107,0.588076,0.470835
+nhanes_obesity,20261028,logistic_regression,Male | Non-Hispanic White | 60+,261,406,0.390805,0.273399,0.590237,0.503330
+nhanes_obesity,20261028,logistic_regression,Male | Other Hispanic | 20-39,45,85,0.377778,0.176471,0.557767,0.395117
+nhanes_obesity,20261028,logistic_regression,Male | Other Hispanic | 40-59,65,65,0.661538,0.492308,0.651852,0.527710
+nhanes_obesity,20261028,logistic_regression,Male | Other Hispanic | 60+,56,90,0.642857,0.377778,0.582883,0.496059
+nhanes_obesity,20261028,logistic_regression,Male | Other/Multi-racial | 20-39,34,44,0.617647,0.272727,0.636401,0.411815
+nhanes_obesity,20261028,logistic_regression,Male | Other/Multi-racial | 40-59,38,39,0.789474,0.589744,0.694541,0.611975
+nhanes_obesity,20261028,random_forest,Female | Mexican American | 20-39,93,90,0.537634,0.133333,0.614854,0.438834
+nhanes_obesity,20261028,random_forest,Female | Mexican American | 40-59,102,93,0.500000,0.365591,0.578259,0.473070
+nhanes_obesity,20261028,random_forest,Female | Mexican American | 60+,61,55,0.540984,0.472727,0.531294,0.466823
+nhanes_obesity,20261028,random_forest,Female | Non-Hispanic Asian | 40-59,36,190,0.694444,0.426316,0.668937,0.472078
+nhanes_obesity,20261028,random_forest,Female | Non-Hispanic Black | 20-39,209,177,0.660287,0.288136,0.604943,0.444715
+nhanes_obesity,20261028,random_forest,Female | Non-Hispanic Black | 40-59,275,124,0.752727,0.564516,0.610090,0.509694
+nhanes_obesity,20261028,random_forest,Female | Non-Hispanic Black | 60+,230,168,0.621739,0.470238,0.536119,0.433063
+nhanes_obesity,20261028,random_forest,Female | Non-Hispanic White | 20-39,168,240,0.553571,0.195833,0.561297,0.427595
+nhanes_obesity,20261028,random_forest,Female | Non-Hispanic White | 40-59,190,230,0.747368,0.386957,0.579028,0.440595
+nhanes_obesity,20261028,random_forest,Female | Non-Hispanic White | 60+,272,355,0.540441,0.304225,0.588562,0.446563
+nhanes_obesity,20261028,random_forest,Female | Other Hispanic | 20-39,55,97,0.490909,0.164948,0.493629,0.284556
+nhanes_obesity,20261028,random_forest,Female | Other Hispanic | 40-59,71,78,0.690141,0.448718,0.532079,0.415869
+nhanes_obesity,20261028,random_forest,Female | Other Hispanic | 60+,73,82,0.479452,0.451220,0.546996,0.545175
+nhanes_obesity,20261028,random_forest,Female | Other/Multi-racial | 20-39,39,35,0.641026,0.342857,0.674933,0.430474
+nhanes_obesity,20261028,random_forest,Male | Mexican American | 20-39,90,94,0.477778,0.223404,0.563092,0.428981
+nhanes_obesity,20261028,random_forest,Male | Mexican American | 40-59,78,77,0.653846,0.493506,0.609903,0.496643
+nhanes_obesity,20261028,random_forest,Male | Mexican American | 60+,59,76,0.661017,0.328947,0.543319,0.471726
+nhanes_obesity,20261028,random_forest,Male | Non-Hispanic Asian | 20-39,33,113,0.636364,0.283186,0.530509,0.373492
+nhanes_obesity,20261028,random_forest,Male | Non-Hispanic Asian | 40-59,32,165,0.718750,0.484848,0.597835,0.516872
+nhanes_obesity,20261028,random_forest,Male | Non-Hispanic Black | 20-39,86,200,0.534884,0.310000,0.613460,0.487742
+nhanes_obesity,20261028,random_forest,Male | Non-Hispanic Black | 40-59,183,166,0.726776,0.554217,0.575245,0.445013
+nhanes_obesity,20261028,random_forest,Male | Non-Hispanic Black | 60+,165,258,0.715152,0.519380,0.554269,0.407114
+nhanes_obesity,20261028,random_forest,Male | Non-Hispanic White | 20-39,156,197,0.544872,0.218274,0.582988,0.429457
+nhanes_obesity,20261028,random_forest,Male | Non-Hispanic White | 40-59,188,224,0.648936,0.486607,0.551792,0.440594
+nhanes_obesity,20261028,random_forest,Male | Non-Hispanic White | 60+,261,406,0.559387,0.386700,0.560961,0.449670
+nhanes_obesity,20261028,random_forest,Male | Other Hispanic | 20-39,45,85,0.444444,0.176471,0.478087,0.286357
+nhanes_obesity,20261028,random_forest,Male | Other Hispanic | 40-59,65,65,0.569231,0.384615,0.602798,0.442832
+nhanes_obesity,20261028,random_forest,Male | Other Hispanic | 60+,56,90,0.660714,0.455556,0.594330,0.456793
+nhanes_obesity,20261028,random_forest,Male | Other/Multi-racial | 20-39,34,44,0.558824,0.272727,0.497401,0.334179
+nhanes_obesity,20261028,random_forest,Male | Other/Multi-racial | 40-59,38,39,0.736842,0.538462,0.636433,0.576889
+nhanes_obesity,20261028,xgboost,Female | Mexican American | 20-39,93,90,0.548387,0.188889,0.501328,0.377245
+nhanes_obesity,20261028,xgboost,Female | Mexican American | 40-59,102,93,0.549020,0.430108,0.447107,0.365894
+nhanes_obesity,20261028,xgboost,Female | Mexican American | 60+,61,55,0.557377,0.381818,0.517606,0.396153
+nhanes_obesity,20261028,xgboost,Female | Non-Hispanic Asian | 40-59,36,190,0.583333,0.484211,0.522377,0.408785
+nhanes_obesity,20261028,xgboost,Female | Non-Hispanic Black | 20-39,209,177,0.688995,0.305085,0.484974,0.373209
+nhanes_obesity,20261028,xgboost,Female | Non-Hispanic Black | 40-59,275,124,0.745455,0.548387,0.482620,0.412160
+nhanes_obesity,20261028,xgboost,Female | Non-Hispanic Black | 60+,230,168,0.565217,0.404762,0.457412,0.377247
+nhanes_obesity,20261028,xgboost,Female | Non-Hispanic White | 20-39,168,240,0.583333,0.254167,0.489984,0.394474
+nhanes_obesity,20261028,xgboost,Female | Non-Hispanic White | 40-59,190,230,0.700000,0.373913,0.491099,0.379736
+nhanes_obesity,20261028,xgboost,Female | Non-Hispanic White | 60+,272,355,0.536765,0.301408,0.505102,0.404892
+nhanes_obesity,20261028,xgboost,Female | Other Hispanic | 20-39,55,97,0.490909,0.257732,0.477533,0.309701
+nhanes_obesity,20261028,xgboost,Female | Other Hispanic | 40-59,71,78,0.718310,0.435897,0.478161,0.405334
+nhanes_obesity,20261028,xgboost,Female | Other Hispanic | 60+,73,82,0.506849,0.451220,0.514380,0.455771
+nhanes_obesity,20261028,xgboost,Female | Other/Multi-racial | 20-39,39,35,0.717949,0.371429,0.535901,0.454191
+nhanes_obesity,20261028,xgboost,Male | Mexican American | 20-39,90,94,0.466667,0.223404,0.484191,0.377210
+nhanes_obesity,20261028,xgboost,Male | Mexican American | 40-59,78,77,0.628205,0.441558,0.463465,0.422687
+nhanes_obesity,20261028,xgboost,Male | Mexican American | 60+,59,76,0.644068,0.342105,0.461363,0.424736
+nhanes_obesity,20261028,xgboost,Male | Non-Hispanic Asian | 20-39,33,113,0.666667,0.274336,0.462309,0.321190
+nhanes_obesity,20261028,xgboost,Male | Non-Hispanic Asian | 40-59,32,165,0.625000,0.515152,0.502526,0.410607
+nhanes_obesity,20261028,xgboost,Male | Non-Hispanic Black | 20-39,86,200,0.546512,0.285000,0.527129,0.396259
+nhanes_obesity,20261028,xgboost,Male | Non-Hispanic Black | 40-59,183,166,0.672131,0.512048,0.479307,0.403183
+nhanes_obesity,20261028,xgboost,Male | Non-Hispanic Black | 60+,165,258,0.690909,0.468992,0.481227,0.398146
+nhanes_obesity,20261028,xgboost,Male | Non-Hispanic White | 20-39,156,197,0.512821,0.203046,0.491018,0.372498
+nhanes_obesity,20261028,xgboost,Male | Non-Hispanic White | 40-59,188,224,0.659574,0.455357,0.463351,0.417086
+nhanes_obesity,20261028,xgboost,Male | Non-Hispanic White | 60+,261,406,0.501916,0.357143,0.458777,0.391422
+nhanes_obesity,20261028,xgboost,Male | Other Hispanic | 20-39,45,85,0.444444,0.188235,0.392705,0.237744
+nhanes_obesity,20261028,xgboost,Male | Other Hispanic | 40-59,65,65,0.538462,0.369231,0.500011,0.392543
+nhanes_obesity,20261028,xgboost,Male | Other Hispanic | 60+,56,90,0.642857,0.477778,0.568781,0.486251
+nhanes_obesity,20261028,xgboost,Male | Other/Multi-racial | 20-39,34,44,0.588235,0.386364,0.470283,0.372915
+nhanes_obesity,20261028,xgboost,Male | Other/Multi-racial | 40-59,38,39,0.736842,0.538462,0.553239,0.497489
+nhanes_obesity,20261029,logistic_regression,Female | Mexican American | 20-39,93,90,0.494624,0.177778,0.500790,0.356734
+nhanes_obesity,20261029,logistic_regression,Female | Mexican American | 40-59,102,93,0.509804,0.333333,0.472152,0.449765
+nhanes_obesity,20261029,logistic_regression,Female | Mexican American | 60+,61,55,0.393443,0.254545,0.483948,0.424855
+nhanes_obesity,20261029,logistic_regression,Female | Non-Hispanic Asian | 40-59,36,190,0.666667,0.405263,0.507102,0.402178
+nhanes_obesity,20261029,logistic_regression,Female | Non-Hispanic Black | 20-39,209,177,0.612440,0.259887,0.510018,0.383560
+nhanes_obesity,20261029,logistic_regression,Female | Non-Hispanic Black | 40-59,275,124,0.763636,0.516129,0.476060,0.403021
+nhanes_obesity,20261029,logistic_regression,Female | Non-Hispanic Black | 60+,230,168,0.486957,0.363095,0.483259,0.404625
+nhanes_obesity,20261029,logistic_regression,Female | Non-Hispanic White | 20-39,168,240,0.571429,0.225000,0.477642,0.389562
+nhanes_obesity,20261029,logistic_regression,Female | Non-Hispanic White | 40-59,190,230,0.742105,0.382609,0.506326,0.397178
+nhanes_obesity,20261029,logistic_regression,Female | Non-Hispanic White | 60+,272,355,0.444853,0.160563,0.470657,0.385679
+nhanes_obesity,20261029,logistic_regression,Female | Other Hispanic | 20-39,55,97,0.454545,0.123711,0.460717,0.351174
+nhanes_obesity,20261029,logistic_regression,Female | Other Hispanic | 40-59,71,78,0.661972,0.371795,0.422893,0.378302
+nhanes_obesity,20261029,logistic_regression,Female | Other Hispanic | 60+,73,82,0.410959,0.353659,0.424168,0.399400
+nhanes_obesity,20261029,logistic_regression,Female | Other/Multi-racial | 20-39,39,35,0.717949,0.400000,0.513925,0.394001
+nhanes_obesity,20261029,logistic_regression,Male | Mexican American | 20-39,90,94,0.466667,0.159574,0.477250,0.387430
+nhanes_obesity,20261029,logistic_regression,Male | Mexican American | 40-59,78,77,0.615385,0.402597,0.475594,0.438445
+nhanes_obesity,20261029,logistic_regression,Male | Mexican American | 60+,59,76,0.440678,0.263158,0.459496,0.412947
+nhanes_obesity,20261029,logistic_regression,Male | Non-Hispanic Asian | 20-39,33,113,0.515152,0.194690,0.447465,0.335444
+nhanes_obesity,20261029,logistic_regression,Male | Non-Hispanic Asian | 40-59,32,165,0.593750,0.448485,0.518503,0.433925
+nhanes_obesity,20261029,logistic_regression,Male | Non-Hispanic Black | 20-39,86,200,0.546512,0.305000,0.437118,0.364569
+nhanes_obesity,20261029,logistic_regression,Male | Non-Hispanic Black | 40-59,183,166,0.726776,0.548193,0.478806,0.458767
+nhanes_obesity,20261029,logistic_regression,Male | Non-Hispanic Black | 60+,165,258,0.618182,0.383721,0.445217,0.390812
+nhanes_obesity,20261029,logistic_regression,Male | Non-Hispanic White | 20-39,156,197,0.557692,0.187817,0.453276,0.385243
+nhanes_obesity,20261029,logistic_regression,Male | Non-Hispanic White | 40-59,188,224,0.617021,0.500000,0.439359,0.375681
+nhanes_obesity,20261029,logistic_regression,Male | Non-Hispanic White | 60+,261,406,0.363985,0.270936,0.441801,0.396456
+nhanes_obesity,20261029,logistic_regression,Male | Other Hispanic | 20-39,45,85,0.400000,0.152941,0.461114,0.348020
+nhanes_obesity,20261029,logistic_regression,Male | Other Hispanic | 40-59,65,65,0.646154,0.369231,0.496246,0.422087
+nhanes_obesity,20261029,logistic_regression,Male | Other Hispanic | 60+,56,90,0.589286,0.366667,0.416076,0.317910
+nhanes_obesity,20261029,logistic_regression,Male | Other/Multi-racial | 20-39,34,44,0.529412,0.272727,0.387619,0.310595
+nhanes_obesity,20261029,logistic_regression,Male | Other/Multi-racial | 40-59,38,39,0.789474,0.487179,0.533934,0.416601
+nhanes_obesity,20261029,random_forest,Female | Mexican American | 20-39,93,90,0.451613,0.166667,0.743647,0.679303
+nhanes_obesity,20261029,random_forest,Female | Mexican American | 40-59,102,93,0.519608,0.397849,0.754143,0.669194
+nhanes_obesity,20261029,random_forest,Female | Mexican American | 60+,61,55,0.475410,0.345455,0.794487,0.668163
+nhanes_obesity,20261029,random_forest,Female | Non-Hispanic Asian | 40-59,36,190,0.555556,0.373684,0.764699,0.631530
+nhanes_obesity,20261029,random_forest,Female | Non-Hispanic Black | 20-39,209,177,0.564593,0.248588,0.760562,0.664452
+nhanes_obesity,20261029,random_forest,Female | Non-Hispanic Black | 40-59,275,124,0.672727,0.435484,0.753856,0.713307
+nhanes_obesity,20261029,random_forest,Female | Non-Hispanic Black | 60+,230,168,0.552174,0.386905,0.775529,0.683365
+nhanes_obesity,20261029,random_forest,Female | Non-Hispanic White | 20-39,168,240,0.470238,0.137500,0.734112,0.649024
+nhanes_obesity,20261029,random_forest,Female | Non-Hispanic White | 40-59,190,230,0.678947,0.304348,0.756394,0.651673
+nhanes_obesity,20261029,random_forest,Female | Non-Hispanic White | 60+,272,355,0.466912,0.225352,0.724807,0.610866
+nhanes_obesity,20261029,random_forest,Female | Other Hispanic | 20-39,55,97,0.363636,0.134021,0.686090,0.589446
+nhanes_obesity,20261029,random_forest,Female | Other Hispanic | 40-59,71,78,0.633803,0.358974,0.710099,0.637651
+nhanes_obesity,20261029,random_forest,Female | Other Hispanic | 60+,73,82,0.410959,0.426829,0.698809,0.703001
+nhanes_obesity,20261029,random_forest,Female | Other/Multi-racial | 20-39,39,35,0.512821,0.257143,0.709933,0.523198
+nhanes_obesity,20261029,random_forest,Male | Mexican American | 20-39,90,94,0.322222,0.138298,0.715664,0.599379
+nhanes_obesity,20261029,random_forest,Male | Mexican American | 40-59,78,77,0.525641,0.324675,0.745627,0.654671
+nhanes_obesity,20261029,random_forest,Male | Mexican American | 60+,59,76,0.508475,0.342105,0.742535,0.618160
+nhanes_obesity,20261029,random_forest,Male | Non-Hispanic Asian | 20-39,33,113,0.454545,0.194690,0.784637,0.565853
+nhanes_obesity,20261029,random_forest,Male | Non-Hispanic Asian | 40-59,32,165,0.531250,0.436364,0.734410,0.675475
+nhanes_obesity,20261029,random_forest,Male | Non-Hispanic Black | 20-39,86,200,0.488372,0.255000,0.705553,0.616985
+nhanes_obesity,20261029,random_forest,Male | Non-Hispanic Black | 40-59,183,166,0.661202,0.469880,0.755378,0.672955
+nhanes_obesity,20261029,random_forest,Male | Non-Hispanic Black | 60+,165,258,0.630303,0.434109,0.757643,0.639568
+nhanes_obesity,20261029,random_forest,Male | Non-Hispanic White | 20-39,156,197,0.442308,0.162437,0.749017,0.648713
+nhanes_obesity,20261029,random_forest,Male | Non-Hispanic White | 40-59,188,224,0.632979,0.379464,0.759700,0.640975
+nhanes_obesity,20261029,random_forest,Male | Non-Hispanic White | 60+,261,406,0.448276,0.312808,0.710489,0.630272
+nhanes_obesity,20261029,random_forest,Male | Other Hispanic | 20-39,45,85,0.400000,0.105882,0.682121,0.596584
+nhanes_obesity,20261029,random_forest,Male | Other Hispanic | 40-59,65,65,0.569231,0.292308,0.726917,0.676396
+nhanes_obesity,20261029,random_forest,Male | Other Hispanic | 60+,56,90,0.642857,0.411111,0.655737,0.670820
+nhanes_obesity,20261029,random_forest,Male | Other/Multi-racial | 20-39,34,44,0.529412,0.272727,0.687902,0.600913
+nhanes_obesity,20261029,random_forest,Male | Other/Multi-racial | 40-59,38,39,0.710526,0.435897,0.787094,0.665889
+nhanes_obesity,20261029,xgboost,Female | Mexican American | 20-39,93,90,0.537634,0.233333,0.570129,0.448741
+nhanes_obesity,20261029,xgboost,Female | Mexican American | 40-59,102,93,0.519608,0.462366,0.541272,0.534699
+nhanes_obesity,20261029,xgboost,Female | Mexican American | 60+,61,55,0.557377,0.400000,0.536166,0.489060
+nhanes_obesity,20261029,xgboost,Female | Non-Hispanic Asian | 40-59,36,190,0.750000,0.478947,0.592394,0.464123
+nhanes_obesity,20261029,xgboost,Female | Non-Hispanic Black | 20-39,209,177,0.636364,0.305085,0.588688,0.457151
+nhanes_obesity,20261029,xgboost,Female | Non-Hispanic Black | 40-59,275,124,0.749091,0.508065,0.549610,0.475351
+nhanes_obesity,20261029,xgboost,Female | Non-Hispanic Black | 60+,230,168,0.547826,0.494048,0.562364,0.497467
+nhanes_obesity,20261029,xgboost,Female | Non-Hispanic White | 20-39,168,240,0.571429,0.225000,0.557843,0.463423
+nhanes_obesity,20261029,xgboost,Female | Non-Hispanic White | 40-59,190,230,0.736842,0.369565,0.582589,0.473660
+nhanes_obesity,20261029,xgboost,Female | Non-Hispanic White | 60+,272,355,0.514706,0.295775,0.541248,0.441414
+nhanes_obesity,20261029,xgboost,Female | Other Hispanic | 20-39,55,97,0.436364,0.237113,0.557976,0.406077
+nhanes_obesity,20261029,xgboost,Female | Other Hispanic | 40-59,71,78,0.718310,0.410256,0.543209,0.483827
+nhanes_obesity,20261029,xgboost,Female | Other Hispanic | 60+,73,82,0.479452,0.439024,0.469555,0.505471
+nhanes_obesity,20261029,xgboost,Female | Other/Multi-racial | 20-39,39,35,0.615385,0.257143,0.584666,0.422630
+nhanes_obesity,20261029,xgboost,Male | Mexican American | 20-39,90,94,0.388889,0.212766,0.523521,0.448096
+nhanes_obesity,20261029,xgboost,Male | Mexican American | 40-59,78,77,0.589744,0.402597,0.592386,0.513557
+nhanes_obesity,20261029,xgboost,Male | Mexican American | 60+,59,76,0.576271,0.355263,0.564516,0.454557
+nhanes_obesity,20261029,xgboost,Male | Non-Hispanic Asian | 20-39,33,113,0.575758,0.309735,0.530773,0.376276
+nhanes_obesity,20261029,xgboost,Male | Non-Hispanic Asian | 40-59,32,165,0.531250,0.466667,0.585254,0.514130
+nhanes_obesity,20261029,xgboost,Male | Non-Hispanic Black | 20-39,86,200,0.546512,0.325000,0.528934,0.451485
+nhanes_obesity,20261029,xgboost,Male | Non-Hispanic Black | 40-59,183,166,0.693989,0.524096,0.550089,0.513653
+nhanes_obesity,20261029,xgboost,Male | Non-Hispanic Black | 60+,165,258,0.666667,0.480620,0.484701,0.453705
+nhanes_obesity,20261029,xgboost,Male | Non-Hispanic White | 20-39,156,197,0.557692,0.218274,0.547661,0.457998
+nhanes_obesity,20261029,xgboost,Male | Non-Hispanic White | 40-59,188,224,0.675532,0.428571,0.537637,0.445734
+nhanes_obesity,20261029,xgboost,Male | Non-Hispanic White | 60+,261,406,0.505747,0.366995,0.539149,0.452604
+nhanes_obesity,20261029,xgboost,Male | Other Hispanic | 20-39,45,85,0.422222,0.164706,0.494038,0.378689
+nhanes_obesity,20261029,xgboost,Male | Other Hispanic | 40-59,65,65,0.584615,0.415385,0.553097,0.472948
+nhanes_obesity,20261029,xgboost,Male | Other Hispanic | 60+,56,90,0.642857,0.488889,0.491236,0.444367
+nhanes_obesity,20261029,xgboost,Male | Other/Multi-racial | 20-39,34,44,0.617647,0.431818,0.486612,0.386203
+nhanes_obesity,20261029,xgboost,Male | Other/Multi-racial | 40-59,38,39,0.736842,0.461538,0.628801,0.459295
+yale,20261027,logistic_regression,Black or African American × Female × 18-39,875,7568,0.613714,0.177590,0.797092,0.379441
+yale,20261027,logistic_regression,Black or African American × Female × 40-64,1903,5127,0.782974,0.276185,0.810959,0.369997
+yale,20261027,logistic_regression,Black or African American × Female × 65+,1477,1280,0.901828,0.505469,0.805372,0.387722
+yale,20261027,logistic_regression,Black or African American × Male × 18-39,650,4827,0.647692,0.177957,0.800242,0.370014
+yale,20261027,logistic_regression,Black or African American × Male × 40-64,1810,4563,0.784530,0.249836,0.813359,0.378884
+yale,20261027,logistic_regression,Black or African American × Male × 65+,843,728,0.886121,0.456044,0.799014,0.417210
+yale,20261027,logistic_regression,Other × Female × 18-39,554,4484,0.521661,0.170830,0.777523,0.350145
+yale,20261027,logistic_regression,Other × Female × 40-64,791,2506,0.718078,0.249401,0.804064,0.365147
+yale,20261027,logistic_regression,Other × Female × 65+,507,554,0.865878,0.483755,0.800036,0.382004
+yale,20261027,logistic_regression,Other × Male × 18-39,472,3591,0.620763,0.180730,0.810036,0.385334
+yale,20261027,logistic_regression,Other × Male × 40-64,871,2514,0.734788,0.246619,0.808210,0.397927
+yale,20261027,logistic_regression,Other × Male × 65+,403,420,0.873449,0.414286,0.781580,0.376273
+yale,20261027,logistic_regression,White or Caucasian × Female × 18-39,1294,7924,0.625193,0.201918,0.788262,0.376953
+yale,20261027,logistic_regression,White or Caucasian × Female × 40-64,3378,7869,0.762877,0.284153,0.802866,0.367394
+yale,20261027,logistic_regression,White or Caucasian × Female × 65+,6719,5350,0.900729,0.492150,0.797491,0.373504
+yale,20261027,logistic_regression,White or Caucasian × Male × 18-39,1252,5953,0.655751,0.197547,0.785912,0.368318
+yale,20261027,logistic_regression,White or Caucasian × Male × 40-64,3893,7551,0.778320,0.289498,0.802385,0.372542
+yale,20261027,logistic_regression,White or Caucasian × Male × 65+,5000,3873,0.890800,0.436871,0.799550,0.381552
+yale,20261027,random_forest,Black or African American × Female × 18-39,875,7568,0.668571,0.187896,0.697703,0.269316
+yale,20261027,random_forest,Black or African American × Female × 40-64,1903,5127,0.814503,0.288083,0.713882,0.261347
+yale,20261027,random_forest,Black or African American × Female × 65+,1477,1280,0.900474,0.508594,0.730611,0.282380
+yale,20261027,random_forest,Black or African American × Male × 18-39,650,4827,0.709231,0.206754,0.701587,0.259207
+yale,20261027,random_forest,Black or African American × Male × 40-64,1810,4563,0.811602,0.275915,0.727117,0.267756
+yale,20261027,random_forest,Black or African American × Male × 65+,843,728,0.894425,0.458791,0.723198,0.270029
+yale,20261027,random_forest,Other × Female × 18-39,554,4484,0.601083,0.185103,0.673826,0.237574
+yale,20261027,random_forest,Other × Female × 40-64,791,2506,0.739570,0.259777,0.705371,0.246249
+yale,20261027,random_forest,Other × Female × 65+,507,554,0.869822,0.496390,0.699936,0.292691
+yale,20261027,random_forest,Other × Male × 18-39,472,3591,0.675847,0.208299,0.688257,0.276961
+yale,20261027,random_forest,Other × Male × 40-64,871,2514,0.777268,0.272076,0.721030,0.273182
+yale,20261027,random_forest,Other × Male × 65+,403,420,0.885856,0.447619,0.709109,0.253233
+yale,20261027,random_forest,White or Caucasian × Female × 18-39,1294,7924,0.676198,0.222867,0.713965,0.267820
+yale,20261027,random_forest,White or Caucasian × Female × 40-64,3378,7869,0.772943,0.301563,0.714064,0.257276
+yale,20261027,random_forest,White or Caucasian × Female × 65+,6719,5350,0.912933,0.503925,0.710954,0.263254
+yale,20261027,random_forest,White or Caucasian × Male × 18-39,1252,5953,0.720447,0.235008,0.707742,0.257856
+yale,20261027,random_forest,White or Caucasian × Male × 40-64,3893,7551,0.799384,0.319428,0.716838,0.257180
+yale,20261027,random_forest,White or Caucasian × Male × 65+,5000,3873,0.898000,0.456752,0.710711,0.260685
+yale,20261027,xgboost,Black or African American × Female × 18-39,875,7568,0.636571,0.175079,0.740811,0.332621
+yale,20261027,xgboost,Black or African American × Female × 40-64,1903,5127,0.785076,0.264482,0.768901,0.324259
+yale,20261027,xgboost,Black or African American × Female × 65+,1477,1280,0.891672,0.485938,0.774538,0.334955
+yale,20261027,xgboost,Black or African American × Male × 18-39,650,4827,0.683077,0.197017,0.745278,0.320642
+yale,20261027,xgboost,Black or African American × Male × 40-64,1810,4563,0.785083,0.257725,0.774468,0.324166
+yale,20261027,xgboost,Black or African American × Male × 65+,843,728,0.886121,0.443681,0.757416,0.330938
+yale,20261027,xgboost,Other × Female × 18-39,554,4484,0.568592,0.166369,0.721204,0.300802
+yale,20261027,xgboost,Other × Female × 40-64,791,2506,0.710493,0.230247,0.765664,0.308268
+yale,20261027,xgboost,Other × Female × 65+,507,554,0.846154,0.465704,0.755493,0.357274
+yale,20261027,xgboost,Other × Male × 18-39,472,3591,0.656780,0.193261,0.752643,0.332542
+yale,20261027,xgboost,Other × Male × 40-64,871,2514,0.733639,0.261337,0.774836,0.345997
+yale,20261027,xgboost,Other × Male × 65+,403,420,0.868486,0.423810,0.764501,0.339872
+yale,20261027,xgboost,White or Caucasian × Female × 18-39,1294,7924,0.651468,0.201287,0.754495,0.329463
+yale,20261027,xgboost,White or Caucasian × Female × 40-64,3378,7869,0.753700,0.284407,0.760070,0.320088
+yale,20261027,xgboost,White or Caucasian × Female × 65+,6719,5350,0.902664,0.494579,0.755171,0.330915
+yale,20261027,xgboost,White or Caucasian × Male × 18-39,1252,5953,0.682109,0.221401,0.745109,0.318096
+yale,20261027,xgboost,White or Caucasian × Male × 40-64,3893,7551,0.776265,0.304198,0.754801,0.319278
+yale,20261027,xgboost,White or Caucasian × Male × 65+,5000,3873,0.887200,0.440485,0.757998,0.330947
+yale,20261028,logistic_regression,Black or African American × Female × 18-39,865,7472,0.647399,0.189775,0.705243,0.328360
+yale,20261028,logistic_regression,Black or African American × Female × 40-64,1977,5300,0.796156,0.290377,0.721260,0.336963
+yale,20261028,logistic_regression,Black or African American × Female × 65+,1450,1301,0.908276,0.546503,0.723232,0.353755
+yale,20261028,logistic_regression,Black or African American × Male × 18-39,634,4804,0.700315,0.175479,0.732625,0.327274
+yale,20261028,logistic_regression,Black or African American × Male × 40-64,1793,4454,0.798104,0.245622,0.738840,0.315579
+yale,20261028,logistic_regression,Black or African American × Male × 65+,794,695,0.881612,0.433094,0.693901,0.344233
+yale,20261028,logistic_regression,Other × Female × 18-39,581,4593,0.580034,0.191160,0.716486,0.337819
+yale,20261028,logistic_regression,Other × Female × 40-64,809,2528,0.715698,0.282041,0.699908,0.338800
+yale,20261028,logistic_regression,Other × Female × 65+,468,553,0.863248,0.537071,0.708453,0.383908
+yale,20261028,logistic_regression,Other × Male × 18-39,506,3760,0.636364,0.181383,0.749544,0.331174
+yale,20261028,logistic_regression,Other × Male × 40-64,910,2441,0.734066,0.248669,0.732259,0.334285
+yale,20261028,logistic_regression,Other × Male × 65+,421,400,0.881235,0.457500,0.702398,0.326782
+yale,20261028,logistic_regression,White or Caucasian × Female × 18-39,1266,7969,0.621643,0.214707,0.729003,0.333898
+yale,20261028,logistic_regression,White or Caucasian × Female × 40-64,3279,7777,0.763647,0.296130,0.715939,0.326943
+yale,20261028,logistic_regression,White or Caucasian × Female × 65+,6847,5249,0.909303,0.499143,0.729089,0.334384
+yale,20261028,logistic_regression,White or Caucasian × Male × 18-39,1225,6039,0.698776,0.208975,0.722396,0.328918
+yale,20261028,logistic_regression,White or Caucasian × Male × 40-64,3821,7456,0.784350,0.305258,0.726609,0.336053
+yale,20261028,logistic_regression,White or Caucasian × Male × 65+,5059,3812,0.899980,0.447272,0.717635,0.337972
+yale,20261028,random_forest,Black or African American × Female × 18-39,865,7472,0.648555,0.162206,0.801007,0.366646
+yale,20261028,random_forest,Black or African American × Female × 40-64,1977,5300,0.782499,0.265283,0.808188,0.375773
+yale,20261028,random_forest,Black or African American × Female × 65+,1450,1301,0.884828,0.488086,0.814211,0.406982
+yale,20261028,random_forest,Black or African American × Male × 18-39,634,4804,0.703470,0.171940,0.813280,0.369464
+yale,20261028,random_forest,Black or African American × Male × 40-64,1793,4454,0.781372,0.239335,0.814430,0.348279
+yale,20261028,random_forest,Black or African American × Male × 65+,794,695,0.855164,0.414388,0.766336,0.388455
+yale,20261028,random_forest,Other × Female × 18-39,581,4593,0.586919,0.163510,0.799581,0.374065
+yale,20261028,random_forest,Other × Female × 40-64,809,2528,0.673671,0.260285,0.802916,0.388083
+yale,20261028,random_forest,Other × Female × 65+,468,553,0.833333,0.470163,0.782392,0.438400
+yale,20261028,random_forest,Other × Male × 18-39,506,3760,0.644269,0.164628,0.800955,0.366561
+yale,20261028,random_forest,Other × Male × 40-64,910,2441,0.746154,0.246620,0.829701,0.383374
+yale,20261028,random_forest,Other × Male × 65+,421,400,0.857482,0.395000,0.784525,0.377789
+yale,20261028,random_forest,White or Caucasian × Female × 18-39,1266,7969,0.614534,0.193625,0.812178,0.378037
+yale,20261028,random_forest,White or Caucasian × Female × 40-64,3279,7777,0.740470,0.270927,0.802066,0.370268
+yale,20261028,random_forest,White or Caucasian × Female × 65+,6847,5249,0.895867,0.473042,0.812187,0.368527
+yale,20261028,random_forest,White or Caucasian × Male × 18-39,1225,6039,0.684898,0.209472,0.812598,0.370213
+yale,20261028,random_forest,White or Caucasian × Male × 40-64,3821,7456,0.768647,0.292650,0.815917,0.381291
+yale,20261028,random_forest,White or Caucasian × Male × 65+,5059,3812,0.883178,0.419465,0.808673,0.378987
+yale,20261028,xgboost,Black or African American × Female × 18-39,865,7472,0.655491,0.166354,0.817215,0.427792
+yale,20261028,xgboost,Black or African American × Female × 40-64,1977,5300,0.779464,0.273019,0.827353,0.440506
+yale,20261028,xgboost,Black or African American × Female × 65+,1450,1301,0.889655,0.499616,0.833539,0.466952
+yale,20261028,xgboost,Black or African American × Male × 18-39,634,4804,0.723975,0.183597,0.832204,0.435393
+yale,20261028,xgboost,Black or African American × Male × 40-64,1793,4454,0.779699,0.247867,0.841689,0.416305
+yale,20261028,xgboost,Black or African American × Male × 65+,794,695,0.867758,0.420144,0.798386,0.425486
+yale,20261028,xgboost,Other × Female × 18-39,581,4593,0.595525,0.169606,0.833620,0.440322
+yale,20261028,xgboost,Other × Female × 40-64,809,2528,0.662546,0.257516,0.815944,0.450755
+yale,20261028,xgboost,Other × Female × 65+,468,553,0.824786,0.479204,0.800495,0.481570
+yale,20261028,xgboost,Other × Male × 18-39,506,3760,0.644269,0.177394,0.842346,0.427483
+yale,20261028,xgboost,Other × Male × 40-64,910,2441,0.730769,0.251946,0.850597,0.453789
+yale,20261028,xgboost,Other × Male × 65+,421,400,0.864608,0.405000,0.813606,0.439351
+yale,20261028,xgboost,White or Caucasian × Female × 18-39,1266,7969,0.617694,0.200025,0.830328,0.440545
+yale,20261028,xgboost,White or Caucasian × Female × 40-64,3279,7777,0.738945,0.279285,0.827077,0.435989
+yale,20261028,xgboost,White or Caucasian × Female × 65+,6847,5249,0.900248,0.486759,0.836466,0.436177
+yale,20261028,xgboost,White or Caucasian × Male × 18-39,1225,6039,0.706939,0.218910,0.834088,0.435769
+yale,20261028,xgboost,White or Caucasian × Male × 40-64,3821,7456,0.770479,0.303112,0.832785,0.439837
+yale,20261028,xgboost,White or Caucasian × Male × 65+,5059,3812,0.884364,0.433106,0.824603,0.439060
+yale,20261029,logistic_regression,Black or African American × Female × 18-39,896,7546,0.611607,0.163928,0.729879,0.333968
+yale,20261029,logistic_regression,Black or African American × Female × 40-64,1964,5152,0.776477,0.267275,0.731255,0.337347
+yale,20261029,logistic_regression,Black or African American × Female × 65+,1441,1315,0.896600,0.510266,0.745714,0.361176
+yale,20261029,logistic_regression,Black or African American × Male × 18-39,642,4848,0.652648,0.168111,0.721375,0.337845
+yale,20261029,logistic_regression,Black or African American × Male × 40-64,1843,4533,0.769398,0.250165,0.735401,0.347369
+yale,20261029,logistic_regression,Black or African American × Male × 65+,815,696,0.883436,0.412356,0.730228,0.339034
+yale,20261029,logistic_regression,Other × Female × 18-39,598,4547,0.585284,0.172641,0.720651,0.337230
+yale,20261029,logistic_regression,Other × Female × 40-64,751,2567,0.679095,0.242306,0.716865,0.333448
+yale,20261029,logistic_regression,Other × Female × 65+,518,546,0.859073,0.485348,0.733126,0.371565
+yale,20261029,logistic_regression,Other × Male × 18-39,520,3700,0.603846,0.165135,0.741199,0.337734
+yale,20261029,logistic_regression,Other × Male × 40-64,840,2481,0.708333,0.254736,0.729248,0.356690
+yale,20261029,logistic_regression,Other × Male × 65+,414,391,0.869565,0.434783,0.731516,0.346569
+yale,20261029,logistic_regression,White or Caucasian × Female × 18-39,1316,7830,0.606383,0.199106,0.723936,0.344003
+yale,20261029,logistic_regression,White or Caucasian × Female × 40-64,3380,7918,0.752367,0.283026,0.734315,0.345016
+yale,20261029,logistic_regression,White or Caucasian × Female × 65+,6816,5206,0.906837,0.491356,0.751086,0.340390
+yale,20261029,logistic_regression,White or Caucasian × Male × 18-39,1204,6103,0.652824,0.191217,0.722038,0.341636
+yale,20261029,logistic_regression,White or Caucasian × Male × 40-64,3791,7442,0.776576,0.283257,0.746706,0.341012
+yale,20261029,logistic_regression,White or Caucasian × Male × 65+,5006,3856,0.884539,0.435166,0.717434,0.331583
+yale,20261029,random_forest,Black or African American × Female × 18-39,896,7546,0.656250,0.170819,0.724477,0.309160
+yale,20261029,random_forest,Black or African American × Female × 40-64,1964,5152,0.795316,0.277174,0.724617,0.312764
+yale,20261029,random_forest,Black or African American × Female × 65+,1441,1315,0.887578,0.502662,0.746658,0.337218
+yale,20261029,random_forest,Black or African American × Male × 18-39,642,4848,0.705607,0.192038,0.704985,0.313646
+yale,20261029,random_forest,Black or African American × Male × 40-64,1843,4533,0.797070,0.271785,0.726714,0.323117
+yale,20261029,random_forest,Black or African American × Male × 65+,815,696,0.885890,0.429598,0.722417,0.315336
+yale,20261029,random_forest,Other × Female × 18-39,598,4547,0.630435,0.182318,0.716534,0.301818
+yale,20261029,random_forest,Other × Female × 40-64,751,2567,0.712383,0.257109,0.735036,0.316918
+yale,20261029,random_forest,Other × Female × 65+,518,546,0.868726,0.467033,0.737963,0.339026
+yale,20261029,random_forest,Other × Male × 18-39,520,3700,0.665385,0.182162,0.751889,0.310395
+yale,20261029,random_forest,Other × Male × 40-64,840,2481,0.745238,0.274889,0.734179,0.324464
+yale,20261029,random_forest,Other × Male × 65+,414,391,0.881643,0.460358,0.735969,0.305411
+yale,20261029,random_forest,White or Caucasian × Female × 18-39,1316,7830,0.643617,0.218135,0.715252,0.320533
+yale,20261029,random_forest,White or Caucasian × Female × 40-64,3380,7918,0.775148,0.293256,0.735157,0.319388
+yale,20261029,random_forest,White or Caucasian × Female × 65+,6816,5206,0.908891,0.494814,0.738197,0.318261
+yale,20261029,random_forest,White or Caucasian × Male × 18-39,1204,6103,0.720100,0.223988,0.729223,0.312010
+yale,20261029,random_forest,White or Caucasian × Male × 40-64,3791,7442,0.796096,0.306369,0.734803,0.315553
+yale,20261029,random_forest,White or Caucasian × Male × 65+,5006,3856,0.886137,0.449429,0.708461,0.311478
+yale,20261029,xgboost,Black or African American × Female × 18-39,896,7546,0.629464,0.157964,0.810561,0.412120
+yale,20261029,xgboost,Black or African American × Female × 40-64,1964,5152,0.769857,0.262228,0.819409,0.415092
+yale,20261029,xgboost,Black or African American × Female × 65+,1441,1315,0.880638,0.497338,0.829675,0.435147
+yale,20261029,xgboost,Black or African American × Male × 18-39,642,4848,0.683801,0.186469,0.820538,0.415131
+yale,20261029,xgboost,Black or African American × Male × 40-64,1843,4533,0.764514,0.265167,0.809234,0.420084
+yale,20261029,xgboost,Black or African American × Male × 65+,815,696,0.882209,0.422414,0.814222,0.400506
+yale,20261029,xgboost,Other × Female × 18-39,598,4547,0.600334,0.164504,0.793044,0.391140
+yale,20261029,xgboost,Other × Female × 40-64,751,2567,0.667111,0.227892,0.807117,0.410138
+yale,20261029,xgboost,Other × Female × 65+,518,546,0.845560,0.457875,0.819966,0.440892
+yale,20261029,xgboost,Other × Male × 18-39,520,3700,0.636538,0.165946,0.834984,0.408920
+yale,20261029,xgboost,Other × Male × 40-64,840,2481,0.708333,0.263200,0.824736,0.423880
+yale,20261029,xgboost,Other × Male × 65+,414,391,0.869565,0.437340,0.830220,0.404564
+yale,20261029,xgboost,White or Caucasian × Female × 18-39,1316,7830,0.614742,0.200766,0.819310,0.418569
+yale,20261029,xgboost,White or Caucasian × Female × 40-64,3380,7918,0.749704,0.279742,0.825009,0.425487
+yale,20261029,xgboost,White or Caucasian × Female × 65+,6816,5206,0.902582,0.485786,0.832136,0.416569
+yale,20261029,xgboost,White or Caucasian × Male × 18-39,1204,6103,0.686877,0.211863,0.808319,0.413530
+yale,20261029,xgboost,White or Caucasian × Male × 40-64,3791,7442,0.770773,0.290916,0.831742,0.415692
+yale,20261029,xgboost,White or Caucasian × Male × 65+,5006,3856,0.878346,0.434647,0.800285,0.412077

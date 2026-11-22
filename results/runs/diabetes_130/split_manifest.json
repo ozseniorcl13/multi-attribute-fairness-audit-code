@@ -1,0 +1,32 @@
+[
+  {
+    "seed": 20261027,
+    "train_n": 61060,
+    "validation_n": 20352,
+    "test_n": 20354,
+    "train_patients": 42927,
+    "validation_patients": 14294,
+    "test_patients": 14297,
+    "patient_overlap_n": 0
+  },
+  {
+    "seed": 20261028,
+    "train_n": 61060,
+    "validation_n": 20352,
+    "test_n": 20354,
+    "train_patients": 42906,
+    "validation_patients": 14247,
+    "test_patients": 14365,
+    "patient_overlap_n": 0
+  },
+  {
+    "seed": 20261029,
+    "train_n": 61060,
+    "validation_n": 20354,
+    "test_n": 20352,
+    "train_patients": 42856,
+    "validation_patients": 14327,
+    "test_patients": 14335,
+    "patient_overlap_n": 0
+  }
+]

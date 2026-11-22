@@ -1,0 +1,182 @@
+seed,target_axis,group,train_n,train_positive_n,train_negative_n,mitigation_group,validation_negative_n,validation_positive_n,support_status
+20261028,age_band,18-39,122067,15667,106400,18-39,35478,5326,adequate
+20261028,age_band,40-64,130790,38196,92594,40-64,31016,12775,adequate
+20261028,age_band,65+,83429,46118,37311,65+,12272,15227,adequate
+20261028,age_band,Missing,5,1,4,__LOW_SUPPORT_POOLED__,3,0,pooled_low_support
+20261028,race_x_gender_x_age_band,American Indian or Alaska Native × Female × 18-39,62,13,49,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,American Indian or Alaska Native × Female × 40-64,69,15,54,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,American Indian or Alaska Native × Female × 65+,33,19,14,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,American Indian or Alaska Native × Male × 18-39,28,3,25,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,American Indian or Alaska Native × Male × 40-64,94,33,61,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,American Indian or Alaska Native × Male × 65+,8,5,3,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Asian × Female × 18-39,1093,113,980,Asian × Female × 18-39,322,37,adequate
+20261028,race_x_gender_x_age_band,Asian × Female × 40-64,727,165,562,Asian × Female × 40-64,181,52,adequate
+20261028,race_x_gender_x_age_band,Asian × Female × 65+,312,173,139,Asian × Female × 65+,46,50,adequate
+20261028,race_x_gender_x_age_band,Asian × Male × 18-39,639,71,568,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Asian × Male × 40-64,459,130,329,Asian × Male × 40-64,121,39,adequate
+20261028,race_x_gender_x_age_band,Asian × Male × 65+,263,155,108,Asian × Male × 65+,43,63,adequate
+20261028,race_x_gender_x_age_band,Black or African American × Female × 18-39,25085,2592,22493,Black or African American × Female × 18-39,7529,903,adequate
+20261028,race_x_gender_x_age_band,Black or African American × Female × 40-64,21288,5770,15518,Black or African American × Female × 40-64,5087,1920,adequate
+20261028,race_x_gender_x_age_band,Black or African American × Female × 65+,8407,4473,3934,Black or African American × Female × 65+,1257,1432,adequate
+20261028,race_x_gender_x_age_band,Black or African American × Male × 18-39,16540,1960,14580,Black or African American × Male × 18-39,4948,670,adequate
+20261028,race_x_gender_x_age_band,Black or African American × Male × 40-64,18758,5163,13595,Black or African American × Male × 40-64,4524,1773,adequate
+20261028,race_x_gender_x_age_band,Black or African American × Male × 65+,4751,2532,2219,Black or African American × Male × 65+,645,828,adequate
+20261028,race_x_gender_x_age_band,Missing × Female × 18-39,4,1,3,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Missing × Male × 18-39,5,0,5,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Missing × Male × 40-64,2,2,0,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Missing × Male × 65+,3,1,2,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Native Hawaiian or Other Pacific Islander × Female × 18-39,46,4,42,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Native Hawaiian or Other Pacific Islander × Female × 40-64,42,8,34,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Native Hawaiian or Other Pacific Islander × Female × 65+,19,12,7,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Native Hawaiian or Other Pacific Islander × Male × 18-39,39,2,37,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Native Hawaiian or Other Pacific Islander × Male × 40-64,45,11,34,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Native Hawaiian or Other Pacific Islander × Male × 65+,30,7,23,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Other × Female × 18-39,15268,1656,13612,Other × Female × 18-39,4560,565,adequate
+20261028,race_x_gender_x_age_band,Other × Female × 40-64,10163,2352,7811,Other × Female × 40-64,2622,819,adequate
+20261028,race_x_gender_x_age_band,Other × Female × 65+,3295,1644,1651,Other × Female × 65+,592,506,adequate
+20261028,race_x_gender_x_age_band,Other × Male × 18-39,12169,1467,10702,Other × Male × 18-39,3691,515,adequate
+20261028,race_x_gender_x_age_band,Other × Male × 40-64,10036,2594,7442,Other × Male × 40-64,2482,886,adequate
+20261028,race_x_gender_x_age_band,Other × Male × 65+,2399,1243,1156,Other × Male × 65+,383,435,adequate
+20261028,race_x_gender_x_age_band,Other × Male × Missing,1,0,1,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Patient Refused × Female × 18-39,841,96,745,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Patient Refused × Female × 40-64,819,160,659,Patient Refused × Female × 40-64,244,47,adequate
+20261028,race_x_gender_x_age_band,Patient Refused × Female × 65+,344,164,180,Patient Refused × Female × 65+,63,48,adequate
+20261028,race_x_gender_x_age_band,Patient Refused × Male × 18-39,446,64,382,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Patient Refused × Male × 40-64,419,114,305,Patient Refused × Male × 40-64,96,38,adequate
+20261028,race_x_gender_x_age_band,Patient Refused × Male × 65+,188,86,102,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Unknown × Female × 18-39,279,30,249,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Unknown × Female × 40-64,189,44,145,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Unknown × Female × 65+,88,45,43,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Unknown × Male × 18-39,222,16,206,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Unknown × Male × 40-64,152,37,115,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Unknown × Male × 65+,79,48,31,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,Unknown × Male × Missing,4,1,3,__LOW_SUPPORT_POOLED__,1009,232,pooled_low_support
+20261028,race_x_gender_x_age_band,White or Caucasian × Female × 18-39,27430,3895,23535,White or Caucasian × Female × 18-39,7716,1284,adequate
+20261028,race_x_gender_x_age_band,White or Caucasian × Female × 40-64,33601,10058,23543,White or Caucasian × Female × 40-64,7921,3336,adequate
+20261028,race_x_gender_x_age_band,White or Caucasian × Female × 65+,36365,20297,16068,White or Caucasian × Female × 65+,5316,6764,adequate
+20261028,race_x_gender_x_age_band,White or Caucasian × Male × 18-39,21871,3684,18187,White or Caucasian × Male × 18-39,5941,1251,adequate
+20261028,race_x_gender_x_age_band,White or Caucasian × Male × 40-64,33927,11540,22387,White or Caucasian × Male × 40-64,7581,3819,adequate
+20261028,race_x_gender_x_age_band,White or Caucasian × Male × 65+,26845,15214,11631,White or Caucasian × Male × 65+,3849,5016,adequate
+20261028,gender,Female,185869,53799,132070,Female,43936,17860,adequate
+20261028,gender,Male,150422,46183,104239,Male,34833,15468,adequate
+20261028,race,American Indian or Alaska Native,294,88,206,__LOW_SUPPORT_POOLED__,142,48,pooled_low_support
+20261028,race,Asian,3493,807,2686,Asian,903,276,adequate
+20261028,race,Black or African American,94829,22490,72339,Black or African American,23990,7526,adequate
+20261028,race,Missing,14,4,10,__LOW_SUPPORT_POOLED__,142,48,pooled_low_support
+20261028,race,Native Hawaiian or Other Pacific Islander,221,44,177,__LOW_SUPPORT_POOLED__,142,48,pooled_low_support
+20261028,race,Other,53331,10956,42375,Other,14330,3726,adequate
+20261028,race,Patient Refused,3057,684,2373,Patient Refused,812,212,adequate
+20261028,race,Unknown,1013,221,792,Unknown,268,70,adequate
+20261028,race,White or Caucasian,180039,64688,115351,White or Caucasian,38324,21470,adequate
+20261028,ethnicity,Hispanic or Latino,55864,11426,44438,Hispanic or Latino,15008,3851,adequate
+20261028,ethnicity,Non-Hispanic,277870,87962,189908,Non-Hispanic,63125,29268,adequate
+20261028,ethnicity,Patient Refused,853,235,618,Patient Refused,208,85,adequate
+20261028,ethnicity,Unknown,1704,359,1345,Unknown,428,124,adequate
+20261028,race_x_gender,American Indian or Alaska Native × Female,164,47,117,__LOW_SUPPORT_POOLED__,142,48,pooled_low_support
+20261028,race_x_gender,American Indian or Alaska Native × Male,130,41,89,__LOW_SUPPORT_POOLED__,142,48,pooled_low_support
+20261028,race_x_gender,Asian × Female,2132,451,1681,Asian × Female,549,139,adequate
+20261028,race_x_gender,Asian × Male,1361,356,1005,Asian × Male,354,137,adequate
+20261028,race_x_gender,Black or African American × Female,54780,12835,41945,Black or African American × Female,13873,4255,adequate
+20261028,race_x_gender,Black or African American × Male,40049,9655,30394,Black or African American × Male,10117,3271,adequate
+20261028,race_x_gender,Missing × Female,4,1,3,__LOW_SUPPORT_POOLED__,142,48,pooled_low_support
+20261028,race_x_gender,Missing × Male,10,3,7,__LOW_SUPPORT_POOLED__,142,48,pooled_low_support
+20261028,race_x_gender,Native Hawaiian or Other Pacific Islander × Female,107,24,83,__LOW_SUPPORT_POOLED__,142,48,pooled_low_support
+20261028,race_x_gender,Native Hawaiian or Other Pacific Islander × Male,114,20,94,__LOW_SUPPORT_POOLED__,142,48,pooled_low_support
+20261028,race_x_gender,Other × Female,28726,5652,23074,Other × Female,7774,1890,adequate
+20261028,race_x_gender,Other × Male,24605,5304,19301,Other × Male,6556,1836,adequate
+20261028,race_x_gender,Patient Refused × Female,2004,420,1584,Patient Refused × Female,550,125,adequate
+20261028,race_x_gender,Patient Refused × Male,1053,264,789,Patient Refused × Male,262,87,adequate
+20261028,race_x_gender,Unknown × Female,556,119,437,Unknown × Female,149,43,adequate
+20261028,race_x_gender,Unknown × Male,457,102,355,Unknown × Male,119,27,adequate
+20261028,race_x_gender,White or Caucasian × Female,97396,34250,63146,White or Caucasian × Female,20953,11384,adequate
+20261028,race_x_gender,White or Caucasian × Male,82643,30438,52205,White or Caucasian × Male,17371,10086,adequate
+20261029,age_band,18-39,122036,15726,106310,18-39,35650,5170,adequate
+20261029,age_band,40-64,130949,38143,92806,40-64,30693,12881,adequate
+20261029,age_band,65+,83298,46112,37186,65+,12425,15276,adequate
+20261029,age_band,Missing,8,2,6,__LOW_SUPPORT_POOLED__,2,0,pooled_low_support
+20261029,race_x_gender_x_age_band,American Indian or Alaska Native × Female × 18-39,74,15,59,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,American Indian or Alaska Native × Female × 40-64,64,17,47,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,American Indian or Alaska Native × Female × 65+,34,19,15,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,American Indian or Alaska Native × Male × 18-39,29,4,25,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,American Indian or Alaska Native × Male × 40-64,105,38,67,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,American Indian or Alaska Native × Male × 65+,11,5,6,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Asian × Female × 18-39,1074,110,964,Asian × Female × 18-39,343,32,adequate
+20261029,race_x_gender_x_age_band,Asian × Female × 40-64,722,168,554,Asian × Female × 40-64,174,57,adequate
+20261029,race_x_gender_x_age_band,Asian × Female × 65+,333,173,160,Asian × Female × 65+,46,49,adequate
+20261029,race_x_gender_x_age_band,Asian × Male × 18-39,627,88,539,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Asian × Male × 40-64,465,121,344,Asian × Male × 40-64,104,51,adequate
+20261029,race_x_gender_x_age_band,Asian × Male × 65+,287,171,116,Asian × Male × 65+,37,46,adequate
+20261029,race_x_gender_x_age_band,Black or African American × Female × 18-39,24946,2611,22335,Black or African American × Female × 18-39,7613,853,adequate
+20261029,race_x_gender_x_age_band,Black or African American × Female × 40-64,21306,5763,15543,Black or African American × Female × 40-64,5210,1940,adequate
+20261029,race_x_gender_x_age_band,Black or African American × Female × 65+,8232,4420,3812,Black or African American × Female × 65+,1365,1494,adequate
+20261029,race_x_gender_x_age_band,Black or African American × Male × 18-39,16629,1967,14662,Black or African American × Male × 18-39,4822,655,adequate
+20261029,race_x_gender_x_age_band,Black or African American × Male × 40-64,18654,5114,13540,Black or African American × Male × 40-64,4500,1772,adequate
+20261029,race_x_gender_x_age_band,Black or African American × Male × 65+,4670,2491,2179,Black or African American × Male × 65+,684,848,adequate
+20261029,race_x_gender_x_age_band,Missing × Female × 18-39,6,1,5,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Missing × Male × 18-39,2,0,2,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Missing × Male × 65+,3,2,1,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Native Hawaiian or Other Pacific Islander × Female × 18-39,58,8,50,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Native Hawaiian or Other Pacific Islander × Female × 40-64,42,10,32,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Native Hawaiian or Other Pacific Islander × Female × 65+,24,17,7,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Native Hawaiian or Other Pacific Islander × Male × 18-39,39,3,36,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Native Hawaiian or Other Pacific Islander × Male × 40-64,37,8,29,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Native Hawaiian or Other Pacific Islander × Male × 65+,35,10,25,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Other × Female × 18-39,15257,1652,13605,Other × Female × 18-39,4613,552,adequate
+20261029,race_x_gender_x_age_band,Other × Female × 40-64,10237,2420,7817,Other × Female × 40-64,2577,809,adequate
+20261029,race_x_gender_x_age_band,Other × Female × 65+,3283,1597,1686,Other × Female × 65+,564,503,adequate
+20261029,race_x_gender_x_age_band,Other × Male × 18-39,12377,1461,10916,Other × Male × 18-39,3537,507,adequate
+20261029,race_x_gender_x_age_band,Other × Male × 40-64,10009,2620,7389,Other × Male × 40-64,2495,930,adequate
+20261029,race_x_gender_x_age_band,Other × Male × 65+,2407,1250,1157,Other × Male × 65+,391,435,adequate
+20261029,race_x_gender_x_age_band,Other × Male × Missing,2,1,1,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Patient Refused × Female × 18-39,869,99,770,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Patient Refused × Female × 40-64,815,150,665,Patient Refused × Female × 40-64,239,63,adequate
+20261029,race_x_gender_x_age_band,Patient Refused × Female × 65+,336,159,177,Patient Refused × Female × 65+,67,72,adequate
+20261029,race_x_gender_x_age_band,Patient Refused × Male × 18-39,442,60,382,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Patient Refused × Male × 40-64,462,134,328,Patient Refused × Male × 40-64,92,34,adequate
+20261029,race_x_gender_x_age_band,Patient Refused × Male × 65+,206,92,114,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Unknown × Female × 18-39,274,27,247,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Unknown × Female × 40-64,196,44,152,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Unknown × Female × 65+,83,43,40,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Unknown × Male × 18-39,238,14,224,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Unknown × Male × 40-64,166,33,133,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Unknown × Male × 65+,77,55,22,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,Unknown × Male × Missing,6,1,5,__LOW_SUPPORT_POOLED__,999,200,pooled_low_support
+20261029,race_x_gender_x_age_band,White or Caucasian × Female × 18-39,27319,3897,23422,White or Caucasian × Female × 18-39,7968,1232,adequate
+20261029,race_x_gender_x_age_band,White or Caucasian × Female × 40-64,33673,10023,23650,White or Caucasian × Female × 40-64,7673,3270,adequate
+20261029,race_x_gender_x_age_band,White or Caucasian × Female × 65+,36496,20394,16102,White or Caucasian × Female × 65+,5325,6698,adequate
+20261029,race_x_gender_x_age_band,White or Caucasian × Male × 18-39,21776,3709,18067,White or Caucasian × Male × 18-39,5997,1247,adequate
+20261029,race_x_gender_x_age_band,White or Caucasian × Male × 40-64,33996,11480,22516,White or Caucasian × Male × 40-64,7466,3909,adequate
+20261029,race_x_gender_x_age_band,White or Caucasian × Male × 65+,26781,15214,11567,White or Caucasian × Male × 65+,3869,5069,adequate
+20261029,gender,Female,185753,53837,131916,Female,44235,17703,adequate
+20261029,gender,Male,150538,46146,104392,Male,34535,15624,adequate
+20261029,race,American Indian or Alaska Native,317,98,219,__LOW_SUPPORT_POOLED__,131,37,pooled_low_support
+20261029,race,Asian,3508,831,2677,Asian,872,260,adequate
+20261029,race,Black or African American,94437,22366,72071,Black or African American,24194,7562,adequate
+20261029,race,Missing,11,3,8,__LOW_SUPPORT_POOLED__,131,37,pooled_low_support
+20261029,race,Native Hawaiian or Other Pacific Islander,235,56,179,__LOW_SUPPORT_POOLED__,131,37,pooled_low_support
+20261029,race,Other,53572,11001,42571,Other,14178,3736,adequate
+20261029,race,Patient Refused,3130,694,2436,Patient Refused,840,241,adequate
+20261029,race,Unknown,1040,217,823,Unknown,257,66,adequate
+20261029,race,White or Caucasian,180041,64717,115324,White or Caucasian,38298,21425,adequate
+20261029,ethnicity,Hispanic or Latino,56112,11391,44721,Hispanic or Latino,14855,3893,adequate
+20261029,ethnicity,Non-Hispanic,277660,88018,189642,Non-Hispanic,63256,29257,adequate
+20261029,ethnicity,Patient Refused,817,225,592,Patient Refused,206,72,adequate
+20261029,ethnicity,Unknown,1702,349,1353,Unknown,453,105,adequate
+20261029,race_x_gender,American Indian or Alaska Native × Female,172,51,121,__LOW_SUPPORT_POOLED__,131,37,pooled_low_support
+20261029,race_x_gender,American Indian or Alaska Native × Male,145,47,98,__LOW_SUPPORT_POOLED__,131,37,pooled_low_support
+20261029,race_x_gender,Asian × Female,2129,451,1678,Asian × Female,563,138,adequate
+20261029,race_x_gender,Asian × Male,1379,380,999,Asian × Male,309,122,adequate
+20261029,race_x_gender,Black or African American × Female,54484,12794,41690,Black or African American × Female,14188,4287,adequate
+20261029,race_x_gender,Black or African American × Male,39953,9572,30381,Black or African American × Male,10006,3275,adequate
+20261029,race_x_gender,Missing × Female,6,1,5,__LOW_SUPPORT_POOLED__,131,37,pooled_low_support
+20261029,race_x_gender,Missing × Male,5,2,3,__LOW_SUPPORT_POOLED__,131,37,pooled_low_support
+20261029,race_x_gender,Native Hawaiian or Other Pacific Islander × Female,124,35,89,__LOW_SUPPORT_POOLED__,131,37,pooled_low_support
+20261029,race_x_gender,Native Hawaiian or Other Pacific Islander × Male,111,21,90,__LOW_SUPPORT_POOLED__,131,37,pooled_low_support
+20261029,race_x_gender,Other × Female,28777,5669,23108,Other × Female,7754,1864,adequate
+20261029,race_x_gender,Other × Male,24795,5332,19463,Other × Male,6424,1872,adequate
+20261029,race_x_gender,Patient Refused × Female,2020,408,1612,Patient Refused × Female,565,159,adequate
+20261029,race_x_gender,Patient Refused × Male,1110,286,824,Patient Refused × Male,275,82,adequate
+20261029,race_x_gender,Unknown × Female,553,114,439,Unknown × Female,133,43,adequate
+20261029,race_x_gender,Unknown × Male,487,103,384,Unknown × Male,124,23,adequate
+20261029,race_x_gender,White or Caucasian × Female,97488,34314,63174,White or Caucasian × Female,20966,11200,adequate
+20261029,race_x_gender,White or Caucasian × Male,82553,30403,52150,White or Caucasian × Male,17332,10225,adequate

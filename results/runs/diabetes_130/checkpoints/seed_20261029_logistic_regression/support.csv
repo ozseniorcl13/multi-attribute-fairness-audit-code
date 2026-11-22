@@ -1,0 +1,153 @@
+seed,model,target_axis,supported_train_groups,pooled_train_encounters,reweigh_factor_max,reweigh_factor_min,combined_weight_max,combined_weight_min,support_group,train_n,train_positive_n,train_negative_n,used_as_mitigation_group
+20261029,logistic_regression,gender,2.0,1.0,1.0092554740346915,0.8883884703570258,1.0092573188554117,0.888390094244634,,,,,
+20261029,logistic_regression,gender,,,,,,,Female,32810.0,3691.0,29119.0,True
+20261029,logistic_regression,gender,,,,,,,Male,28249.0,3124.0,25125.0,True
+20261029,logistic_regression,gender,,,,,,,Missing/Unknown,1.0,0.0,1.0,False
+20261029,logistic_regression,race,4.0,1360.0,1.3843925511678992,0.9662922058911496,1.384392551167899,0.9662922058911494,,,,,
+20261029,logistic_regression,race,,,,,,,AfricanAmerican,11524.0,1297.0,10227.0,True
+20261029,logistic_regression,race,,,,,,,Asian,425.0,50.0,375.0,False
+20261029,logistic_regression,race,,,,,,,Caucasian,45601.0,5142.0,40459.0,True
+20261029,logistic_regression,race,,,,,,,Hispanic,1223.0,127.0,1096.0,True
+20261029,logistic_regression,race,,,,,,,Missing/Unknown,1352.0,109.0,1243.0,True
+20261029,logistic_regression,race,,,,,,,Other,935.0,90.0,845.0,False
+20261029,logistic_regression,age,8.0,522.0,2.0090075335735342,0.7468847015102168,2.0090075335735342,0.7468847015102168,,,,,
+20261029,logistic_regression,age,,,,,,,[0-10),87.0,1.0,86.0,False
+20261029,logistic_regression,age,,,,,,,[10-20),435.0,28.0,407.0,False
+20261029,logistic_regression,age,,,,,,,[20-30),1064.0,159.0,905.0,True
+20261029,logistic_regression,age,,,,,,,[30-40),2195.0,222.0,1973.0,True
+20261029,logistic_regression,age,,,,,,,[40-50),5872.0,668.0,5204.0,True
+20261029,logistic_regression,age,,,,,,,[50-60),10329.0,1004.0,9325.0,True
+20261029,logistic_regression,age,,,,,,,[60-70),13443.0,1454.0,11989.0,True
+20261029,logistic_regression,age,,,,,,,[70-80),15744.0,1842.0,13902.0,True
+20261029,logistic_regression,age,,,,,,,[80-90),10218.0,1258.0,8960.0,True
+20261029,logistic_regression,age,,,,,,,[90-100),1673.0,179.0,1494.0,True
+20261029,logistic_regression,race_x_gender,4.0,3935.0,1.1680621519816574,0.9744560876037377,1.1680621519816574,0.9744560876037377,,,,,
+20261029,logistic_regression,race_x_gender,,,,,,,AfricanAmerican × Female,7093.0,790.0,6303.0,True
+20261029,logistic_regression,race_x_gender,,,,,,,AfricanAmerican × Male,4431.0,507.0,3924.0,True
+20261029,logistic_regression,race_x_gender,,,,,,,Asian × Female,202.0,20.0,182.0,False
+20261029,logistic_regression,race_x_gender,,,,,,,Asian × Male,223.0,30.0,193.0,False
+20261029,logistic_regression,race_x_gender,,,,,,,Caucasian × Female,23739.0,2719.0,21020.0,True
+20261029,logistic_regression,race_x_gender,,,,,,,Caucasian × Male,21862.0,2423.0,19439.0,True
+20261029,logistic_regression,race_x_gender,,,,,,,Hispanic × Female,661.0,66.0,595.0,False
+20261029,logistic_regression,race_x_gender,,,,,,,Hispanic × Male,562.0,61.0,501.0,False
+20261029,logistic_regression,race_x_gender,,,,,,,Missing/Unknown × Female,661.0,50.0,611.0,False
+20261029,logistic_regression,race_x_gender,,,,,,,Missing/Unknown × Male,691.0,59.0,632.0,False
+20261029,logistic_regression,race_x_gender,,,,,,,Other × Female,454.0,46.0,408.0,False
+20261029,logistic_regression,race_x_gender,,,,,,,Other × Male,480.0,44.0,436.0,False
+20261029,logistic_regression,race_x_gender,,,,,,,Other × Missing/Unknown,1.0,0.0,1.0,False
+20261029,logistic_regression,race_x_gender_x_age,18.0,9838.0,1.2004261641456568,0.8078022590991493,1.200426164145657,0.8078022590991494,,,,,
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [0-10),4.0,0.0,4.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [10-20),78.0,4.0,74.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [20-30),251.0,36.0,215.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [30-40),456.0,40.0,416.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [40-50),936.0,121.0,815.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [50-60),1495.0,139.0,1356.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [60-70),1446.0,155.0,1291.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [70-80),1514.0,192.0,1322.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [80-90),756.0,83.0,673.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [90-100),157.0,20.0,137.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [0-10),4.0,0.0,4.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [10-20),50.0,6.0,44.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [20-30),105.0,13.0,92.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [30-40),274.0,31.0,243.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [40-50),731.0,101.0,630.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [50-60),1061.0,115.0,946.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [60-70),1038.0,121.0,917.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [70-80),816.0,87.0,729.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [80-90),306.0,29.0,277.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [90-100),46.0,4.0,42.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Female × [10-20),2.0,0.0,2.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Female × [20-30),4.0,0.0,4.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Female × [30-40),11.0,0.0,11.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Female × [40-50),19.0,3.0,16.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Female × [50-60),26.0,0.0,26.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Female × [60-70),49.0,4.0,45.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Female × [70-80),56.0,8.0,48.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Female × [80-90),32.0,5.0,27.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Female × [90-100),3.0,0.0,3.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Male × [20-30),1.0,0.0,1.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Male × [30-40),1.0,0.0,1.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Male × [40-50),19.0,0.0,19.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Male × [50-60),59.0,6.0,53.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Male × [60-70),55.0,11.0,44.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Male × [70-80),58.0,10.0,48.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Male × [80-90),26.0,3.0,23.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Asian × Male × [90-100),4.0,0.0,4.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Female × [0-10),40.0,1.0,39.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Female × [10-20),152.0,8.0,144.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Female × [20-30),394.0,76.0,318.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Female × [30-40),711.0,79.0,632.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Female × [40-50),1800.0,196.0,1604.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Female × [50-60),3286.0,350.0,2936.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Female × [60-70),4717.0,496.0,4221.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Female × [70-80),6432.0,742.0,5690.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Female × [80-90),5213.0,662.0,4551.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Female × [90-100),994.0,109.0,885.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Male × [0-10),34.0,0.0,34.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Male × [10-20),126.0,9.0,117.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Male × [20-30),220.0,30.0,190.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Male × [30-40),529.0,52.0,477.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Male × [40-50),1927.0,201.0,1726.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Male × [50-60),3763.0,352.0,3411.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Male × [60-70),5327.0,600.0,4727.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Male × [70-80),6073.0,720.0,5353.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Male × [80-90),3469.0,421.0,3048.0,True
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Caucasian × Male × [90-100),394.0,38.0,356.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Female × [0-10),1.0,0.0,1.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Female × [10-20),9.0,0.0,9.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Female × [20-30),22.0,0.0,22.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Female × [30-40),57.0,4.0,53.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Female × [40-50),107.0,12.0,95.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Female × [50-60),126.0,6.0,120.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Female × [60-70),147.0,20.0,127.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Female × [70-80),133.0,18.0,115.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Female × [80-90),48.0,5.0,43.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Female × [90-100),11.0,1.0,10.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Male × [10-20),5.0,0.0,5.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Male × [20-30),14.0,0.0,14.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Male × [30-40),49.0,6.0,43.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Male × [40-50),105.0,11.0,94.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Male × [50-60),121.0,9.0,112.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Male × [60-70),123.0,9.0,114.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Male × [70-80),104.0,15.0,89.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Male × [80-90),40.0,11.0,29.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Hispanic × Male × [90-100),1.0,0.0,1.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [0-10),1.0,0.0,1.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [10-20),1.0,0.0,1.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [20-30),28.0,3.0,25.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [30-40),23.0,1.0,22.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [40-50),54.0,3.0,51.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [50-60),85.0,3.0,82.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [60-70),133.0,10.0,123.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [70-80),182.0,13.0,169.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [80-90),131.0,15.0,116.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [90-100),23.0,2.0,21.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [10-20),5.0,0.0,5.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [20-30),5.0,0.0,5.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [30-40),21.0,0.0,21.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [40-50),78.0,12.0,66.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [50-60),115.0,5.0,110.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [60-70),167.0,7.0,160.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [70-80),179.0,20.0,159.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [80-90),96.0,10.0,86.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [90-100),25.0,5.0,20.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Female × [10-20),2.0,1.0,1.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Female × [20-30),8.0,1.0,7.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Female × [30-40),38.0,7.0,31.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Female × [40-50),37.0,2.0,35.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Female × [50-60),72.0,4.0,68.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Female × [60-70),117.0,13.0,104.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Female × [70-80),102.0,9.0,93.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Female × [80-90),67.0,9.0,58.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Female × [90-100),11.0,0.0,11.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Male × [0-10),3.0,0.0,3.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Male × [10-20),5.0,0.0,5.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Male × [20-30),12.0,0.0,12.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Male × [30-40),25.0,2.0,23.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Male × [40-50),59.0,6.0,53.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Male × [50-60),120.0,15.0,105.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Male × [60-70),124.0,8.0,116.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Male × [70-80),94.0,8.0,86.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Male × [80-90),34.0,5.0,29.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Male × [90-100),4.0,0.0,4.0,False
+20261029,logistic_regression,race_x_gender_x_age,,,,,,,Other × Missing/Unknown × [70-80),1.0,0.0,1.0,False

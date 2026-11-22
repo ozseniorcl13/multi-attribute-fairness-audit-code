@@ -1,0 +1,153 @@
+seed,model,target_axis,supported_train_groups,pooled_train_encounters,reweigh_factor_max,reweigh_factor_min,combined_weight_max,combined_weight_min,support_group,train_n,train_positive_n,train_negative_n,used_as_mitigation_group
+20261027,random_forest,gender,2.0,1.0,1.0060014294848516,0.8883884703570258,1.0060032683574949,0.8883900942446336,,,,,
+20261027,random_forest,gender,,,,,,,Female,32847.0,3685.0,29162.0,True
+20261027,random_forest,gender,,,,,,,Male,28212.0,3130.0,25082.0,True
+20261027,random_forest,gender,,,,,,,Missing/Unknown,1.0,0.0,1.0,False
+20261027,random_forest,race,5.0,386.0,1.4194957270047346,0.9642012956008372,1.4194957270047346,0.9642012956008372,,,,,
+20261027,random_forest,race,,,,,,,AfricanAmerican,11531.0,1295.0,10236.0,True
+20261027,random_forest,race,,,,,,,Asian,386.0,35.0,351.0,False
+20261027,random_forest,race,,,,,,,Caucasian,45565.0,5128.0,40437.0,True
+20261027,random_forest,race,,,,,,,Hispanic,1232.0,139.0,1093.0,True
+20261027,random_forest,race,,,,,,,Missing/Unknown,1399.0,110.0,1289.0,True
+20261027,random_forest,race,,,,,,,Other,947.0,108.0,839.0,True
+20261027,random_forest,age,8.0,522.0,2.427550769734687,0.8451804382124454,2.4275507697346868,0.8451804382124452,,,,,
+20261027,random_forest,age,,,,,,,[0-10),91.0,2.0,89.0,False
+20261027,random_forest,age,,,,,,,[10-20),431.0,22.0,409.0,False
+20261027,random_forest,age,,,,,,,[20-30),992.0,131.0,861.0,True
+20261027,random_forest,age,,,,,,,[30-40),2187.0,243.0,1944.0,True
+20261027,random_forest,age,,,,,,,[40-50),5780.0,618.0,5162.0,True
+20261027,random_forest,age,,,,,,,[50-60),10251.0,993.0,9258.0,True
+20261027,random_forest,age,,,,,,,[60-70),13637.0,1543.0,12094.0,True
+20261027,random_forest,age,,,,,,,[70-80),15623.0,1785.0,13838.0,True
+20261027,random_forest,age,,,,,,,[80-90),10376.0,1284.0,9092.0,True
+20261027,random_forest,age,,,,,,,[90-100),1692.0,194.0,1498.0,True
+20261027,random_forest,race_x_gender,4.0,3964.0,1.1286431211855854,0.960159070748196,1.1286431211855852,0.9601590707481957,,,,,
+20261027,random_forest,race_x_gender,,,,,,,AfricanAmerican × Female,7049.0,774.0,6275.0,True
+20261027,random_forest,race_x_gender,,,,,,,AfricanAmerican × Male,4482.0,521.0,3961.0,True
+20261027,random_forest,race_x_gender,,,,,,,Asian × Female,206.0,15.0,191.0,False
+20261027,random_forest,race_x_gender,,,,,,,Asian × Male,180.0,20.0,160.0,False
+20261027,random_forest,race_x_gender,,,,,,,Caucasian × Female,23738.0,2712.0,21026.0,True
+20261027,random_forest,race_x_gender,,,,,,,Caucasian × Male,21827.0,2416.0,19411.0,True
+20261027,random_forest,race_x_gender,,,,,,,Hispanic × Female,665.0,67.0,598.0,False
+20261027,random_forest,race_x_gender,,,,,,,Hispanic × Male,567.0,72.0,495.0,False
+20261027,random_forest,race_x_gender,,,,,,,Missing/Unknown × Female,708.0,56.0,652.0,False
+20261027,random_forest,race_x_gender,,,,,,,Missing/Unknown × Male,690.0,54.0,636.0,False
+20261027,random_forest,race_x_gender,,,,,,,Missing/Unknown × Missing/Unknown,1.0,0.0,1.0,False
+20261027,random_forest,race_x_gender,,,,,,,Other × Female,481.0,61.0,420.0,False
+20261027,random_forest,race_x_gender,,,,,,,Other × Male,466.0,47.0,419.0,False
+20261027,random_forest,race_x_gender_x_age,17.0,10705.0,1.2054045201441206,0.880141365062919,1.2054045201441208,0.8801413650629191,,,,,
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [0-10),4.0,0.0,4.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [10-20),80.0,6.0,74.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [20-30),222.0,34.0,188.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [30-40),440.0,53.0,387.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [40-50),916.0,91.0,825.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [50-60),1458.0,135.0,1323.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [60-70),1517.0,157.0,1360.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [70-80),1429.0,177.0,1252.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [80-90),810.0,100.0,710.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Female × [90-100),173.0,21.0,152.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [0-10),6.0,0.0,6.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [10-20),48.0,1.0,47.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [20-30),86.0,10.0,76.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [30-40),294.0,37.0,257.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [40-50),753.0,97.0,656.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [50-60),1056.0,112.0,944.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [60-70),1081.0,133.0,948.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [70-80),818.0,92.0,726.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [80-90),293.0,36.0,257.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,AfricanAmerican × Male × [90-100),47.0,3.0,44.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Female × [10-20),1.0,0.0,1.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Female × [20-30),4.0,0.0,4.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Female × [30-40),8.0,0.0,8.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Female × [40-50),15.0,2.0,13.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Female × [50-60),25.0,0.0,25.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Female × [60-70),58.0,4.0,54.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Female × [70-80),54.0,7.0,47.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Female × [80-90),39.0,2.0,37.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Female × [90-100),2.0,0.0,2.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Male × [0-10),1.0,0.0,1.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Male × [20-30),1.0,0.0,1.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Male × [30-40),4.0,0.0,4.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Male × [40-50),14.0,0.0,14.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Male × [50-60),46.0,4.0,42.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Male × [60-70),41.0,6.0,35.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Male × [70-80),49.0,7.0,42.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Male × [80-90),20.0,3.0,17.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Asian × Male × [90-100),4.0,0.0,4.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Female × [0-10),41.0,1.0,40.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Female × [10-20),155.0,9.0,146.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Female × [20-30),371.0,62.0,309.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Female × [30-40),711.0,86.0,625.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Female × [40-50),1698.0,177.0,1521.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Female × [50-60),3294.0,347.0,2947.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Female × [60-70),4720.0,544.0,4176.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Female × [70-80),6433.0,699.0,5734.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Female × [80-90),5315.0,674.0,4641.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Female × [90-100),1000.0,113.0,887.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Male × [0-10),33.0,1.0,32.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Male × [10-20),120.0,6.0,114.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Male × [20-30),214.0,21.0,193.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Male × [30-40),524.0,48.0,476.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Male × [40-50),1940.0,204.0,1736.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Male × [50-60),3736.0,347.0,3389.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Male × [60-70),5378.0,612.0,4766.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Male × [70-80),6016.0,727.0,5289.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Male × [80-90),3474.0,404.0,3070.0,True
+20261027,random_forest,race_x_gender_x_age,,,,,,,Caucasian × Male × [90-100),392.0,46.0,346.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Female × [0-10),2.0,0.0,2.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Female × [10-20),12.0,0.0,12.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Female × [20-30),28.0,1.0,27.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Female × [30-40),68.0,5.0,63.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Female × [40-50),95.0,10.0,85.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Female × [50-60),116.0,9.0,107.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Female × [60-70),156.0,23.0,133.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Female × [70-80),135.0,12.0,123.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Female × [80-90),46.0,6.0,40.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Female × [90-100),7.0,1.0,6.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Male × [10-20),6.0,0.0,6.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Male × [20-30),14.0,0.0,14.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Male × [30-40),41.0,5.0,36.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Male × [40-50),121.0,18.0,103.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Male × [50-60),96.0,5.0,91.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Male × [60-70),147.0,16.0,131.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Male × [70-80),102.0,16.0,86.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Male × [80-90),34.0,9.0,25.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Hispanic × Male × [90-100),6.0,3.0,3.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [10-20),2.0,0.0,2.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [20-30),29.0,2.0,27.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [30-40),24.0,0.0,24.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [40-50),56.0,1.0,55.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [50-60),99.0,8.0,91.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [60-70),131.0,8.0,123.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [70-80),191.0,14.0,177.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [80-90),148.0,20.0,128.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Female × [90-100),28.0,3.0,25.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [10-20),3.0,0.0,3.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [20-30),3.0,0.0,3.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [30-40),16.0,0.0,16.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [40-50),75.0,10.0,65.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [50-60),118.0,4.0,114.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [60-70),157.0,9.0,148.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [70-80),192.0,10.0,182.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [80-90),105.0,17.0,88.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Male × [90-100),21.0,4.0,17.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Missing/Unknown × Missing/Unknown × [60-70),1.0,0.0,1.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Female × [10-20),2.0,0.0,2.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Female × [20-30),9.0,1.0,8.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Female × [30-40),34.0,7.0,27.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Female × [40-50),41.0,2.0,39.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Female × [50-60),92.0,7.0,85.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Female × [60-70),114.0,20.0,94.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Female × [70-80),116.0,16.0,100.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Female × [80-90),64.0,8.0,56.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Female × [90-100),9.0,0.0,9.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Male × [0-10),4.0,0.0,4.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Male × [10-20),2.0,0.0,2.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Male × [20-30),11.0,0.0,11.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Male × [30-40),23.0,2.0,21.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Male × [40-50),56.0,6.0,50.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Male × [50-60),115.0,15.0,100.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Male × [60-70),136.0,11.0,125.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Male × [70-80),88.0,8.0,80.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Male × [80-90),28.0,5.0,23.0,False
+20261027,random_forest,race_x_gender_x_age,,,,,,,Other × Male × [90-100),3.0,0.0,3.0,False

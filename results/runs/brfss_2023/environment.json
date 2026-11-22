@@ -1,0 +1,35 @@
+{
+  "python": "3.12.3",
+  "platform": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "numpy": "2.5.4",
+  "pandas": "2.3.3",
+  "scikit_learn": "1.9.1",
+  "scipy": "1.18.1",
+  "seeds": [
+    20261027,
+    20261028,
+    20261029
+  ],
+  "target_axes": [
+    "sex",
+    "race_ethnicity",
+    "age_band",
+    "race_x_sex",
+    "race_x_sex_x_age"
+  ],
+  "audit_axes": [
+    "race_ethnicity",
+    "sex",
+    "age_band",
+    "race_x_sex",
+    "race_x_age",
+    "sex_x_age",
+    "race_x_sex_x_age"
+  ],
+  "support_per_class": 100,
+  "eo_validation_min_per_class": 1,
+  "eo_implementation": "Fairlearn ThresholdOptimizer; unweighted validation fit",
+  "n_eligible_rows": 418492,
+  "n_features": 10,
+  "xgboost_version": "3.4.1"
+}

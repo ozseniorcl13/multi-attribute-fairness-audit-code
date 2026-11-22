@@ -1,0 +1,48 @@
+{
+  "python": "3.12.3",
+  "platform": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "numpy": "2.5.4",
+  "pandas": "2.3.3",
+  "scikit_learn": "1.9.1",
+  "fairlearn": "0.15.0",
+  "scipy": "1.18.1",
+  "seeds_configured": [
+    20261027,
+    20261028,
+    20261029
+  ],
+  "models_configured": [
+    "logistic_regression",
+    "random_forest",
+    "xgboost"
+  ],
+  "seeds_run_this_call": [
+    20261027,
+    20261028,
+    20261029
+  ],
+  "models_run_this_call": [
+    "logistic_regression",
+    "random_forest",
+    "xgboost"
+  ],
+  "target_axes": [
+    "gender",
+    "race",
+    "age",
+    "race_x_gender",
+    "race_x_gender_x_age"
+  ],
+  "audit_axes": [
+    "race",
+    "gender",
+    "age",
+    "race_x_gender",
+    "race_x_age",
+    "gender_x_age",
+    "race_x_gender_x_age"
+  ],
+  "n_eligible_encounters": 101766,
+  "n_features": 43,
+  "xgboost_version": "3.4.1"
+}

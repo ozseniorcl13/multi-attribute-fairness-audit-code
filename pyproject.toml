@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "health-fairness-reproduction"
+version = "0.1.0"
+description = "Reproducible experiments for fairness in machine learning applications in health"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+  "fairlearn==0.15.0",
+  "numpy==2.5.4",
+  "pandas==2.3.3",
+  "pyreadr==0.5.8",
+  "scikit-learn==1.9.1",
+  "scipy==1.18.1",
+  "svy==0.35.0",
+  "xgboost==3.4.1",
+]
+
+[project.optional-dependencies]
+analysis = [
+  "ipykernel>=6.29,<7",
+  "jupyterlab>=4.2,<5",
+  "matplotlib>=3.9,<4",
+  "seaborn>=0.13,<1",
+]
+
+[project.scripts]
+health-fairness = "cli:main"
+
+[tool.setuptools]
+py-modules = ["cli"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["common*", "datasets*", "experiments*", "reports*"]
+
